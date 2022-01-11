@@ -28,7 +28,17 @@ dataLinks <- union(dataLinks_bigD, dataLinks_littleD)
 # Summary counts of types of data links
 dataLinks_type <- count(dataLinks, description)
 
-# Add column for URL domain
+# Add column for URL and DOI domain
 dataLinks <- mutate(dataLinks, related_url_short = str_extract(related_url, "https?://[a-z-\\.]*/"))
 dataLinks <- mutate(dataLinks, related_url_doi = str_extract(related_url, "10\\..*?/"))
 
+# Summary counts for data links by URL and DOI domain
+dataLinks_url <- count(dataLinks, related_url_short) %>% arrange(desc(n))
+dataLinks_doi <- count(dataLinks, related_url_doi) %>% arrange(desc(n))
+
+# Write out summary count data
+foutput_url <- paste(fpath, "supp-data_URLs.csv", sep="/")
+write_csv(dataLinks_url, foutput_url)
+
+foutput_doi <- paste(fpath, "supp-data_DOIs.csv", sep="/")
+write_csv(dataLinks_doi, foutput_doi)
