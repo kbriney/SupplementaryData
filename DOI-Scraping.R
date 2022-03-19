@@ -14,7 +14,7 @@ doi_lookup <- as_tibble(doi_lookup[!is.na(doi_lookup)])
 for (i in 1:dim(doi_lookup)[1]) {
   doi <- as.character(slice(doi_lookup,i))
   jsoninput <- paste("https://api.crossref.org/prefixes/", doi, sep="")
-  results <- paste(fpath, "/doi-data/", doi, ".json", sep="")
+  results <- paste(fpath, "/doi-data/crossref/", doi, ".json", sep="")
   try(download.file(jsoninput,results, quiet=TRUE), silent=TRUE)
 }
 
@@ -22,9 +22,7 @@ for (i in 1:dim(doi_lookup)[1]) {
 for (i in 1:dim(doi_lookup)[1]) {
   doi <- as.character(slice(doi_lookup,i))
   jsoninput <- paste("https://api.datacite.org/prefixes/", doi, sep="")
-  results <- paste(fpath, "/doi-data/", doi, ".json", sep="")
+  results <- paste(fpath, "/doi-data/datacite/", doi, ".json", sep="")
   try(download.file(jsoninput,results, quiet=TRUE), silent=TRUE)
 }
 
-
-# 10.1093
