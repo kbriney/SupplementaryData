@@ -1,0 +1,5 @@
+DOI API's
+
+https://api.crossref.org/prefixes/10.1093
+
+https://api.datacite.org/prefixes/10.17605
