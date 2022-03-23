@@ -36,6 +36,10 @@ dataLinks <- mutate(dataLinks, related_url_doi = str_extract(related_url, "10\\.
 dataLinks_url <- count(dataLinks, related_url_short) %>% arrange(desc(n))
 dataLinks_doi <- count(dataLinks, related_url_doi) %>% arrange(desc(n))
 
+# Count number of links per record
+dataLinks_perRecord <- count(dataLinks, eprint_id) %>% arrange(desc(n))
+dataLinks_avg <- summarise(dataLinks_perRecord, avg=mean(n))
+
 # Write out summary count data
 foutput_url <- paste(fpath, "supp-data_URLs.csv", sep="/")
 write_csv(dataLinks_url, foutput_url)
