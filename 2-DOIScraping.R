@@ -1,3 +1,7 @@
+# Scraping and processing DOI domains from supplimental data links in CaltechAUTHORS
+# Kristin A. Briney
+# 2022-03
+
 library(tidyverse)
 library(stringr)
 library(lubridate)
