@@ -31,18 +31,21 @@ linkDecay_DOIs <- mutate(linkDecay_DOIs, linkType="DOI")
 # Combine tibbles back into one larger dataset
 linkDecay <- bind_rows(linkDecay_URLs, linkDecay_DOIs)
 
+# Add row number for easier merging of scraped data later
+linkDecay <- mutate(linkDecay, rowNum = seq.int(nrow(linkDecay)))
+
 
 
 # Testing webscraping
 scrapedHeader <- tibble()
 
-for (i in 1:10) {
+for (i in 11:20) {
   print(linkDecay$eprint_id[i])
   html_doc <- NA
   try(html_doc <- read_html(linkDecay$testLink[i]), silent=TRUE)
   if(is.na(html_doc)) header <- "404"
   else
     header <- html_doc %>% html_nodes("title") %>% html_text()
-  linkInfo <- tibble("eprint_id" = linkDecay$eprint_id[i], "linkTitle" = header)
+  linkInfo <- tibble("rowNum" = linkDecay$rowNum[i], "linkTitle" = header)
   scrapedHeader <- bind_rows(scrapedHeader, linkInfo)
 }
