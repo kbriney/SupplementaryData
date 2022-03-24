@@ -14,3 +14,12 @@ doi_own <- read_csv(finput, col_types=cols(doi=col_character(), doi_name=col_cha
 # Add DOI name information to larger dataLinks data
 doi_own <- rename(doi_own, related_url_doi = doi)
 dataLinks <- left_join(dataLinks, doi_own, by = "related_url_doi")
+
+
+# CatechDATA URLs to convert
+URL_CaltechDATA <- "https://data.caltech.edu/"
+dataLinks_CaltechURLs <- filter(dataLinks, related_url_short == URL_CaltechDATA) %>%
+  select(eprint_id, record_doi, related_url, description, type)
+
+foutput_doi <- paste(fpath, "CaltechDATA_URLs.csv", sep="/")
+write_csv(dataLinks_CaltechURLs, foutput_doi)

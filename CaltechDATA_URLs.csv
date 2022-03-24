@@ -1,0 +1,41 @@
+eprint_id,record_doi,related_url,description,type
+111774,10.1101/2021.11.02.466666,https://data.caltech.edu/records/2096,Data,related
+111774,10.1101/2021.11.02.466666,https://data.caltech.edu/records/2099,Data,related
+111774,10.1101/2021.11.02.466666,https://data.caltech.edu/records/2103,Data,related
+110118,10.1101/2021.07.30.454514,https://data.caltech.edu/records/2017,Data,related
+110118,10.1101/2021.07.30.454514,https://data.caltech.edu/records/2018,Data,related
+109615,NA,https://data.caltech.edu/records/1878,Data,related
+108914,10.1029/2020GL091465,https://data.caltech.edu/records/1445,Data,related
+108641,10.1101/2021.04.02.21254771,https://data.caltech.edu/records/1942,Data,related
+108386,10.1038/s41586-021-03248-1,https://data.caltech.edu/records/1620,Data,related
+108225,10.1126/science.abe6648,https://data.caltech.edu/records/1668,Data,related
+108068,10.1029/2021JB021886,https://data.caltech.edu/records/1612,Data,doi
+108036,10.1101/2021.02.10.430659,https://data.caltech.edu/records/1882,Data,doi
+107359,10.5194/se-11-2283-2020,https://data.caltech.edu/records/1447,Data,doi
+107358,NA,https://data.caltech.edu/records/1666,Data,doi
+107036,10.1101/2020.12.09.20239467,https://data.caltech.edu/records/1702,Data,doi
+106842,10.1038/s41598-020-77073-3,https://data.caltech.edu/records/1407,Data,doi
+106233,10.1029/2020GL091188,https://data.caltech.edu/records/1891,Data,related
+104990,10.1073/pnas.2004590117,https://data.caltech.edu/records/1405,Data,related
+104959,10.1126/sciadv.aba0353,https://data.caltech.edu/records/1382,Data,related
+104585,10.1101/2020.07.25.210468,https://data.caltech.edu/records/1407,Data,doi
+104059,10.1029/2020GL088506,https://data.caltech.edu/records/1421,Data,related
+102140,NA,https://data.caltech.edu/records/1287,Data,related
+101744,10.1029/2019jb018597,https://data.caltech.edu/records/1377,Data,doi
+101678,NA,https://data.caltech.edu/records/1371,Data,doi
+99915,10.1073/pnas.1908857116,https://data.caltech.edu/records/1292,Data,related
+97288,10.1038/s41524-019-0213-0,https://data.caltech.edu/records/1178,Data,related
+97288,10.1038/s41524-019-0213-0,https://data.caltech.edu/records/1179,Data,related
+95825,10.1073/pnas.1900278116,https://data.caltech.edu/records/1231,Data,related
+91968,NA,https://data.caltech.edu/records/1160,Data,doi
+90556,10.1063/1.5054927,https://data.caltech.edu/records/305,Experimental Data,doi
+90480,NA,https://data.caltech.edu/records/930,Data,related
+90480,NA,https://data.caltech.edu/records/931,Data,related
+88991,10.1073/pnas.1819316116,https://data.caltech.edu/records/1089,Data,related
+109150,10.1016/j.cell.2021.11.014,https://data.caltech.edu/records/1915,Processed scRNaseq 10x data,doi
+109150,10.1016/j.cell.2021.11.014,https://data.caltech.edu/records/1900,Processed SMARTseq data,doi
+109150,10.1016/j.cell.2021.11.014,https://data.caltech.edu/records/1905,Raw rheology video data,doi
+109150,10.1016/j.cell.2021.11.014,https://data.caltech.edu/records/1914,Transcriptome data of Dalotia,doi
+109150,10.1016/j.cell.2021.11.014,https://data.caltech.edu/records/1917,"RNAi experiments, survival assays, in vitro enzyme data",doi
+107730,10.1126/sciadv.abh1683,https://data.caltech.edu/search?page=1&size=25&ln=en&q=clytia,All raw sequencing and processed data files,related
+100946,10.1029/2019MS001814,https://data.caltech.edu/records/1337,Primary GCM and LES data,related
