@@ -4,6 +4,8 @@
 
 library(rvest)
 
+fpath <- getwd()
+
 # start with new tibble for testing links
 linkDecay <- dataLinks
 
@@ -76,5 +78,8 @@ for (i in 1:100){ #dim(linkDecay)[1]) {
   linkInfo <- tibble("rowNum" = linkDecay$rowNum[i], "linkTitle" = header)
   scrapedHeader <- bind_rows(scrapedHeader, linkInfo)
 }
+
+foutput <- paste(fpath, "linkTitles.csv", sep="/")
+write_csv(scrapedHeader, foutput)
 
 #linkDecay <- left_join(linkDecay, scrapedHeader, by = "rowNum")
