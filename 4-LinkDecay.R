@@ -7,7 +7,14 @@ library(rvest)
 # start with new tibble for testing links
 linkDecay <- dataLinks
 
-# Break URLs and DOI's into separate columns
+
+
+# Add row number for easier merging of scraped data later
+linkDecay <- mutate(linkDecay, rowNum = seq.int(nrow(linkDecay)))
+
+
+
+# Copy URLs and DOI's into separate columns
 linkDecay <- mutate(linkDecay, test_URL = str_extract(related_url, "https?://.*"))
 linkDecay <- mutate(linkDecay, test_DOI = str_extract(related_url, "10\\.[0123456789]*/.*"))
 
@@ -22,6 +29,17 @@ linkDecay_URLs <- select(linkDecay_URLs, -test_DOI)
 linkDecay_URLs <- rename(linkDecay_URLs, testLink = test_URL)
 linkDecay_URLs <- mutate(linkDecay_URLs, linkType="URL")
 
+# Make exceptions for non-webpage URLs
+img <- filter(linkDecay_URLs, str_detect(testLink, ".*\\.img"))
+linkDecay_URLs <- setdiff(linkDecay_URLs, img)
+img$linkType <- "IMG"
+linkDecay_URLs <- bind_rows(linkDecay_URLs, img)
+
+txt <- filter(linkDecay_URLs, str_detect(testLink, ".*\\.txt"))
+linkDecay_URLs <- setdiff(linkDecay_URLs, txt)
+txt$linkType <- "TXT"
+linkDecay_URLs <- bind_rows(linkDecay_URLs, txt)
+
 # Reformat DOI to include "https://doi.org/", remove extra columns, assign link type
 doiRoot <- "https://doi.org/"
 linkDecay_DOIs <- mutate(linkDecay_DOIs, testLink = paste(doiRoot, test_DOI, sep=""))
@@ -31,21 +49,32 @@ linkDecay_DOIs <- mutate(linkDecay_DOIs, linkType="DOI")
 # Combine tibbles back into one larger dataset
 linkDecay <- bind_rows(linkDecay_URLs, linkDecay_DOIs)
 
-# Add row number for easier merging of scraped data later
-linkDecay <- mutate(linkDecay, rowNum = seq.int(nrow(linkDecay)))
 
 
 
-# Testing webscraping
+# Webscraping
 scrapedHeader <- tibble()
 
-for (i in 11:20) {
-  print(linkDecay$eprint_id[i])
+for (i in 1:100){ #dim(linkDecay)[1]) {
+  # Test variable in case loop gets stuck
+  mySpot <- linkDecay$rowNum[i]
+  
+  # Reset html information each time through the loop
   html_doc <- NA
-  try(html_doc <- read_html(linkDecay$testLink[i]), silent=TRUE)
-  if(is.na(html_doc)) header <- "404"
-  else
-    header <- html_doc %>% html_nodes("title") %>% html_text()
+  
+  if(linkDecay$linkType[i] == ("URL") | linkDecay$linkType[i] == ("DOC")) {
+    # Try scraping link
+    try(html_doc <- read_html(linkDecay$testLink[i]), silent=TRUE)
+  
+    # If scraping didn't work, write title as 404. Otherwise, extract title from webpage.
+    if(is.na(html_doc)) header <- "404"
+    else
+      header <- html_doc %>% html_nodes("title") %>% html_text()
+  } else header <- linkDecay$linkType[i]
+  
+  # Collect row number and title then add to scrapedHeader variable
   linkInfo <- tibble("rowNum" = linkDecay$rowNum[i], "linkTitle" = header)
   scrapedHeader <- bind_rows(scrapedHeader, linkInfo)
 }
+
+#linkDecay <- left_join(linkDecay, scrapedHeader, by = "rowNum")
