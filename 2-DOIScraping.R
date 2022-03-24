@@ -11,7 +11,7 @@ library(rjson)
 
 # Formating DOI list correctly
 doi_lookup <- select(dataLinks_doi, related_url_doi)
-#doi_lookup <- str_extract(doi_lookup$related_url_doi, "10\\.[0123456789]*")
+doi_lookup <- str_extract(doi_lookup$related_url_doi, "10\\.[0123456789]*")
 doi_lookup <- as_tibble(doi_lookup[!is.na(doi_lookup)])
 
 # Scrape data from CrossRef
