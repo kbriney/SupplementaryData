@@ -33,6 +33,7 @@ Dataset downloaded: 2022-01-06 by Tom Morrell, @tmorrell
 
 ## Code Still to Write
 
+- ***Fix regex to match with base URL domain in script 1***
 - Scraping DOI prefixes
   - ~~need to handle 404's~~
   - ~~clean and process scraped data~~
