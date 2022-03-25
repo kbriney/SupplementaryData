@@ -31,6 +31,15 @@ linkDecay_URLs <- select(linkDecay_URLs, -test_DOI)
 linkDecay_URLs <- rename(linkDecay_URLs, testLink = test_URL)
 linkDecay_URLs <- mutate(linkDecay_URLs, linkType="URL")
 
+# Write URLs to file for checking for type exclusions
+URLsToCheck <- select(linkDecay_URLs, rowNum, testLink)
+foutput <- paste(fpath, "URLsToCheck.csv", sep="/")
+write_csv(URLsToCheck, foutput)
+
+
+##### NEED TO REMOVE SPACES FROM URLS
+
+
 # Make exceptions for non-webpage URLs
 img <- filter(linkDecay_URLs, str_detect(testLink, ".*\\.img"))
 linkDecay_URLs <- setdiff(linkDecay_URLs, img)
@@ -41,6 +50,32 @@ txt <- filter(linkDecay_URLs, str_detect(testLink, ".*\\.txt"))
 linkDecay_URLs <- setdiff(linkDecay_URLs, txt)
 txt$linkType <- "TXT"
 linkDecay_URLs <- bind_rows(linkDecay_URLs, txt)
+
+docx <- filter(linkDecay_URLs, str_detect(testLink, ".*\\.docx"))
+linkDecay_URLs <- setdiff(linkDecay_URLs, docx)
+docx$linkType <- "DOCX"
+linkDecay_URLs <- bind_rows(linkDecay_URLs, docx)
+
+pdf <- filter(linkDecay_URLs, str_detect(testLink, ".*\\.pdf"))
+linkDecay_URLs <- setdiff(linkDecay_URLs, pdf)
+pdf$linkType <- "PDF"
+linkDecay_URLs <- bind_rows(linkDecay_URLs, pdf)
+
+zip <- filter(linkDecay_URLs, str_detect(testLink, ".*\\.zip"))
+linkDecay_URLs <- setdiff(linkDecay_URLs, zip)
+zip$linkType <- "ZIP"
+linkDecay_URLs <- bind_rows(linkDecay_URLs, zip)
+
+zipR <- filter(linkDecay_URLs, str_detect(testLink, ".*\\.zipR"))
+linkDecay_URLs <- setdiff(linkDecay_URLs, zipR)
+zipR$linkType <- "ZIPR"
+linkDecay_URLs <- bind_rows(linkDecay_URLs, zipR)
+
+gz <- filter(linkDecay_URLs, str_detect(testLink, ".*\\.gz"))
+linkDecay_URLs <- setdiff(linkDecay_URLs, gz)
+gz$linkType <- "GZ"
+linkDecay_URLs <- bind_rows(linkDecay_URLs, gz)
+
 
 # Reformat DOI to include "https://doi.org/", remove extra columns, assign link type
 doiRoot <- "https://doi.org/"
@@ -57,7 +92,7 @@ linkDecay <- bind_rows(linkDecay_URLs, linkDecay_DOIs)
 # Webscraping
 scrapedHeader <- tibble()
 
-for (i in 1:100){ #dim(linkDecay)[1]) {
+for (i in 201:300){ #dim(linkDecay)[1]) {
   # Test variable in case loop gets stuck
   mySpot <- linkDecay$rowNum[i]
   
