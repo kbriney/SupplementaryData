@@ -32,13 +32,19 @@ linkDecay_URLs <- rename(linkDecay_URLs, testLink = test_URL)
 linkDecay_URLs <- mutate(linkDecay_URLs, linkType="URL")
 
 # Write URLs to file for checking for type exclusions
-URLsToCheck <- select(linkDecay_URLs, rowNum, testLink)
-foutput <- paste(fpath, "URLsToCheck.csv", sep="/")
-write_csv(URLsToCheck, foutput)
+#URLsToCheck <- select(linkDecay_URLs, rowNum, testLink)
+#foutput <- paste(fpath, "URLsToCheck.csv", sep="/")
+#write_csv(URLsToCheck, foutput)
 
 
-##### NEED TO REMOVE SPACES FROM URLS
 
+## Mark URLs based on spaces and file extensions
+
+# Identify spaces in URLs
+URLspaces <- filter(linkDecay_URLs, str_detect(testLink, " "))
+linkDecay_URLs <- setdiff(linkDecay_URLs, URLspaces)
+URLspaces$linkType <- "SPACE"
+linkDecay_URLs <- bind_rows(linkDecay_URLs, URLspaces)
 
 # Make exceptions for non-webpage URLs
 img <- filter(linkDecay_URLs, str_detect(testLink, ".*\\.img"))
@@ -91,30 +97,32 @@ linkDecay <- bind_rows(linkDecay_URLs, linkDecay_DOIs)
 
 # Webscraping
 scrapedHeader <- tibble()
+i<-1
 
-for (i in 201:300){ #dim(linkDecay)[1]) {
+
+#for (i in 201:300){ #dim(linkDecay)[1]) {
   # Test variable in case loop gets stuck
-  mySpot <- linkDecay$rowNum[i]
+#  mySpot <- linkDecay$rowNum[i]
   
   # Reset html information each time through the loop
-  html_doc <- NA
+#  html_doc <- NA
   
-  if(linkDecay$linkType[i] == ("URL") | linkDecay$linkType[i] == ("DOC")) {
+#  if(linkDecay$linkType[i] == ("URL") | linkDecay$linkType[i] == ("DOC")) {
     # Try scraping link
-    try(html_doc <- read_html(linkDecay$testLink[i]), silent=TRUE)
+#    try(html_doc <- read_html(linkDecay$testLink[i]), silent=TRUE)
   
     # If scraping didn't work, write title as 404. Otherwise, extract title from webpage.
-    if(is.na(html_doc)) header <- "404"
-    else
-      header <- html_doc %>% html_nodes("title") %>% html_text()
-  } else header <- linkDecay$linkType[i]
+#    if(is.na(html_doc)) header <- "404"
+#    else
+#      header <- html_doc %>% html_nodes("title") %>% html_text()
+#  } else header <- linkDecay$linkType[i]
   
   # Collect row number and title then add to scrapedHeader variable
-  linkInfo <- tibble("rowNum" = linkDecay$rowNum[i], "linkTitle" = header)
-  scrapedHeader <- bind_rows(scrapedHeader, linkInfo)
-}
+#  linkInfo <- tibble("rowNum" = linkDecay$rowNum[i], "linkTitle" = header)
+#  scrapedHeader <- bind_rows(scrapedHeader, linkInfo)
+#}
 
 foutput <- paste(fpath, "linkTitles.csv", sep="/")
-write_csv(scrapedHeader, foutput)
+#write_csv(scrapedHeader, foutput)
 
 #linkDecay <- left_join(linkDecay, scrapedHeader, by = "rowNum")
