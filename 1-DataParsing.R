@@ -29,8 +29,7 @@ dataLinks <- union(dataLinks_bigD, dataLinks_littleD)
 dataLinks_type <- count(dataLinks, description)
 
 # Add column for URL and DOI domain
-## THIS URL DOMAIN REGEX DOES NOT WORK CORRECTLY
-dataLinks <- mutate(dataLinks, related_url_short = str_extract(related_url, "https?://[a-z-\\.]*/"))
+dataLinks <- mutate(dataLinks, related_url_short = str_extract(related_url, "https?://[^/]*"))
 dataLinks <- mutate(dataLinks, related_url_doi = str_extract(related_url, "10\\.[0123456789]*"))
 
 # Summary counts for data links by URL and DOI domain

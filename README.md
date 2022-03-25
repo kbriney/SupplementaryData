@@ -33,16 +33,18 @@ Dataset downloaded: 2022-01-06 by Tom Morrell, @tmorrell
 
 ## Code Still to Write
 
-- ***Fix regex to match with base URL domain in script 1***
-- Scraping DOI prefixes
+- ~~Fix regex to match with base URL domain in script 1~~
+- ~~Scraping DOI prefixes~~
   - ~~need to handle 404's~~
   - ~~clean and process scraped data~~
   - ~~analyze URL and DOI domains~~
 - Measure decay of URLs and DOIs by counting 404's
   - ~~dedupe publications w/ multiple links?~~ (not necessary)
-  - how to handle content that's moved?
-- Analyze with respect to date
-- Analyze with respect to site
+  - count URL's the match base domain
+  - webscrape
+  - count 404's
+  - Analyze with respect to date
+  - Analyze with respect to site
 
 ## Resources
 
