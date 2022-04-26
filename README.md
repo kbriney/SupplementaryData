@@ -43,6 +43,7 @@ Dataset downloaded: 2022-01-06 by Tom Morrell, @tmorrell
   - ~~count URL's the match base domain~~
   - ~~webscrape~~
   - ~~count 404's~~
+  - Check file-type URLs by hand
   - Analyze with respect to date
   - Analyze with respect to site
 
