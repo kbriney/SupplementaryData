@@ -136,6 +136,7 @@ for (i in 1:dim(linkDecay)[1]) {
     if(is.na(html_doc)) header <- "404"
     else {
       header <- html_doc %>% html_nodes("title") %>% html_text()
+      # extract first title as there are sometimes multiple titles
       header <- header[1]
     }
   } else header <- linkDecay$linkType[i]
