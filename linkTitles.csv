@@ -1,120 +1,2075 @@
 rowNum,linkTitle
+1536,DOI
+1536,DOI
 1,"NASA's Space Physics Data Facility (SPDF)"
-2,GitHub - ZwickyTransientFacility/ztfcosmodr: DataRelease repository for the ZTFIaCosmo group
-3,"NASA's Space Physics Data Facility (SPDF)"
-4,"
+2,"NASA's Space Physics Data Facility (SPDF)"
+3,404
+4,TCCON Data Archive
+5,Copernicus Climate Data Store | Copernicus Climate Data Store
+6,WDCGG (World Data Centre for Greenhouse Gases)
+7,GMOD
+8,"NASA's Space Physics Data Facility (SPDF)"
+9,Southern California Earthquake Data Center at Caltech
+10,The BICEP and Keck Array CMB Experiments
+11,Welcome to the Planetary Data System
+12,Welcome to the Planetary Data System
+13,"NASA's Space Physics Data Facility (SPDF)"
+14,VizieR archives
+15,Welcome to the Planetary Data System
+16,single-cell
+18,"NASA's Space Physics Data Facility (SPDF)"
+19,"NASA's Space Physics Data Facility (SPDF)"
+20,"NASA's Space Physics Data Facility (SPDF)"
+21,"NASA's Space Physics Data Facility (SPDF)"
+22,"NASA's Space Physics Data Facility (SPDF)"
+23,SCARDEC Source Time Functions Database
+25,"NASA's Space Physics Data Facility (SPDF)"
+26,"Servicio Sismológico Nacional | UNAM, México"
+27,Index of /
+28,Wormicloud
+30,PM2.5实时查询|PM2.5历史数据查询|PM2.5全国城市排名|PM2.5雾霾地图|中国空气质量在线监测分析平台|真气网
+31,Welcome to the Planetary Data System
+32,TCCON Data Archive
+33,Dash
+34,DeepCell Datasets
+35,Human Impacts by the Numbers
+36,"PRISM Climate Group, Oregon State U"
+37,Welcome to the Planetary Data System
+38,Welcome to the Planetary Data System
+39,TCCON Data Archive
+40,Exoplanet Imaging Data Challenge
+41,Particle Data Group
+42,Welcome to the Planetary Data System
+43,Sentinel-5P Pre-Operations Data Hub
+44,Southern California Earthquake Data Center at Caltech
+45,FRB host database
+46,Home | WISeREP
+47,NCAR Climate Data Gateway
+48,VizieR archives
+49,BEACO2N
+50,"NASA's Space Physics Data Facility (SPDF)"
+51,Home - GloH2O
+53,Welcome to the Planetary Data System
+54, GISAID - Initiative
+55,MAVE-NN: learning genotype-phenotype maps from multiplex assays of variant effect — mavenn 1.0 documentation
+56,FIRE: Feedback In Realistic Environments | Increasing the predictive power of galaxy formation simulations
+57,prime-re.github.io | Open resource exchange platform for non-human primate neuroimaging
+58,CO2 Virtual Science Data Environment
+59,USDA/NASS QuickStats Ad-hoc Query Tool
+60,TCCON Data Archive
+61,FIRE: Feedback In Realistic Environments | Increasing the predictive power of galaxy formation simulations
+62,Main page
+63,Voyager Cosmic Ray Subsystem
+64,"NASA's Space Physics Data Facility (SPDF)"
+65,"NASA's Space Physics Data Facility (SPDF)"
+66,"NASA's Space Physics Data Facility (SPDF)"
+67,"NASA's Space Physics Data Facility (SPDF)"
+68,"NASA's Space Physics Data Facility (SPDF)"
+69,"NASA's Space Physics Data Facility (SPDF)"
+70,Welcome to MassIVE
+71,CFD | Chicago Face Database
+72,Home | MARIMBA
+73,Decathlon Data Browser
+74,TCCON Data Archive
+75,Gene Ontology Resource
+75,"Gene Ontology Resource | The Gene Ontology (GO) project is a major bioinformatics initiative to develop a computational representation of our evolving knowledge of how genes encode biological functions at the molecular, cellular and tissue system levels."
+76,yt Hub
+77,BioCreative - Latest 3 News Items
+78,Welcome to the Planetary Data System
+79,British Oceanographic Data Centre (BODC) — oceanographic and marine data
+80,404
+81,404
+82,GeneNetwork GeneNetwork 2
+83,404
+84,Welcome to the Planetary Data System
+89,Sun Earth Connection Coronal and Heliospheric Investigation (SECCHI) | SECCHI
+90,MODIS Active Fire and Burned Area Products - Home
+91,NIED Hi-net β Ver. [High Sensitivity Seismograph Network Japan]
+91,NIED Hi-net β Ver. [High Sensitivity Seismograph Network Japan]
+93,NOAA National Centers for Environmental Information (NCEI)
+94,GES DISC
+95,TCCON Data Archive
+96,CFD | Chicago Face Database
+97,ASF Data Search
+98,USGS Water Services
+99,MAGDA | Home
+100,"Servicio Sismológico Nacional | UNAM, México"
+101,Copernicus Climate Data Store | Copernicus Climate Data Store
+102,Sun Earth Connection Coronal and Heliospheric Investigation (SECCHI) | SECCHI
+103,Index of /
+104,NMDB
+105,PDS/PPI Home Page 
+106,"PDS Geosciences Node, Washington University, St. Louis, Missouri"
+107,WSO2 Identity Server
+108,Mission Sign-in form
+109,Copernicus Climate Data Store | Copernicus Climate Data Store
+110,MAGDA | Home
+111,404
+112,MODIS Active Fire and Burned Area Products - Home
+113,"
+        
+            
+                Greenhouse Gases (GHGs)
+            
+        
+    "
+113,Greenhouse Gases (GHGs)
+114,TCCON Data Archive
+115,JPL: MkIV FTIR Interferometer
+116,WSO2 Identity Server
+117,Mission Sign-in form
+118,Parker Solar Probe Science Gateway | Parker Solar Probe Science Gateway
+118,Front Page
+119,STEREO - Science Center Home Page
+120,SPDF - Coordinated Data Analysis Web (CDAWeb)
+121,Atmospheric Chemistry Observations & Modeling (ACOM)
+122,Open Access Hub
+123,Copernicus Climate Data Store | Copernicus Climate Data Store
+124,Data Publisher for Earth & Environmental Science
+125,TCCON Weather
+126,404
+127,SCARDEC Source Time Functions Database
+128,MesoWest Data
+129,USGS Water Data for the Nation
+130,FLUXNET
+131,Dr. Xiao's Global Ecology Group
+132,Analyst's Notebook
+133,"NASA JPL MLS | Home"
+134,TCCON Data Archive
+135,ESA CCI Soil Moisture website
+136,FIRE: Feedback In Realistic Environments | Increasing the predictive power of galaxy formation simulations
+137,SPDF - Coordinated Data Analysis Web (CDAWeb)
+138,"
+        
+            Genus: A database of genus characteristics of proteins and RNA
+        
+    "
+139,Data Publisher for Earth & Environmental Science
+140,ENCODE
+141,GitHub - ZwickyTransientFacility/ztfcosmodr: DataRelease repository for the ZTFIaCosmo group
+142,"
 		Nextcloud	"
-5,ID 748400 - BioProject - NCBI
-6,404
-7,404
-8,"NASA Langley LaRC www-air"
-9,"NASA Airborne Science Data for Atmospheric Composition"
-10,ATom DC-8 files | ATom
-11,"NASA LaRC Airborne Science Data for Atmospheric Composition - DC3  "
-12,"NASA Airborne Science Data for Atmospheric Composition"
-13,KORUS-AQ: An International Cooperative Air Quality Field Study in Korea
-14,"NASA Airborne Science Data for Atmospheric Composition"
-15,"NASA Airborne Science Data for Atmospheric Composition"
-16,Data Discovery
-17,TCCON Data Archive
-18,Copernicus Climate Data Store | Copernicus Climate Data Store
-19,WDCGG (World Data Centre for Greenhouse Gases)
-20,GMOD
-21,Search Results - WebCSD
-22,GitHub - kjj11033/relative_controllability
-25,Official Datasets for LHC Olympics 2020 Anomaly Detection Challenge | Zenodo
-26,"GitHub - jgarciasuarez/layered_TFs: Support material for ""Analytical 1D transfer functions for layered soils"""
-27,The SCEC Sequences of Earthquakes and Aseismic Slip Project
-28,Index of /cvws/seas/download
-29,Search Results - WebCSD
-30,Search Results - WebCSD
-31,Search Results - WebCSD
-32,Search Results - WebCSD
-33,Search Results - WebCSD
-34,Search Results - WebCSD
-35,Search Results - WebCSD
-36,
-37,404
-38,404
-42,Atmospheres Product Search
-42,Atmospheres Node
-44,ID 521160 - BioProject - NCBI
-45,Index of /CCCMA/publications/COVID19
-46,Sampling Station Records | Scripps CO2 Program
-47,"
+143,ID 748400 - BioProject - NCBI
+143,Twitter
+143,Facebook
+143,LinkedIn
+143,GitHub
+143,SM-Twitter
+143,SM-Facebook
+143,SM-Youtube
+144,404
+145,"NASA Langley LaRC www-air"
+146,"NASA Airborne Science Data for Atmospheric Composition"
+147,ATom DC-8 files | ATom
+148,"NASA LaRC Airborne Science Data for Atmospheric Composition - DC3  "
+149,"NASA Airborne Science Data for Atmospheric Composition"
+150,KORUS-AQ: An International Cooperative Air Quality Field Study in Korea
+151,"NASA Airborne Science Data for Atmospheric Composition"
+152,"NASA Airborne Science Data for Atmospheric Composition"
+153,Data Discovery
+154,Search Results - WebCSD
+155,GitHub - kjj11033/relative_controllability
+156,Official Datasets for LHC Olympics 2020 Anomaly Detection Challenge | Zenodo
+157,"GitHub - jgarciasuarez/layered_TFs: Support material for ""Analytical 1D transfer functions for layered soils"""
+158,The SCEC Sequences of Earthquakes and Aseismic Slip Project
+159,Index of /cvws/seas/download
+160,Search Results - WebCSD
+161,Search Results - WebCSD
+162,Search Results - WebCSD
+163,Search Results - WebCSD
+164,Search Results - WebCSD
+165,Search Results - WebCSD
+166,
+167,404
+168,404
+169,404
+170,Atmospheres Product Search
+170,Atmospheres Node
+171,ID 521160 - BioProject - NCBI
+171,Twitter
+171,Facebook
+171,LinkedIn
+171,GitHub
+171,SM-Twitter
+171,SM-Facebook
+171,SM-Youtube
+172,Index of /CCCMA/publications/COVID19
+173,Sampling Station Records | Scripps CO2 Program
+174,"
     GEO Accession viewer
     "
-48,"
+175,"
     GEO Accession viewer
     "
-50,ProteomeXchange Dataset PXD027787
-52,Quick Scatterometer (QuikSCAT) Mission | PO.DAAC / JPL / NASA
-57,"NASA's Space Physics Data Facility (SPDF)"
-58,Index of /data_public/EPIHi/level2
-60,Dryad Pre-publication sharing link
-62,CaltechDATA
-63,CaltechDATA
-64,CaltechDATA
-65,404
-67,ColmTalbot/psd-covariance-matrices: v0.1.0 | Zenodo
-71,404
-73,CodaLab - Competition
-74,"
+177,ProteomeXchange Dataset PXD027787
+178,Quick Scatterometer (QuikSCAT) Mission | PO.DAAC / JPL / NASA
+179,Index of /data_public/EPIHi/level2
+180,Dryad Pre-publication sharing link
+181,CaltechDATA
+182,CaltechDATA
+183,CaltechDATA
+184,404
+185,ColmTalbot/psd-covariance-matrices: v0.1.0 | Zenodo
+186,404
+187,CodaLab - Competition
+188,"
     EMDB < EMD-12964
 "
-75,"
+189,"
     EMDB < EMD-12965
 "
-76,RCSB PDB - 7OKQ: Cryo-EM Structure of the DDB1-DCAF1-CUL4A-RBX1 Complex
-78,Data Downloads
-84,"
+190,RCSB PDB - 7OKQ: Cryo-EM Structure of the DDB1-DCAF1-CUL4A-RBX1 Complex
+191,Data Downloads
+192,"
     GEO Accession viewer
     "
-86,404
-87,pds-geosciences.wustl.edu - /mex/mex-m-omega-2-edr-flight-v1/mexomg-0001/data/
-88,Index of /PDS/EDR/ESP/ORB_036600_036699/ESP_036618_1985/
-89,Index of /PDS/EDR/ESP/ORB_037100_037199/ESP_037119_1985/
-90,Index of /PDS/EDR/PSP/ORB_002300_002399/PSP_002387_1985/
-91,Index of /PDS/EDR/PSP/ORB_003700_003799/PSP_003798_1985/
-93,Mars 2020 Terrain Relative Navigation Context Camera Orthorectified Image Mosaic | USGS Astrogeology Science Center
-94,Images from the Mars Perseverance Rover - NASA Mars
-96,MEOP-CTD Database: vertical profiles of temperature and salinity | Marine Mammals Exploring the Oceans Pole to Pole | Fabien Roquet
-97,Southern California Earthquake Data Center at Caltech
-102,The BICEP and Keck Array CMB Experiments
-106,GitHub - pshankinclarke/Water_Publication
-114,Paleo Data Search | Study | National Centers for Environmental Information (NCEI)
-115,Paleo Data Search | Study | National Centers for Environmental Information (NCEI)
-116,Carla P. Gomes : UDiscoverIt Downloads
-118,Program: EXport Processes in the Ocean from Remote Sensing | BCO-DMO
-119,Welcome to the Planetary Data System
-122,"Deformational Processes Accommodating Slip on an Active Low-Angle Normal Fault, Suckling-Dayman Metamorphic Core Complex, Papua New Guinea"
-123,"
+193,404
+194,pds-geosciences.wustl.edu - /mex/mex-m-omega-2-edr-flight-v1/mexomg-0001/data/
+195,Index of /PDS/EDR/ESP/ORB_036600_036699/ESP_036618_1985/
+196,Index of /PDS/EDR/ESP/ORB_037100_037199/ESP_037119_1985/
+197,Index of /PDS/EDR/PSP/ORB_002300_002399/PSP_002387_1985/
+198,Index of /PDS/EDR/PSP/ORB_003700_003799/PSP_003798_1985/
+199,Mars 2020 Terrain Relative Navigation Context Camera Orthorectified Image Mosaic | USGS Astrogeology Science Center
+200,Images from the Mars Perseverance Rover - NASA Mars
+201,MEOP-CTD Database: vertical profiles of temperature and salinity | Marine Mammals Exploring the Oceans Pole to Pole | Fabien Roquet
+202,GitHub - pshankinclarke/Water_Publication
+203,Paleo Data Search | Study | National Centers for Environmental Information (NCEI)
+204,Paleo Data Search | Study | National Centers for Environmental Information (NCEI)
+205,Carla P. Gomes : UDiscoverIt Downloads
+206,Program: EXport Processes in the Ocean from Remote Sensing | BCO-DMO
+207,"Deformational Processes Accommodating Slip on an Active Low-Angle Normal Fault, Suckling-Dayman Metamorphic Core Complex, Papua New Guinea"
+208,"
     GEO Accession viewer
     "
-124,"
+209,"
     GEO Accession viewer
     "
-125,"CISL RDA: NCAR Upper Air Database, 1920-ongoing"
-126,"CISL RDA: NCEP ADP Global Surface Observational Weather Data, October 1999 - continuing"
-127,Ring-Moon Systems Node - Spacecraft-Based Ring Occultations
-128,GitHub - pachterlab/GVFP_2021: SDE comparison preprint
-129,Identifiers.org
-130,Welcome to the Planetary Data System
-131,CheMin database
-133,OpenNeuro
-133,
-136,404
-139,HiRISE | DTM: InSight Mission Candidate Landing Site
-140,404
-142,Atmospheric Tomography (ATom) | ESPO Data Archive
-146,NIMH Data Archive - Data - Collection
-147,OpenNeuro
-147,
-148,vim-2 — CRCNS.org
-150,GitHub - elisabethadams/superpig-public: SuPerPiG code to search for ultra-short-period planets in K2 data
-152,Supplemental material: Aridity-induced Miocene canyon incision in the Central Andes
-153,ID 713414 - BioProject - NCBI
-154,VizieR {{catName}}
-155,"
+210,"CISL RDA: NCAR Upper Air Database, 1920-ongoing"
+211,"CISL RDA: NCEP ADP Global Surface Observational Weather Data, October 1999 - continuing"
+212,Ring-Moon Systems Node - Spacecraft-Based Ring Occultations
+213,GitHub - pachterlab/GVFP_2021: SDE comparison preprint
+214,Identifiers.org
+215,CheMin database
+216,OpenNeuro
+216,
+217,IllustrisTNG - Data Access
+218,HiRISE | DTM: InSight Mission Candidate Landing Site
+219,404
+220,Atmospheric Tomography (ATom) | ESPO Data Archive
+221,NIMH Data Archive - Data - Collection
+222,OpenNeuro
+222,
+223,vim-2 — CRCNS.org
+224,GitHub - elisabethadams/superpig-public: SuPerPiG code to search for ultra-short-period planets in K2 data
+225,Supplemental material: Aridity-induced Miocene canyon incision in the Central Andes
+226,ID 713414 - BioProject - NCBI
+226,Twitter
+226,Facebook
+226,LinkedIn
+226,GitHub
+226,SM-Twitter
+226,SM-Facebook
+226,SM-Youtube
+227,VizieR {{catName}}
+228,"
     GEO Accession viewer
     "
+229,OpenNeuro
+229,
+230,CaltechDATA
+231,CaltechDATA
+232,svhn_cropped  |  TensorFlow Datasets
+233,Aerosol Robotic Network (AERONET) Homepage
+234,This website is under maintenance
+235,"
+        
+          IRIS: Assembled Data Request
+        
+      "
+236,"GitHub - Romit-Maulik/POD_RKHS: Using RKHS for simulating evolution of POD coefficients with applications to NWP, Climate"
+237,VizieR {{catName}}
+238,PDS Geosciences Node Data and Services: Mars Science Laboratory (MSL) Mission
+239,LAMBDA - Atacama Cosmology Telescope (ACT) Overview
+240,Index of /PDS/data/jnojir_1001
+241,Index of /PDS/data/jnojir_1002
+242,Index of /PDS/data/jnojir_1003
+243,Index of /PDS/data/jnojir_2001
+244,Index of /PDS/data/jnojir_2002
+245,Index of /PDS/data/jnojir_2003
+246,extended movie s1 - YouTube
+247,extended movie s2 - YouTube
+248,GitHub - WormBase/scdefg: A single page Flask app with a GUI for performing differential expression with scvi-tools. Returns a volcano plot and downloadable tables with DE results.
+249,GitHub - WormBase/wormcells-viz: Visualization tools for C. elegans single cell RNA sequencing data
+250,GitHub - WormBase/anndata-wrangling: This repository describes how WormBase anndata files (.h5ad) for single cell RNA sequencing data should be wrangled
+251,"
+    GEO Accession viewer
+    "
+252,NCAR CESM Global High Resolution Ocean Model Fields
+253,ENA Browser
+254,"
+    GEO Accession viewer
+    "
+255,OSIRIS-REx Mission - NASA Planetary Data System
+256,GitHub - carnegie/SEM_public at Ruggles_et_al_2021
+257,SSC Boxfit · GitLab
+258,404
+259,"GitHub - mpiacentino/2021-Essential-function-and-targets-of-BMP-signaling-during-midbrain-neural-crest-delamination: Code and source data pertaining to Piacentino et al., 2021: Transcriptome profiling reveals BMP target genes during midbrain neural crest delamination"
+260,CaltechDATA
+261,Southern California Earthquake Data Center at Caltech
+262,Datasets - 10x Genomics
+262,Open Menu
+262,Search icon
+263,PopAlign_Data
+264,ID 630476 - BioProject - NCBI
+264,Twitter
+264,Facebook
+264,LinkedIn
+264,GitHub
+264,SM-Twitter
+264,SM-Facebook
+264,SM-Youtube
+265,"
+    GEO Accession viewer
+    "
+266,404
+267,GitHub - BrunildaBalliu/FastGxC: Computationally efficient and statistically powerful software for detecting context-specific eQTL effects in multi-context genomic studies.
+268,Methane Seep Sediment and Carbonate Microbial Comm... (ID 648152)  - BioProject - NCBI
+268,Twitter
+268,Facebook
+268,LinkedIn
+268,GitHub
+268,SM-Twitter
+268,SM-Facebook
+268,SM-Youtube
+269,DASH library
+270,GitHub - frortega/EPIC_LS: EPIC Tikhonov Regularization for Least Squares Inversion
+271,"Dataset for ""Wind speed inference from environmental flow-structure interactions"", Flow, 2021. | Stanford Digital Repository"
+272,KINGFISH Herschel Data
+273,
+274,GitHub - shapiro-lab/burst-imaging-public: Public repository for BURST imaging code and image data
+275,Main search page
+276,GitHub - ExoplanetML/Nigraha: A neural network based pipeline to identify and evaluate planet candidates from TESS light curves.
+277,GitHub - aohdera/Ames_et_al_2020
+278,GitHub - ClaireRabut/Rabut_2021_uAM_processing_and_data
+279,UKSSDC | The Swift XRT GRB Catalogue
+280,JPL | AVIRIS-NG Data Portal
+281,Integrated Science Investigation of the Sun (ISʘIS) | Space Physics at Princeton
+282,cmip6 Data Search | cmip6 | ESGF-CoG
+283,ID 667957 - BioProject - NCBI
+283,Twitter
+283,Facebook
+283,LinkedIn
+283,GitHub
+283,SM-Twitter
+283,SM-Facebook
+283,SM-Youtube
+284,MIGS Cultured Bacterial/Archaeal sample from Vario...  - BioSample - NCBI
+284,Twitter
+284,Facebook
+284,LinkedIn
+284,GitHub
+284,SM-Twitter
+284,SM-Facebook
+284,SM-Youtube
+285,"Variovorax paradoxus strain VAI-C chromosome, complete genome - Nucleotide - NCBI"
+285,Twitter
+285,Facebook
+285,LinkedIn
+285,GitHub
+285,SM-Twitter
+285,SM-Facebook
+285,SM-Youtube
+286,"Variovorax paradoxus strain VAI-C plasmid unnamed1, complete sequence - Nucleotide - NCBI"
+286,Twitter
+286,Facebook
+286,LinkedIn
+286,GitHub
+286,SM-Twitter
+286,SM-Facebook
+286,SM-Youtube
+287,AHL_degrader_long - SRA - NCBI
+287,Twitter
+287,Facebook
+287,LinkedIn
+287,GitHub
+287,SM-Twitter
+287,SM-Facebook
+287,SM-Youtube
+288,AHL_degrader_short - SRA - NCBI
+288,Twitter
+288,Facebook
+288,LinkedIn
+288,GitHub
+288,SM-Twitter
+288,SM-Facebook
+288,SM-Youtube
+289,Database for the museum of spatial transcriptomics project - Google Sheets
+290,"GitHub - dsfranca/hamiltonian_updates_tomography: Code used to generate data for paper ""Fast and robust quantum state tomography from few basis measurements"""
+291,Abaqus UEL subroutine for a soft MRE device comprising a coil and iron core using the vector potential in three-dimensions | Zenodo
+292,MASE Data
+293,GitHub - ncclabsustech/SAT-in-sensorimotor-control
+294,PeptideAtlas
+295,Interpretation of temporal and spatial trends of SARS-CoV-2 RNA in San Francisco Bay Area wastewater. | Zenodo
+296,"AIcrowd | Multi-Agent Behavior: Representation, Modeling, Measurement, and Applications | Challenges"
+297,Machine Learning for Particle Physics | Zenodo
+298,"RRS James Clark Ross (74JC) cruise JR20070226 (JR165, JR170, JR174) — BODC Cruise Metadata Report"
+299,G-RUN ENSEMBLE
+300,"Water temperature, salinity, and others taken by CTD and ADCP from the research vessel Nathaniel B. Palmer in the Bellingshausen Sea and Amundsen Sea from 2018-12-17 to 2019-01-19 (NCEI Accession 0210639)"
+300,Dataset Overview | National Centers for Environmental Information (NCEI)
+301,Data | FIRE: Feedback In Realistic Environments
+302,"NASA Airborne Science Data for Atmospheric Composition"
+303,ATom-4 files | ESPO Data Archive
+304,"
+    GEO Accession viewer
+    "
+305,"GitHub - jmwingenroth/wingenroth-et-al-2021: Wingenroth, Jordan, Candace Yee, Justin Nghiem, Laurel Larsen. (2021). ""Effects of Stem Density and Reynolds Number on Fine Sediment Interception by Emergent Vegetation."" Geosciences 2021, 11(3), 136; https://doi.org/10.3390/geosciences11030136."
+306,CaltechDATA
+307,"
+	
+        NA12878
+    
+"
+307,Coriell Institute
+308,"
+	
+        GM15453
+    
+"
+308,Coriell Institute
+309,"
+	
+        NA04965
+    
+"
+309,Coriell Institute
+310,Emission primarily drives nationwide air quality changes during and after the COVID-19 lockdown in China | Zenodo
+311,CMDC
+312,CDA - Home
+313,VizieR {{catName}}
+314,OCIS - Google Drive
+315,Search Results - WebCSD
+316,Search Results - WebCSD
+317,"
+    GEO Accession viewer
+    "
+318,FAOSTAT
+319,Food and agriculture projections to 2050 | Global Perspectives Studies | Food and Agriculture Organization of the United Nations
+320,PDS: Data Search
+321,Dropbox - Yoo et. al. Cell Resource - Raw Data - Simplify your life
+322,ALMA Science Archive
+323,A2C2S
+324,CaltechDATA
+325,GitHub - ilac/ZTF-J1901-1458
+326,Datasets - 10x Genomics
+326,Open Menu
+326,Search icon
+327,GSM3084402: WT zebrafish embryo (6-somite); Danio rerio; RNA-Seq - SRA - NCBI
+327,Twitter
+327,Facebook
+327,LinkedIn
+327,GitHub
+327,SM-Twitter
+327,SM-Facebook
+327,SM-Youtube
+328,GSM3097063: Inf_rep1; Mus musculus; RNA-Seq - SRA - NCBI
+328,Twitter
+328,Facebook
+328,LinkedIn
+328,GitHub
+328,SM-Twitter
+328,SM-Facebook
+328,SM-Youtube
+329,GSM3188351: Pineal_Gland_Vehicle_Control; Rattus norvegicus; RNA-Seq - SRA - NCBI
+329,Twitter
+329,Facebook
+329,LinkedIn
+329,GitHub
+329,SM-Twitter
+329,SM-Facebook
+329,SM-Youtube
+330,GSM3477862: d10_Tet; Mus musculus; RNA-Seq - SRA - NCBI
+330,Twitter
+330,Facebook
+330,LinkedIn
+330,GitHub
+330,SM-Twitter
+330,SM-Facebook
+330,SM-Youtube
+331,GSM3516947: Patient derived xenograft 110; Homo sapiens; RNA-Seq - SRA - NCBI
+331,Twitter
+331,Facebook
+331,LinkedIn
+331,GitHub
+331,SM-Twitter
+331,SM-Facebook
+331,SM-Youtube
+332,GSM3589358: KS_10X_iPSC_KS1_K1-1_scRNA-seq; Homo sapiens; RNA-Seq - SRA - NCBI
+332,Twitter
+332,Facebook
+332,LinkedIn
+332,GitHub
+332,SM-Twitter
+332,SM-Facebook
+332,SM-Youtube
+333,E-MTAB-7320 < Browse < ArrayExpress < EMBL-EBI
+334,GSM3490689: WT_rep1; Arabidopsis thaliana; RNA-Seq - SRA - NCBI
+334,Twitter
+334,Facebook
+334,LinkedIn
+334,GitHub
+334,SM-Twitter
+334,SM-Facebook
+334,SM-Youtube
+335,GSM3585578: Third instar larval ovary dissociated with Trypsin and Co... - SRA - NCBI
+335,Twitter
+335,Facebook
+335,LinkedIn
+335,GitHub
+335,SM-Twitter
+335,SM-Facebook
+335,SM-Youtube
+336,GSM3618670: UW synchronized 300 min post bleach; Caenorhabditis elega... - SRA - NCBI
+336,Twitter
+336,Facebook
+336,LinkedIn
+336,GitHub
+336,SM-Twitter
+336,SM-Facebook
+336,SM-Youtube
+337,GSM3629848: 10x_osk_esc; Mus musculus; RNA-Seq - SRA - NCBI
+337,Twitter
+337,Facebook
+337,LinkedIn
+337,GitHub
+337,SM-Twitter
+337,SM-Facebook
+337,SM-Youtube
+338,CDA - Home
+339,ALMA Science Archive
+340,GitHub - kaist-amsg/JPtNW_Manuscript2021
+341,Index of /open-access-data-2/TROPOMI/tropomi/ch4/14_14_Lorente_et_al_2020_AMTD
+341,SRON FTP SERVER
+342,pds-geosciences.wustl.edu - /msl/msl-m-sam-2-rdr-l0-v1/mslsam_1xxx/data/
+343,"
+    GEO Accession viewer
+    "
+344,"
+        Exploring nonlinear subgrid-scale models and new characteristic length scales for large-eddy simulation
+     — the University of Groningen research portal"
+345,GitHub - fuhaiastro/data: Data files associated with published work
+346,404
+347,OSF | Expanding and Explaining Parent-Preferences in Other-Oriented Decision-Making During Late Adolescence and Young Adulthood
+348,GitHub - YeungRepo/NetworkRecon
+349,500ｍメッシュ水深データ｜日本海洋データセンター JODC
+350,CaltechDATA
+351,PHANGS-HST
+351,Close search
+351,Open search
+351,Back to top
+351,Link tofacebook
+351,Link totwitter
+351,Link toyoutube
+352,PRJNA699282 - SRA - NCBI
+352,Twitter
+352,Facebook
+352,LinkedIn
+352,GitHub
+352,SM-Twitter
+352,SM-Facebook
+352,SM-Youtube
+353,"Data for: Late Cenomanian Age and OAE2 Deposition in the Western Narmada Valley, India - Mendeley Data"
+353,FAQ
+354,"Data for: ""Interaction-driven Band Flattening and Correlated Phases in Twisted Bilayer Graphene"" | Zenodo"
+355,Juno Archive
+356,Index of /PDS/data/jnomwr_1100
+357,"
+    GEO Accession viewer
+    "
+358,CaltechDATA
+359,Sentinel-5P Pre-Operations Data Hub
+360,GitHub - Burigede/Learning_based_multiscale
+361,GitHub - jinlong83/statistical-constrained-GANS: This project studies the statistical constraints to improve the robustness of generative adversarial networks (GANs).
+362,GitHub - maxjiang93/space_time_pde: MeshfreeFlowNet: Physical Constrained Space Time Super-Resolution
+363,GitHub - Rose-STL-Lab/Turbulent-Flow-Net
+364,404
+365,GitHub - ashesh6810/Deep-Spatial-Transformers: Deep Spatial Transformers for Autoregressive Forecasting of QG Turbulence
+366,Data | Copernicus Marine
+367,Data Portal - Data Package Summary | Environmental Data Initiative (EDI)
+368,GitHub - arkadaw9/PGA_LSTM: Physics Guided Architecture (PGA) of Neural Networks for Quantifying Uncertainty in Lake Temperature Modelling
+369,Data Search | North Temperate Lakes
+370,Mike Pritchard / spcam3.0-neural-net · GitLab
+371,Dataset: Size-fractionated major and minor particle composition and concentration collected from RV Thompson (TN303) along the US GEOTRACES EPZT transect in the Eastern Tropical Pacific during 2013 (US GEOTRACES EPZT project) | BCO-DMO
+372,Dataset: Small and large particulate Th and Pa samples from different depth profiles collected on R/V Thomas G. Thompson in the Eastern Tropical Pacific during 2013 (EPZT Th Pa project) | BCO-DMO
+373,Machine Learning for Particle Physics | Zenodo
+374,CERN Open Data Portal
+375,"GitHub - GALE-Lab/Mason2020_JSR_NorthLoup: Subaqueous dune field pattern evolution and interactions: North Loup River, Nebraska, USA"
+376,CaltechDATA
+377,Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/hum - Nucleotide - NCBI
+377,Twitter
+377,Facebook
+377,LinkedIn
+377,GitHub
+377,SM-Twitter
+377,SM-Facebook
+377,SM-Youtube
+378,Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/hum - Nucleotide - NCBI
+378,Twitter
+378,Facebook
+378,LinkedIn
+378,GitHub
+378,SM-Twitter
+378,SM-Facebook
+378,SM-Youtube
+379,CaltechDATA
+380,DeepDrill SPITZER Data
+381,"
+    GEO Accession viewer
+    "
+382,LC-MS/MS data for Shi et al. NCB paper
+383,Data | FIRE: Feedback In Realistic Environments
+384,QEDSurface/Caiazzo_Heyl_Model at master · UBC-Astrophysics/QEDSurface · GitHub
+385,Paleo Data Search | Study | National Centers for Environmental Information (NCEI)
+386,LAMBDA - ACT (ACTPol) Data Product Listings
+387,LIGO-P2000158-v4: GW190521 parameter estimation samples and figure data
+388,"
+    GEO Accession viewer
+    "
+389,Reddening Map — Magellanic System
+390,VizieR {{catName}}
+391,CDA - Home
+392,GitHub - pachterlab/GP_2021: Gamma-OU Gillespie mini-project.
+393,GitHub - stratust/igpipeline
+394,"
+    EMDB < Home
+"
+395,MAST About HST Data
+396,Data | FIRE: Feedback In Realistic Environments
+397,404
+398,404
+399,PRIDE - Proteomics Identification Database
+400,Search - WebCSD
+401,"
+        
+          IRIS: Wilber 3: Select Event
+        
+      "
+402,CaltechDATA
+403,CaltechDATA
+404,GitHub - julianmwagner/bq_bug
+405,(U-Th)/He & 26Al/10Be geochronology data and MATLAB code for 26Al/10Be min-max age calculations - Mendeley Data
+405,FAQ
+406,GitHub - d80b2t/CIV_CLQs: The repo for the work into the high-redshift Carbon IV Changing Look Quasars
+407,ID 683999 - BioProject - NCBI
+407,Twitter
+407,Facebook
+407,LinkedIn
+407,GitHub
+407,SM-Twitter
+407,SM-Facebook
+407,SM-Youtube
+408,Archegozetes longisetosus strain:RAN (ID 683935)  - BioProject - NCBI
+408,Twitter
+408,Facebook
+408,LinkedIn
+408,GitHub
+408,SM-Twitter
+408,SM-Facebook
+408,SM-Youtube
+409,"Data and code for: ""Testable Implications of Models of Intertemporal Choice: Exponential Discounting and Its Generalizations"""
+410,CaltechDATA
+411,14CHRONO Marine20 Reservoir Database
+412,GitHub - ayush9pandey/AutoReduce: Python based automated model reduction tool for SBML models
+413,Google Colab
+414,Integrated spatial genomics dataset | Zenodo
+415,
+416,CaltechDATA
+417,Air Quality Data (PST) Query Tool
+418,GitHub - ltsypin/Cportucalensis_observation: Analysis of C. portucalensis MBL phenazine redox observation
+419, Highly multiplexed spatially resolved gene expression profiling of mouse organogenesis 
+420,DES Data Management
+421,COVID Live - Coronavirus Statistics - Worldometer
+422,Gob.cl - Cifras Oficiales
+422,Cifras Oficiales
+423,"GitHub - alexcritschristoph/wastewater_sarscov2: A repository for sharing data, analyses, and results from Bay Area wastewater Sars-CoV-2 sequencing"
+424,ID 661613 - BioProject - NCBI
+424,Twitter
+424,Facebook
+424,LinkedIn
+424,GitHub
+424,SM-Twitter
+424,SM-Facebook
+424,SM-Youtube
+425,"
+    GEO Accession viewer
+    "
+426,"GitHub - FRBs/FRB: Python code related to DM calculations, estimations, and analysis"
+427,"Sentinel-1 Ascending and Descending Tracks for the January 24, 2020 Mw 6.7 Elazig, Turkey Earthquake | Zenodo"
+428,National Geologic Map Database
+428,USA Gov
+429,"Total Sediment Thickness of the World's Oceans and Marginal Seas, Latest Version (GlobSed) and Version 2 | NCEI"
+430,"Satellite Geodesy, IGPP, SIO, UCSD | Radar Altimetry | Marine Gravity from Satellite Altimetry"
+431,New Zealand bathymetry data set | NIWA
+432,Marine Geoscience Data System | Collections
+433, The Earth's Inner Core revealed by observational seismology - electronic supplements
+434,"
+        
+          FDSN: 6A (2017-2018): Teno Valley Seismic Network
+        
+      "
+435,"
+        
+          IRIS: 
+  Data Management Center
+
+        
+      "
+436,HEASARC Browse: Main Interface
+437,"
+        
+          IRIS: 
+  Data Management Center
+
+        
+      "
+438,TROPOMI_CONUS - Google Drive
+439,MGL1803 - Marine Geoscience Data System
+440,CaltechDATA
+441,"Pradeep Uchil, PhD < Yale School of Medicine"
+442,"Walther Mothes, PhD < Yale School of Medicine"
+443,GitHub - RPGroup-PBoC/growth_limits: Repository for our project on exploring fundamental limits to bacterial growth
+444,"
+            Galaxy
+            | CoralSNP
+        "
+445,GitHub - salterg/bifurcation_network
+446,Paleo Data Search | Study | National Centers for Environmental Information (NCEI)
+447,Yellow River Kenli\Lijin Station Survey | Zenodo
+448,Data Sets - LILA BC
+449,World Ocean Database Select
+450,SubmissionMaterial2020
+451,"
+    GEO Accession viewer
+    "
+452,GitHub - ctlee/bccgc4: BioChemCoRe D3R Grand Challenge 4 Team Repository
+453,404
+454,Campbell Lab Data Sharing
+455,"Data repository associated with the manuscript ""Field testing of biohybrid robotic jellyfish to demonstrate enhanced swimming speeds"" | Stanford Digital Repository"
+456,GitHub - pachterlab/GP_2020_2: Intrinsic/extrinsic noise mini-project
+457,MSL Online Data Volumes
+458,PDS Geosciences Node Data and Services: MSL ChemCam
+459,"GitHub - smsaladi/pymol_viridis: Colorblind-friendly, perceptually uniform palettes for pymol"
+460,"GitHub - smsaladi/chimerax_viridis: Colorblind-friendly, perceptually uniform palettes for chimerax"
+461,"GitHub - smsaladi/vmd_viridis: Colorblind-friendly, perceptually uniform palettes for vmd"
+462,GitHub - smsaladi/structure_scales: structures need scales!
+463,Wild flies hedge their thermal preference bets in response to seasonal fluctuations | Zenodo
+464,"de Bivort Lab: Wild flies hedge their thermal preference bets in response to seasonal fluctuations
+        "
+465,GitHub - tobywise/covid19-risk-perception
+466,DrosAdultVNSdomains/Court2017/template at master · VirtualFlyBrain/DrosAdultVNSdomains · GitHub
+467,Support Files for Showalter et al. Icarus (2020)
+468,LIGO-P2000158-v4: GW190521 parameter estimation samples and figure data
+469,"NASA Airborne Science Data for Atmospheric Composition"
+470,PDS Geosciences Node Data and Services: Mars Science Laboratory (MSL) Mission
+471,Morris et al 2020-JGR-2019JE006324
+472,PDS Geosciences Node Data and Services: Mars Science Laboratory (MSL) Mission
+473,Gob.cl - Cifras Oficiales
+473,Cifras Oficiales
+474,COVID-19/csse_covid_19_data at master · CSSEGISandData/COVID-19 · GitHub
+475,"
+    GEO Accession viewer
+    "
+476,COVID-19 Testing in US Colleges - Google Sheets
+477,GitHub - pachterlab/BTRBP_2020
+478,"
+    EMDB < EMD-23462
+"
+479,"
+    EMDB < EMD-23465
+"
+480,[MITgcm] Index of /MITgcm_contrib/llc_hires/llc_4320
+481,Software – Climate Dynamics Group
+482,Tectonics Observatory at Caltech
+483,"
+JCI Insight -
+Comprehensive plasma proteomic profiling reveals biomarkers for active tuberculosis
+"
+484,Dropbox - Origami design + staples + movie - Simplify your life
+485,Paleo Data Search | Study | National Centers for Environmental Information (NCEI)
+486,"GitHub - kevindoyle/geoscience-first-authorship: Code for ""First authorship gender gap in the geosciences"""
+487,gwemlightcurves/lightcurves at master · mcoughlin/gwemlightcurves · GitHub
+488,404
+489,PDS Geosciences Node Data and Services: Mars Science Laboratory (MSL) Mission
+490,Juno Archive
+491,Index of /PDS/data/jnomwr_1100/data_calibrated
+492,Project: Supply and removal of trace elements in the subtropical South Pacific | BCO-DMO
+493,"Pavia, FJ et al. (2020): Dissolved thorium isotopes from SONNE cruise SO245 (UltraPac)"
+494,"Pavia, FJ et al. (2020): Particulate thorium isotopes from SONNE cruise SO245 (UltraPac)"
+495,CaltechDATA
+496,CaltechDATA
+497,"
+    GEO Accession viewer
+    "
+498,GitHub - caltech-bioinformatics-resource-center/Guttman_Ismagilov_Labs
+499,ID 578541 - BioProject - NCBI
+499,Twitter
+499,Facebook
+499,LinkedIn
+499,GitHub
+499,SM-Twitter
+499,SM-Facebook
+499,SM-Youtube
+500,Addgene: Ubiq-Cas9.874W
+501,Addgene: OA-986B
+502,Addgene: OA-986C
+503,Addgene: OA-986D
+504,Addgene: OA-986E
+505,Addgene: OA-1045A
+506,Addgene: OA-1045B
+507,Addgene: OA-1045C
+508,Addgene: OA-1045D
+509,Addgene: OA-1045E
+510,"
+        Bloomington Drosophila Stock Center:
+
+        Indiana University Bloomington
+    "
+511,"
+        Bloomington Drosophila Stock Center:
+
+        Indiana University Bloomington
+    "
+512,"
+        Bloomington Drosophila Stock Center:
+
+        Indiana University Bloomington
+    "
+513,Dawn - NASA Planetary Data System
+514,SIMBAD Astronomical Database - CDS (Strasbourg)
+515,Supplemental Research Data 
+516,GitHub - vipulsinghal02/txtlsim_buildacell: txtlsim: A MATLAB software toolbox to accompany the TX-TL cell-free genetic circuit prototyping platform.
+517,"GitHub - tysonnsa/eLifePPCTouch: Code and Data for ""Neural encoding of felt and imagined touch within human posterior parietal cortex"""
+518,Revision - aead504 - Merge branch 'main' of https://github.com/tysonnsa/eLifePPCTouch [...] – Software Heritage archive
+519,GitHub - GradinaruLab/dLight1
+520,CaltechDATA
+521,404
+522,Replication data for: Estimating Time Preferences from Convex Budgets
+523,A Multi-Year Data Set on Aerosol-Cloud-Precipitation-Meteorology Interactions for Marine Stratocumulus Clouds
+524,Replication data for: Risk Preferences Are Not Time Preferences
+525,Nevada Geodetic Laboratory - Station Page for GISB
+526,Nevada Geodetic Laboratory - Station Page for J750
+527,Replication data for: Violence and Risk Preference: Experimental Evidence from Afghanistan
+528,Replication data for: Present-Biased Preferences and Credit Card Borrowing
+529,Sup. Movies. Forebrain Paper - Google Drive
+530,imv-uw/trifuse: | Zenodo
+531,Supporting Data: Generation of ordered protein assemblies using rigid three-body fusion (https://doi.org/10.1073/pnas.2015037118) | Zenodo
+532,"
+    GEO Accession viewer
+    "
+533,Fits files | Zenodo
+534,GitHub - amafi-gpcr/Beta-arrestin2-mu-opioid-receptor-agonist-complex-PNAS-2020
+535,Data | FIRE: Feedback In Realistic Environments
+536,404
+537,OSF | Team flow is a unique brain state associated with enhanced information integration and neural synchrony
+538,NEI Commons
+539,GitHub - sturkarslan/evolution-of-syntrophy: Code and data related to analysis of genomics data
+540,MERRA-2
+541,CaltechDATA
+542,"GitHub - jgarciasuarez/1DSR_stiffnessless_surface: Supplementary material to ""Linear One-dimensional Site Response Analysis in the presence of stiffness-less free surface for certain power-law heterogeneities"""
+543,EarthChem Library - Repository | Dataset Information
+544,UCSC Cell Browser
+545,Contribution of Trf4/5 and the Nuclear Exosome to Genome Stability Through Regulation of Histone mRNA Levels in Saccharomyces cerevisiae | Genetics | Oxford Academic
+546,"Dpb2p, a Noncatalytic Subunit of DNA Polymerase ε, Contributes to the Fidelity of DNA Replication in Saccharomyces cerevisiae | Genetics | Oxford Academic"
+547,GitHub - pachterlab/BLCSBGLKP_2020: Code for analysis of SARS-CoV-2 sequencing based diagnostic testing data
+548,"Data for: Redox fluctuations, trace metal enrichment and phosphogenesis in the ~2.0 Ga Zaonega Formation - Mendeley Data"
+548,FAQ
+549,MassIVE Dataset Summary
+550,"Ridgecrest field photos and metadata from Wagon Wheel Staging Area, California | Stanford Digital Repository"
+551,"OSF | The Alichur dome, South Pamir, western India‒Asia collisional zone: detailing the Neogene Shakhdara–Alichur syn-collisional gneiss-dome complex and connection to lithospheric processes"
+552,OpenNeuro
+552,
+553,Bitbucket
+554,"Shallow landslide data from Switzerland and California used in Prancevic et al. (2020, GRL) | CUAHSI HydroShare"
+555,404
+556,Reconstitution of Nup157 and Nup145N into the Nup84 Complex*[boxs] - Journal of Biological Chemistry
+557,"NAP1 Modulates Binding of Linker Histone H1 to Chromatin and Induces an Extended Chromatin Fiber Conformation* - Journal of Biological Chemistry"
+558,Supplemental Research Data 
+559,Supplemental Research Data 
+560,"GitHub - cbstamatis/RNT: Repetitive Negative Thinking, Stress, and Decision-Making"
+561,SOCRATES Data Access
+562,EOL data archive -- NASA SatCORPS Himawari Cloud Retrieval Data
+563,Dataset: Inventory of push cores taken on Alvin dives on RV/Atlantis cruise AT37-13 and AT42-03 at methane seeps off the Pacific coast of Costa Rica (Costa Rica Seeps project) | BCO-DMO
+564,Interaction between Microtubules and the Drosophila Formin Cappuccino and Its Effect on Actin Assembly*  - Journal of Biological Chemistry
+565,"
+    GEO Accession viewer
+    "
+566,"GitHub - pachterlab/BP_2020: Decrease in ACE2 mRNA expression in aged mouse lung, bioRxiv, 2020."
+567,INDI PRIME-DE
+568,404
+569,OSF | Instrumental behavior in humans is sensitive to the correlation between response rate and reward rate
+570,"OSF | Evidence of General Economic Principles of Bargaining and Trade from 2,000 Classroom Experiments"
+571,CaltechDATA
+572,"GitHub - skstavroglou/pattern_causality: Pattern Causality Algorithm to Reproduce Results for ""Unveiling Causal Interactions in Complex Systems""."
+573,Highly-efficient frequency comb generation in AlGaAs-on-insulator microresonators | Zenodo
+574,GIZMO | Phil Hopkins’ Research Group
+575,CaltechDATA
+576,GitHub - rutishauserlab/recogmem-release-NWB: A NWB-based Dataset and Processing Pipeline of Human Single-Neuron Activity During a Declarative Memory Task
+577,GitHub - amafi-gpcr/Kappa-Opioid-Receptor-Gi-Protein-MP1104-agonist-Complex-PNAS-2020: Kappa-Opioid-Receptor-Gi-Protein-MP1104-agonist-Complex
+578,NeMO Data Archive Assets
+579,BICCN: Mouse primary motor cortex (MOp) cell types
+580,CaltechDATA
+581,GitHub - IsmagilovLab/Digital_NAAT_2Ch_MeltCurve_Analyzer
+582,GitHub - ayush9pandey/AutoReduce: Python based automated model reduction tool for SBML models
+583,"GitHub - lymolympic/list_relaxed_liars: R function to implement the method proposed in Li's ""Relaxing the No Liars Assumption in List Experiment Analyses"" (Political Analysis, forthcoming)"
+584,"NASA Airborne Science Data for Atmospheric Composition"
+585,OSF | Confidence database
+586,GitHub - yzhang34/Instant-FLIM-Control: An open-source LabView program to control the instant FLIM system
+587,GitHub - yzhang34/Instant-FLIM-Analysis: An open-source Matlab program to analyze the instant FLIM imaging data
+588,Replication Data for: Studies of a Lacustrine-Volcanic Mars Analog Field Site with Mars-2020-like Instruments - Harvard Dataverse
+589,STScI | Mikulski Archive for Space Telescopes (MAST) Portal
+590,GitHub - ggrekas/rsif-2020-0823
+591,Data for: Quantitative Assessment of Uncertainties in Modeled Crater Retention Ages on Mars - Mendeley Data
+591,FAQ
+592,OSF | Comprehensive trait attributions from faces
+593,OSF | A cross-cultural study of the dimensionality of comprehensive trait attributions from faces
+594,Face Research Lab London Set
+595,Oslo Face Database | Leknes Affective Brain lab
+596,"
+    GEO Accession viewer
+    "
+597,"
+    GEO Accession viewer
+    "
+598,OSF | Social Network and the Social Brain
+599,"
+    GEO Accession viewer
+    "
+600,"CISL RDA: JRA-55: Japanese 55-year Reanalysis, Daily 3-Hourly and 6-Hourly Data"
+601,404
+602,ECCO Drive
+603,GitHub - lluism/BALs: Data from our Quasar Outflow Works
+604,GitHub - markusmeister/Electrode-Pooling-Data-and-Code
+605,"
+JCI -
+Plasma deconvolution identifies broadly neutralizing antibodies associated with hepatitis C virus clearance
+"
+606,CaltechDATA
+607,"
+Glial Bridge | DeltaScope | Smith College
+"
+608,"
+Role of slit1a | DeltaScope | Smith College
+"
+609,404
+610,Data for: The mineral diversity of Jezero crater: Evidence for possible lacustrine carbonates on Mars - Mendeley Data
+610,FAQ
+611,"
+	
+	Get CHIS Data | 
+	UCLA Center for Health Policy Research
+
+"
+611,
+612,WormLabCaltech · GitHub
+613,"OSMOSIS (Ocean Surface Mixing, Ocean Submesoscale Interaction Study) Seaglider Data"
+614,OSF | ReferentialGame
+615,GitHub - kyobisk/ldm_project
+616,"
+Public Archive: bfad8e9ca7cf171e6d225371b36c3372
+"
+617,GitHub - de-Bivort-Lab/decathlon: analysis code to characterize the structure of intragenotypic behavioral variation
+618, de Bivort Lab: The structure of behavioral variation within a genotype
+619,The Structure of Behavioral Variation Within a Genotype | Zenodo
+620,DeepCell
+621,Data for: Fluid circulations and diagenesis of carbonate reservoirs in a foreland basin: Evidences of thermal disequilibrium between fluids and host rocks - Mendeley Data
+621,FAQ
+622,GitHub - pachterlab/poseidon: poseidon system - open source syringe pumps and microscope for laboratories
+623,Single cell studies database - Google Sheets
+624,GitHub - GradinaruLab/dLight1
+625,OSF | Sign in
+626,CaltechDATA
+627,CaltechDATA
+628,"Dryad Data -- Molecular, spatial and functional single-cell profiling of the hypothalamic preoptic region"
+629,Redirecting…
+630,404
+631,Datasets - 10x Genomics
+631,Open Menu
+631,Search icon
+632,Single Cell Portal
+633,Data | CyCIF
+634,MIBI Datasets | angelolab
+635,404
+636,GitHub - RubD/spatial-datasets: overview of spatial datasets
+637,The value of what’s to come: Neural mechanisms coupling prediction error and the utility of anticipation
+638,GitHub - magnus-haw/whistler-pulses: Data from quadprobe on whistler wave pulses
+639,GitHub - ydluo/qdyn: A Quasi-DYNamic earthquake simulator
+640,CaltechDATA
+641,KEPLER
+641,Close search
+641,Open search
+641,Link to NExScI Kepler
+641,Link to 
+641,Back to top
+641,Link tofacebook
+641,Link totwitter
+641,Link toyoutube
+642,"ATom: Column-Integrated Densities of Hydroxyl and Formaldehyde in Remote Troposphere, https://doi.org/10.3334/ORNLDAAC/1669"
+643,GitHub - RPGroup-PBoC/mwc_mutants: The Energetics of Molecular Adaptation in Transcriptional Regulation
+644,GitHub - dgerosa/spops: Spinning black-hole binary POPulation Synthesis
+645,GitHub - govinda-kamath/clustering_on_transcript_compatibility_counts: Clustering cells from single cell RNA seq assays
+646,404
+647,GitHub - shapiro-lab/GV_cavitation: Public repository for GV cavitation data file
+648,404
+649,md_tian2/pes_rebo_mod.f90 at master · akandra/md_tian2 · GitHub
+650,LIGO-P1800333-v7: Searches for Continuous Gravitational Waves from Fifteen Supernova Remnants and Fomalhaut b with Advanced LIGO
+651,Analyze Study Data | ProtaBank
+652,cpHMM/multimodal_control_paper_sandbox/dat at master · GarciaLab/cpHMM · GitHub
+653,SEAD Reference Repository
+654,"GitHub - helgestein/materials-images-spectra: This repository contains code for handling the materials images and spectra dataset that is the largest expermental materials science dataset containign composition, images, UV-Vis spectra and processing information for over 180.000 compositions"
+655,CaltechCameraTraps | Caltech Camera Trap dataset page
+656,"OSF | Slow, but not fast, escape decisions are swayed by trait anxiety"
+657,Welcome to MorphDBase ver. 3.5
+658,GitHub - ezhan94/multiagent-programmatic-supervision: PyTorch implementation of Generating Multi-Agent Trajectories using Programmatic Weak Supervision
+659,A Multi-Year Data Set on Aerosol-Cloud-Precipitation-Meteorology Interactions for Marine Stratocumulus Clouds
+660,High-Pressure Methanol-Water Solutions 2018 - Mendeley Data
+660,FAQ
+661,GitHub - CaiGroup/seqFISH-PLUS
+662,PIT data (Shocked)
+663,PIT data (Touched)
+664,OSF | Modeling ToM Learning in ASD: Behavioral
+665,CaltechDATA
+666,OSF | Behavioural evidence for parallel outcome sensitive and outcome insensitive Pavlovian learning systems in humans
+667,"
+Public Archive: 4f4b98346d6b007ba44411c642b39fa1
+"
+668,404
+669,GitHub - Baltimore-Lab/nat-methods-SABR-trogo: Code for analysis of SABR and Trogocytosis antigen discovery assay sequencing
+670,Mouse Academy Data - Google Drive
+671,CaltechDATA
+672,EMDB-0566: Subtomogram average of the Legionella pneumophila Dot/Icm type IV... - Yorodumi
+673,"
+    GEO Accession viewer
+    "
+674,CaltechDATA
+675,CaltechDATA
+676,GitHub - pyscf/pyscf: Python module for quantum chemistry
+677,"
+    GEO Accession viewer
+    "
+678,Raw data.xlsx
+679,OSF | audiovisual rabbit illusions
+680,Dataset: Nitrogen isotopes of coral skeleton-bound organic matter from various sampling locations world-wide | BCO-DMO
+681,GitHub - brain-machine-intelligence/task_complexity_2018: Simulation code for the computational model of arbitration and corresponding group effect fMRI results
+682,GitHub - cloudwilliam/Collins_et_al_Sci_Adv_2018
+683,GitHub - cloudwilliam/Collins_et_al_Sci_Adv_2018
+684,bioinfo_scripts/metagenome_screening at master · dspeth/bioinfo_scripts · GitHub
+685,Bitbucket
+686,GitHub - everthemore/krylov-cpp: Time-evolution of a wavefunction using a Krylov subspace expansion
+687,CaltechDATA
+688, In situ observations of phase changes in shock compressed forsterite  - CaltechAUTHORS
+689,"GitHub - ccharpen/Info_seeking_PNAS: Data and Code from manuscript: Charpentier, Bromberg-Martin, Sharot (in press) 'Valuation of Knowledge and Ignorance in Mesolimbic Reward Circuitry' PNAS"
+690,OSF | It's all about gains: Risk preferences in problem gambling
+691,GitHub - milo-lab/biomass_distribution
+692,404
+693,Log in – Data Publisher for Earth & Environmental Science
+694,Dryad Data -- Nuclear microenvironments modulate transcription from low-affinity enhancers
+695,LIGO-P1700149-v7: Tilt Seismology
+696,Data for: A New Zealand perspective on centennial-scale Southern Hemisphere westerly wind shifts during the last two millennia - Mendeley Data
+696,FAQ
+697,Dryad Data -- A double-sided microscope to realize whole-ganglion imaging of membrane potential in the medicinal leech
+698,PDS Geosciences Node Data and Services: MSL SAM
+699,404
+700,Deriving a multivariate αCO conversion function using the [C ii]/CO (1−0) ratio and its application to molecular gas scaling relations | Monthly Notices of the Royal Astronomical Society | Oxford Academic
+701,Triple dissociation of duration perception regulating mechanisms: Top-down attention is inherent
+702,404
+703,GSA Data Repository
+704,A Pyrrole-Imidazole Polyamide Is Active against Enzalutamide-Resistant Prostate Cancer | Cancer Research | American Association for Cancer Research
+705,The Molecular Mechanism for Receptor-Stimulated Iron Release from the Plasma Iron Transport Protein Transferrin - ScienceDirect
+705,ScienceDirect
+706,The Transferrin Receptor Modulates Hfe-Dependent Regulation of Hepcidin Expression - ScienceDirect
+706,ScienceDirect
+707,Supplemental Research Data 
+708,Supplemental Reseach Data 
+709,Bioorthogonal Noncanonical Amino Acid Tagging (BONCAT) Enables Time-Resolved Analysis of Protein Synthesis in Native Plant Tissue | Plant Physiology | Oxford Academic
+710,404
+711,404
+712,Escherichia coli K1 Modulates Peroxisome Proliferator–Activated Receptor γ and Glucose Transporter 1 at the Blood-Brain Barrier in Neonatal Meningitis | The Journal of Infectious Diseases | Oxford Academic
+713,404
+714,Homeotic Protein AGAMOUS Controls Late Stamen Development by Regulating a Jasmonate Biosynthetic Gene in Arabidopsis | The Plant Cell | Oxford Academic
+715,Global Expression Profiling Applied to the Analysis of Arabidopsis Stamen Development | Plant Physiology | Oxford Academic
+716,HANABA TARANU Is a GATA Transcription Factor That Regulates Shoot Apical Meristem and Flower Development in Arabidopsis[W] | The Plant Cell | Oxford Academic
+717,Genome-Wide Analysis of Spatial Gene Expression in Arabidopsis Flowers[W] | The Plant Cell | Oxford Academic
+718,A signaling pathway leading to metastasis is controlled by N-cadherin and the FGF receptor - ScienceDirect
+718,ScienceDirect
+719,404
+720,Photometric follow-up of the transiting planet WASP-1b | Monthly Notices of the Royal Astronomical Society | Oxford Academic
+721,Automated analysis of eclipsing binary light curves – II. Statistical analysis of OGLE LMC eclipsing binaries | Monthly Notices of the Royal Astronomical Society | Oxford Academic
+722,Is fear perception special? Evidence at the level of decision-making and subjective confidence | Social Cognitive and Affective Neuroscience | Oxford Academic
+723,Overview of the interactive task in BioCreative V | Database | Oxford Academic
+724,"Supplementary Data: Local Regulation of Gene Expression by lncRNA Promoters, Transcription, and Splicing"
+725,Framing Camera Ceres Image Mosaics | PDS SBN Asteroid/Dust Subnode
+725,Change light/dark theme
+725,New!
+726,DAWN Visible and Infrared Spectrometer (VIR) - NASA Planetary Data System
+727,Ceres GRaND | PDS SBN Asteroid/Dust Subnode
+727,Change light/dark theme
+727,New!
+728,404
+729,PDS Geosciences Node Data and Services: MRO CRISM
+730,PDS Geosciences Node Data and Services: Mars Science Laboratory (MSL) Mission
+731,404
+732,404
+733,Conditional HIF-1 induction produces multistage neovascularization with stage-specific sensitivity to VEGFR inhibitors and myeloid cell independence | Blood | American Society of Hematology
+734,Valosin-containing protein (VCP)–Adaptor Interactions are Exceptionally Dynamic and Subject to Differential Modulation by a VCP Inhibitor*  - Molecular & Cellular Proteomics
+735,Supplement to Biophysical and Biochemical Characterization of Avian Secretory Component Provides Structural Insights into the Evolution of the Polymeric Ig Receptor | The Journal of Immunology
+736,"
+    EMDB < EMD-2444
+"
+737,"
+    EMDB < EMD-2443
+"
+738,404
+740,Multiplexed miRNA northern blots via hybridization chain reaction | Nucleic Acids Research | Oxford Academic
+741,404
+742,"Conservation, Duplication, and Divergence of Five Opsin Genes in Insect Evolution | Genome Biology and Evolution | Oxford Academic"
+743,404
+744,Analysis of Liver Tumor-Prone Mouse Models of the Hippo Kinase Scaffold Proteins RASSF1A and SAV1 | Cancer Research | American Association for Cancer Research
+745,Supplement to Maternal Immune Activation Alters Fetal Brain Development through Interleukin-6 | Journal of Neuroscience
+746,Supplement to FGF Signaling Mediates Regeneration of the Differentiating Cerebellum through Repatterning of the Anterior Hindbrain and Reinitiation of Neuronal Migration | Journal of Neuroscience
+747,A DNA-binding Molecule Targeting the Adaptive Hypoxic Response in Multiple Myeloma Has Potent Antitumor Activity | Molecular Cancer Research | American Association for Cancer Research
+748,Supplemental Research Data 
+749,FamNet: A Framework to Identify Multiplied Modules Driving Pathway Expansion in Plants | Plant Physiology | Oxford Academic
+750,An HRE-Binding Py-Im Polyamide Impairs Hypoxic Signaling in Tumors | Molecular Cancer Therapeutics | American Association for Cancer Research
+751,PONE-D-15-41990R1 - Harvard Dataverse
+752,404
+753,Supplement to Nasal Airflow Rate Affects the Sensitivity and Pattern of Glomerular Odorant Responses in the Mouse Olfactory Bulb | Journal of Neuroscience
+754,Odorant Receptor Map in the Mouse Olfactory Bulb: In Vivo Sensitivity and Specificity of Receptor-Defined Glomeruli: Neuron
+755,404
+756,"Mutations in adenine-binding pockets enhance catalytic properties of NAD(P)H-dependent enzymes | Protein Engineering, Design and Selection | Oxford Academic"
+757,Supplement to Zebrafish TRPA1 Channels Are Required for Chemosensation But Not for Thermosensation or Mechanosensory Hair Cell Function | Journal of Neuroscience
+758,Lack of correlation between reaction speed and analytical sensitivity in isothermal amplification reveals the value of digital methods for optimization: validation using digital real-time RT-LAMP | Nucleic Acids Research | Oxford Academic
+759,OSF | An Enhanced Default Approach Bias Following Human Amygdala Lesions
+760,RCSB PDB - 5CJX: Crystal structure of 8ANC195 Fab in complex with BG505 SOSIP.664 HIV-1 Env trimer
+761,Current limitations of molecular dynamic simulations as probes of thermo-physical behavior of silicate melts | American Mineralogist | GeoScienceWorld
+762,404
+763,"Inagaki, F et al. (2015): IODP Expedition 337, Shimokita Deep Coalbed Biosphere"
+764,JSBML 1.0: providing a smorgasbord of options to encode systems biology models | Bioinformatics | Oxford Academic
+765,404
+766,Hydrous species in feldspars: A reassessment based on FTIR and SIMS | American Mineralogist | GeoScienceWorld
+767,404
+769,404
+770,"NASA Airborne Science Data for Atmospheric Composition"
+771,EOL/DC3_2012 FIELD CATALOG - Home
+772,Living on the edge: phase transitions in convex programs with random data | Information and Inference: A Journal of the IMA | Oxford Academic
+773,404
+774,Can Housing Risk Be Diversified? A Cautionary Tale from the Housing Boom and Bust | The Review of Financial Studies | Oxford Academic
+775,Projects and Team Dynamics | The Review of Economic Studies | Oxford Academic
+776,404
+777,specific hypoactivation of right temporo-parietal junction/posterior superior temporal sulcus in response to socially awkward situations in autism | Social Cognitive and Affective Neuroscience | Oxford Academic
+778,The Allosteric Regulatory Mechanism of the Escherichia coli MetNI Methionine ATP Binding Cassette (ABC) Transporter*  - Journal of Biological Chemistry
+779,Variations in Fe3+/∑Fe of Mariana Arc Basalts and Mantle Wedge fO2 | Journal of Petrology | Oxford Academic
+780,404
+781,404
+782,Search - WebCSD
+783,Phosphorylation of Synaptic GTPase-activating Protein (synGAP) by Ca2+/Calmodulin-dependent Protein Kinase II (CaMKII) and Cyclin-dependent Kinase 5 (CDK5) Alters the Ratio of Its GAP Activity toward Ras and Rap GTPases* - Journal of Biological Chemistry
+784,RCSB PDB - 4WWR: Crystal Structure of Bag6-Ubl4A Dimerization Domain
+785,Shock formation and rate effects in impacted carbon nanotube foams - ScienceDirect
+785,ScienceDirect
+786,Shock formation and rate effects in impacted carbon nanotube foams - ScienceDirect
+786,ScienceDirect
+787,Shock formation and rate effects in impacted carbon nanotube foams - ScienceDirect
+787,ScienceDirect
+788,Shock formation and rate effects in impacted carbon nanotube foams - ScienceDirect
+788,ScienceDirect
+789,"LINKIN, a new transmembrane protein necessary for cell adhesion | eLife"
+790,"Solar geoengineering to limit the rate of temperature change | Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences"
+791,Role of the Posterior Temporal and Medial Prefrontal Cortices in Mediating Learning from Romantic Interest and Rejection | Cerebral Cortex | Oxford Academic
+792,404
+793,404
+794,404
+795,American Mineralogist
+796,Changing the mind? Not really—activity and connectivity in the caudate correlates with changes of choice | Social Cognitive and Affective Neuroscience | Oxford Academic
+797,404
+798,404
+799,OSF | Multisensory integration in complete unawareness: evidence from audiovisual congruency priming
+800,Protein-responsive ribozyme switches in eukaryotic cells | Nucleic Acids Research | Oxford Academic
+801,Uncovering the spatio-temporal dynamics of value-based decision-making in the human brain: a combined fMRI–EEG study | Philosophical Transactions of the Royal Society B: Biological Sciences
+802,Replication stress by Py–Im polyamides induces a non-canonical ATR-dependent checkpoint response | Nucleic Acids Research | Oxford Academic
+803,Supplement to GATA-3 Dose-Dependent Checkpoints in Early T Cell Commitment | The Journal of Immunology
+804,Imperfect Choice or Imperfect Attention? Understanding Strategic Thinking in Private Information Games | The Review of Economic Studies | Oxford Academic
+805,Political Analysis | Cambridge Core
+806,Intrinsic frequency for a systems approach to haemodynamic waveform analysis with clinical applications | Journal of The Royal Society Interface
+807,9-1-1 checkpoint clamp stimulates DNA resection by Dna2-Sgs1 and Exo1 | Nucleic Acids Research | Oxford Academic
+808,Comb Jelly Opsins and the Origins of Animal Phototransduction | Genome Biology and Evolution | Oxford Academic
+809,Neural Representation of Voluntary Task-Set Selection in Dynamic Environments | Cerebral Cortex | Oxford Academic
+810,404
+811,404
+812,Supplement to Human NK Cells Licensed by Killer Ig Receptor Genes Have an Altered Cytokine Program That Modifies CD4+ T Cell Function | The Journal of Immunology
+813,404
+814,Adoptive Transfer of MART-1 T-Cell Receptor Transgenic Lymphocytes and Dendritic Cell Vaccination in Patients with Metastatic Melanoma | Clinical Cancer Research | American Association for Cancer Research
+815,404
+816,"Ophirite, Ca2Mg4[Zn2Mn23+(H2O)2(Fe3+W9O34)2]·46H2O, a new mineral with a heteropolytungstate tri-lacunary Keggin anion | American Mineralogist | GeoScienceWorld"
+817,Deposits
+818,404
+819,404
+820,Evidence for dust destruction from the early-time colour change of GRB 120119A | Monthly Notices of the Royal Astronomical Society | Oxford Academic
+821,Deposits
+822,Zonation of H2O and F Concentrations around Melt Inclusions in Olivines | Journal of Petrology | Oxford Academic
+823,F-box Protein FBXL16 Binds PP2A-B55α and Regulates Differentiation of Embryonic Stem Cells along the FLK1+ Lineage*  - Molecular & Cellular Proteomics
+824,Activity of a Py–Im Polyamide Targeted to the Estrogen Response Element | Molecular Cancer Therapeutics | American Association for Cancer Research
+825,High Time Resolution Universe Pulsar Survey – V. Single-pulse energetics and modulation properties of 315 pulsars | Monthly Notices of the Royal Astronomical Society | Oxford Academic
+826,[1212.1716v1] Rotating Radio Transients and Their Place Among Pulsars
+826,open search
+826,open navigation menu
+826,contact arXiv
+826,subscribe to arXiv mailings
+827,Role of Mismatch Repair Enzymes in GAA·TTC Triplet-repeat Expansion in Friedreich Ataxia Induced Pluripotent Stem Cells* - Journal of Biological Chemistry
+828,404
+829,"A Self-Associating Protein Critical for Chromosome Attachment, Division, and Polar Organization in Caulobacter: Cell"
+830,Mechanisms of Base Selection by the Escherichia coli Mispaired Uracil Glycosylase* - Journal of Biological Chemistry
+831,Unanticipated differences between α- and γ-diaminobutyric acid-linked hairpin polyamide-alkylator conjugates | Nucleic Acids Research | Oxford Academic
+832,Integrated Science Investigation of the Sun (ISʘIS) | Space Physics at Princeton
+833,Integrated Science Investigation of the Sun (ISʘIS) | Space Physics at Princeton
+834,Space Weather | NCEI
+835,ID 769435 - BioProject - NCBI
+835,Twitter
+835,Facebook
+835,LinkedIn
+835,GitHub
+835,SM-Twitter
+835,SM-Facebook
+835,SM-Youtube
+836,GitHub - GradinaruLab/mCREATE
+837,"
+	  GPCP Version 2.3 Combined Precipitation Data Set: NOAA Physical Sciences Laboratory
+	"
+838,CO2 Virtual Science Data Environment
+839,Index of /pub/tmp/FluxSat_GPP
+839," AVDC | OVERVIEW - HOME - NASA EOS -Aura Validation Data Center - Correlative data, Field of View Predictions, Data Subsets"
+840,Carbon Monoxide | Tropomi
+841,"NASA Airborne Science Data for Atmospheric Composition"
+842,GitHub - HBaldwin3/CaseStudy_FSH_LaoPDR: Scripts associated with Case Study of ISCE > FSH (YLei) workflow in Lao PDR
+843,404
+844,Integrated Science Investigation of the Sun (ISʘIS) | Space Physics at Princeton
+845,color FERET Database | NIST
+845,Lock
+846,Computer Vision Laboratory
+847,The MR2 face database — Nina Strohminger
+848,AR Face Database Webpage
+849,CelebA Dataset
+850,Atmospheres Product Search
+850,Atmospheres Node
+851,HST Search
+852,Gemini Observatory Archive Search 
+853,Community Seismic Network
+854,Modomics - A Database of RNA Modifications
+855,"ECMWF | ERA Interim, Synoptic Monthly Means"
+856,Accessing TESS data products - TESS Science Support Center
+857,MOODv2 Web App
+858,MRC - Data Portal
+859,Vietnamese Mekong Delta Principle Channel Bed Elevations for 2018 - Digital Repository
+860,"Daily summarized seasonal measurements of discharge, water temperature, and specific conductivity from the Onyx River at Lower Wright, McMurdo Dry Valleys, Antarctica (1972-2020, ongoing) | McMurdo Dry Valleys LTER"
+861,Extract FIRST Image Cutouts
+862,"
+    GEO Accession viewer
+    "
+863,"
+    GEO Accession viewer
+    "
+864,GitHub - Shasha-Chong/CodeFor2018SciencePaper: This is the repo for the 2018 Science paper
+865, materials database
+866,PRQ-Blue-Shift | Replication repository for “Why Do Election Results Change After Election Day? The Blue Shift in California Elections”
+867,TCCON Data Archive
+868,HIPPO | Earth Observing Laboratory
+869,404
+870,Data — ALMA Science Portal at ESO
+871,EHT Data Products | Event Horizon Telescope
+872,The Street View House Numbers (SVHN) Dataset
+873,GOFS 3.1: 41-layer HYCOM + NCODA Global 1/12° Analysis
+874,Data | Copernicus Marine
+875,Integrated Science Investigation of the Sun (ISʘIS) | Space Physics at Princeton
+876,Atmospheres Data Set Search
+877,"
+            ARM Research Facility        "
+878,"Water temperature, salinity, and others collected taken by CTD from the seaglider SG660 in the Southern and South Indian Oceans from from 2019-05-01 to 2019-07-25 (NCEI Accession 0228185)"
+878,Dataset Overview | National Centers for Environmental Information (NCEI)
+879,"Water temperature, salinity, and others collected taken by CTD from the seaglider SG659 in the Southern and South Indian Oceans from 2019-05-01 to 2019-07-26 (NCEI Accession 0228187)"
+879,Dataset Overview | National Centers for Environmental Information (NCEI)
+880,GES DISC
+881,Synapse | Sage Bionetworks
+882,Carla P. Gomes : UDiscoverIt Downloads
+883,Xspec Home Page
+884,OSF | Late Cretaceous TPW
+885,Index of /MOLT/MOD17A2H.006
+886,Index of /MOTA/MCD18A2.006
+887,"
+	  NCEP-DOE AMIP-II Reanalysis (AKA Reanalysis 2): NOAA Physical Sciences Laboratory
+	"
+888,Index of /MOTA/MCD43C4.006
+889,Index of /MOLT/MOD09A1.006
+890,Integrated Science Investigation of the Sun (ISʘIS) | Space Physics at Princeton
+891,Integrated Science Investigation of the Sun (ISʘIS) | Space Physics at Princeton
+892,Integrated Science Investigation of the Sun (ISʘIS) | Space Physics at Princeton
+893,Integrated Science Investigation of the Sun (ISʘIS) | Space Physics at Princeton
+894,Integrated Science Investigation of the Sun (ISʘIS) | Space Physics at Princeton
+895,UKSSDC - STEREO Archive data access
+896,PSA UI
+897,404
+898,GOES Space Environment Monitor | NCEI
+899,Geomagnetic Data Service
+900,HET Data and Plots
+902,Atlas3D Survey
+903,CMIP5 - Home | ESGF-CoG 
+904,Data | UNAVCO
+905,InSAR – ASF
+906,jonaskat87/lava-solidification: Second release | Zenodo
+907,ZTF Public Data Releases
+908,CaltechDATA
+909,CaltechDATA
+910,CaltechDATA
+911,CaltechDATA
+912,CaltechDATA
+913,"
+        
+          IRIS: Wilber 3: Select Event
+        
+      "
+914,WellFinder
+915,"
+	
+    
+    
+    Geothermal Production and Injection Data Maps
+    
+    
+"
+916,Simulation of an imaging calorimeter to demonstrate GarNet on FPGA | Zenodo
+917,Carbon Fluxes - FluxCom
+918,Data | Copernicus
+918,01-access-to-data
+918,02-use-cases
+918,03-press
+918,04-tenders
+918,05-contact
+918,book
+918,calendar
+918,ccl-icon-atmosphere-white
+918,ccl-icon-atmosphere
+918,ccl-icon-climate-white
+918,ccl-icon-climate
+918,ccl-icon-emergency-white
+918,ccl-icon-emergency
+918,ccl-icon-land-white
+918,ccl-icon-land
+918,ccl-icon-marine-white
+918,ccl-icon-marine
+918,ccl-icon-security-white
+918,ccl-icon-security
+918,ce-logo
+918,chain
+918,chevron-down
+918,chevron-left
+918,chevron-right
+918,chevron-up
+918,chosen-down
+918,close
+918,cogs
+918,cross
+918,download
+918,IMPLEMENTED BY ECMWF
+918,enter
+918,facebook-f
+918,facebook-v2
+918,facebook
+918,file-music
+918,file-picture
+918,file-play
+918,file-text2
+918,file-video
+918,google-plus
+918,hammer2
+918,instagram
+918,
+918,location
+918,European Commission
+918,menu
+918,person
+918,play-circle
+918,question
+918,scroll-down
+918,search
+918,slideshare
+918,stats-dots
+918,triangle
+918,twitter
+918,wrench
+918,youtube
+918,cross
+918,European Commission
+918,Copernicus | Europe's eyes on Earth
+918,IMPLEMENTED BY ECMWF
+918,IMPLEMENTED BY ECMWF
+919,High-resolution gridded datasets
+920,READY - Gridded Data Archives
+921,ODIAC Fossil fuel emission dataset | Center for Global Environmental Research
+922,"
+	  GPCP Version 2.3 Combined Precipitation Data Set: NOAA Physical Sciences Laboratory
+	"
+923,"
+	  NCEP-DOE AMIP-II Reanalysis (AKA Reanalysis 2): NOAA Physical Sciences Laboratory
+	"
+924,CO2 Virtual Science Data Environment
+925,Standard | Get Data – AIRS
+926,Index of /~gwerf/GFED/GFED4
+927,404
+928,Summary data | deCODE genetics
+929,404
+930,3D-PACT Data and Codes
+931,ATom - Atmospheric Tomography Mission
+932,Southern California Earthquake Data Center at Caltech
+933,"ECMWF | ERA Interim, Daily"
+934,"
+	  NOAA Interpolated OLR: NOAA Physical Sciences Laboratory
+	"
+935,VizieR {{catName}}
+936,Sentinel-5P Pre-Operations Data Hub
+937,PDS Geosciences Node Data and Services: MRO SHARAD
+938,CaltechDATA
+939,
+940,Extraterrestrial irradiance and Top of Atmosphere - SoDa
+941,"
+    GEO Accession viewer
+    "
+942,Index of /stereo/data/sept
+943,"NASA Airborne Science Data for Atmospheric Composition"
+944,ESA Herschel Science Archive
+945,Home - ISO - Cosmos
+946,404
+947,Dataset Overview | National Centers for Environmental Information (NCEI)
+948,404
+949,GitHub - WIRC-Pol/wirc_drp: Object oriented data reduction pipeline for the WIRC+POL instrument at Palomar Observatory
+950,GridRad - Overview
+951,EOL data archive -- NCEP/EMC 4KM Gridded Data (GRIB) Stage IV Data
+952,2011 National Emissions Inventory (NEI) Data | US EPA
+952,Lock
+952,Primary navigation
+953,GitHub - joshsbloom/swabseq: UCLA Swabseq Software
+954,"Dataset: Depth profiles of seawater dissolved 232Th, 230Th, and 231Pa from RVIB Nathaniel B. Palmer cruise NBP1702 from January to March 2017 | BCO-DMO"
+955,United States Antarctic Program Data Center (USAP-DC)
+956,NBP1702 - Marine Geoscience Data System
+957,"
+    GEO Accession viewer
+    "
+958,Giovanni
+959,"
+	  Daily Climate Composites: NOAA Physical Sciences Laboratory
+	"
+960,ALMA Science Archive
+961,JCMT Science Archive – James Clerk Maxwell Telescope
+962,Data for Fig. 2
+963,Data for Fig. 3
+964,Home - Earth Online
+965,GEWEX Cloud Assessment
+966,Topography extraction and topographic change measurements using PlanetScope data:  Shisper Glacier (Pakistan) | Zenodo
+967,OSF | OMICAS P4 - Crop phenotyping
+968,Integrated Science Investigation of the Sun (ISʘIS) | Space Physics at Princeton
+969,Index of /pub/data/satellite/MetOp/GOME_F/v28
+969," AVDC | OVERVIEW - HOME - NASA EOS -Aura Validation Data Center - Correlative data, Field of View Predictions, Data Subsets"
+970,404
+971,Index of /MOLT/MOD17A2H.006
+972,Climatic Research Unit - Groups and Centres
+973,BfG  -  The GRDC
+974,Global Surface Water - Data Access
+976,GitHub - chengcli/2020.JupiterPolarVortex: Data archive for publication
+977,404
+978,NHC Data Archive
+979,404
+981,RAMMB: SHIPS
+982,CheMin database
+983,CheMin database
+984,CheMin database
+985,CheMin database
+986,PDS Geosciences Node Data and Services: MSL SAM
+987,Global Environmental Database | Center for Global Environmental Research
+988,GALEXVIEW END OF LIFE
+988,Close search
+988,Open search
+988,Back to top
+988,Link tofacebook
+988,Link totwitter
+988,Link toyoutube
+989,STScI | Mikulski Archive for Space Telescopes (MAST) Portal
+990,404
+991,GitHub - fhalab/SPGen
+992,404
+993,Data | FIRE: Feedback In Realistic Environments
+994,JUNO JIRAM
+995,EasyFlow | Matlab Based Flow Cytometry Analysis Tool
+996,GitHub - jxcbecker/trappist1: Code and plots from Becker et al. 2020
+997,MAST Home
+997,Close search
+997,Open search
+997,Link to 
+997,Link to 
+997,Link to 
+997,Link to 
+997,Link to 
+997,Link to 
+997,Back to top
+997,Link tofacebook
+997,Link totwitter
+997,Link toyoutube
+998,Hangmuren Datenbank - Login
+999,IRSA - Cosmic Evolution Survey (COSMOS)
+1000,Data | FIRE: Feedback In Realistic Environments
+1001,Index of /biccn/lab/zeng/transcriptome/scell
+1002,Integrated Science Investigation of the Sun (ISʘIS) | Space Physics at Princeton
+1003,Integrated Science Investigation of the Sun (ISʘIS) | Space Physics at Princeton
+1004,Integrated Science Investigation of the Sun (ISʘIS) | Space Physics at Princeton
+1005,Index of /data_public
+1006,Integrated Science Investigation of the Sun (ISʘIS) | Space Physics at Princeton
+1007,Integrated Science Investigation of the Sun (ISʘIS) | Space Physics at Princeton
+1008,Index of /stereo/data/sept
+1009,Integrated Science Investigation of the Sun (ISʘIS) | Space Physics at Princeton
+1010,CaltechDATA
+1011,Index of /~yzw/share/Wang-2020-NCC
+1012,"  Earthdata Login User Registration
+"
+1013,GitHub - ThomasYeoLab/CBIG
+1014,doritdorit (Dorit Kliemann) · GitHub
+1015,Table 2 Available datasets
+1016,Index of /webdav/ftp/Data_Collections/Muller_etal_2019_Tectonics
+1017,GitHub - ihoughton/Houghton2018_data
+1018,GitHub - wmpauli/mb_pavlovian_mvpa
+1019,HEASARC Data Archive
+1020,404
+1021,404
+1022,IRIS
+1023,"Data for: Ocean redox conditions between the Snowballs – geochemical constraints from Arena Formation, East Greenland - Mendeley Data"
+1023,FAQ
+1024,"  Locke CJ et al. (2006) Brain Res ""Genetic interactions among cortical malformation genes that influence susceptibility to convulsions in C. elegans."" (paper) -  WormBase : Nematode Information Resource"
+1025,PNAS
+1026,PNAS
+1027,404
+1028,404
+1029,APDRC Datadoc | Ocean Mixed Layer Depth Climatology
+1030, Waveform plot data used in 'Evidence for Universal Earthquake Rupture Initiation Behavior'  - CaltechAUTHORS
+1031,DAWN Visible and Infrared Spectrometer (VIR) - NASA Planetary Data System
+1032,PRIMOS: Prebiotic Interstellar Molecular Survey
+1033,KEPLER
+1033,Close search
+1033,Open search
+1033,Link to NExScI Kepler
+1033,Link to 
+1033,Back to top
+1033,Link tofacebook
+1033,Link totwitter
+1033,Link toyoutube
+1034,Cosmos Home - Cosmos
+1035,K2 Search
+1036,404
+1037,"
+    GEO Accession viewer
+    "
+1038,PDS Geosciences Node Data and Services: Mars Science Laboratory (MSL) Mission
+1039,PDS Geosciences Node Data and Services: Mars Science Laboratory (MSL) Mission
+1040," 
+    Browse Articles
+  | Nature"
+1041," 
+    Browse Articles
+  | Nature"
+1042,SPACE
+1043,SPACE
+1044,SPACE
+1045,IMG
+1046,TXT
+1047,TXT
+1048,DOCX
+1049,DOCX
+1050,DOCX
+1051,PDF
+1052,PDF
+1053,PDF
+1054,PDF
+1055,PDF
+1056,PDF
+1057,PDF
+1058,PDF
+1059,PDF
+1060,ZIP
+1061,ZIP
+1062,ZIP
+1063,ZIP
+1064,ZIP
+1065,ZIP
+1066,ZIP
+1067,ZIP
+1068,ZIP
+1069,ZIP
+1070,ZIP
+1071,ZIPR
+1072,GZ
+1073,GZ
+1074,GZ
+1075,GZ
+1076,GZ
+1077,GZ
+1078,DOI
+1079,DOI
+1080,DOI
+1081,DOI
+1082,DOI
+1083,DOI
+1084,DOI
+1085,DOI
+1086,DOI
+1087,DOI
+1088,DOI
+1089,DOI
+1090,DOI
+1091,DOI
+1092,DOI
+1093,DOI
+1094,DOI
+1095,DOI
+1096,DOI
+1097,DOI
+1098,DOI
+1099,DOI
+1100,DOI
+1101,DOI
+1102,DOI
+1103,DOI
+1104,DOI
+1105,DOI
+1106,DOI
+1107,DOI
+1108,DOI
+1109,DOI
+1110,DOI
+1111,DOI
+1112,DOI
+1113,DOI
+1114,DOI
+1115,DOI
+1116,DOI
+1117,DOI
+1118,DOI
+1119,DOI
+1120,DOI
+1121,DOI
+1122,DOI
+1123,DOI
+1124,DOI
+1125,DOI
+1126,DOI
+1127,DOI
+1128,DOI
+1129,DOI
+1130,DOI
+1131,DOI
+1132,DOI
+1133,DOI
+1134,DOI
+1135,DOI
+1136,DOI
+1137,DOI
+1138,DOI
+1139,DOI
+1140,DOI
+1141,DOI
+1142,DOI
+1143,DOI
+1144,DOI
+1145,DOI
+1146,DOI
+1147,DOI
+1148,DOI
+1149,DOI
+1150,DOI
+1151,DOI
+1152,DOI
+1153,DOI
+1154,DOI
+1155,DOI
+1156,DOI
+1157,DOI
+1158,DOI
+1159,DOI
+1160,DOI
+1161,DOI
+1162,DOI
+1163,DOI
+1164,DOI
+1165,DOI
+1166,DOI
+1167,DOI
+1168,DOI
+1169,DOI
+1170,DOI
+1171,DOI
+1172,DOI
+1173,DOI
+1174,DOI
+1175,DOI
+1176,DOI
+1177,DOI
+1178,DOI
+1179,DOI
+1180,DOI
+1181,DOI
+1182,DOI
+1183,DOI
+1184,DOI
+1185,DOI
+1186,DOI
+1187,DOI
+1188,DOI
+1189,DOI
+1190,DOI
+1191,DOI
+1192,DOI
+1193,DOI
+1194,DOI
+1195,DOI
+1196,DOI
+1197,DOI
+1198,DOI
+1199,DOI
+1200,DOI
+1201,DOI
+1202,DOI
+1203,DOI
+1204,DOI
+1205,DOI
+1206,DOI
+1207,DOI
+1208,DOI
+1209,DOI
+1210,DOI
+1211,DOI
+1212,DOI
+1213,DOI
+1214,DOI
+1215,DOI
+1216,DOI
+1217,DOI
+1218,DOI
+1219,DOI
+1220,DOI
+1221,DOI
+1222,DOI
+1223,DOI
+1224,DOI
+1225,DOI
+1226,DOI
+1227,DOI
+1228,DOI
+1229,DOI
+1230,DOI
+1231,DOI
+1232,DOI
+1233,DOI
+1234,DOI
+1235,DOI
+1236,DOI
+1237,DOI
+1238,DOI
+1239,DOI
+1240,DOI
+1241,DOI
+1242,DOI
+1243,DOI
+1244,DOI
+1245,DOI
+1246,DOI
+1247,DOI
+1248,DOI
+1249,DOI
+1250,DOI
+1251,DOI
+1252,DOI
+1253,DOI
+1254,DOI
+1255,DOI
+1256,DOI
+1257,DOI
+1258,DOI
+1259,DOI
+1260,DOI
+1261,DOI
+1262,DOI
+1263,DOI
+1264,DOI
+1265,DOI
+1266,DOI
+1267,DOI
+1268,DOI
+1269,DOI
+1270,DOI
+1271,DOI
+1272,DOI
+1273,DOI
+1274,DOI
+1275,DOI
+1276,DOI
+1277,DOI
+1278,DOI
+1279,DOI
+1280,DOI
+1281,DOI
+1282,DOI
+1283,DOI
+1284,DOI
+1285,DOI
+1286,DOI
+1287,DOI
+1288,DOI
+1289,DOI
+1290,DOI
+1291,DOI
+1292,DOI
+1293,DOI
+1294,DOI
+1295,DOI
+1296,DOI
+1297,DOI
+1298,DOI
+1299,DOI
+1300,DOI
+1301,DOI
+1302,DOI
+1303,DOI
+1304,DOI
+1305,DOI
+1306,DOI
+1307,DOI
+1308,DOI
+1309,DOI
+1310,DOI
+1311,DOI
+1312,DOI
+1313,DOI
+1314,DOI
+1315,DOI
+1316,DOI
+1317,DOI
+1318,DOI
+1319,DOI
+1320,DOI
+1321,DOI
+1322,DOI
+1323,DOI
+1324,DOI
+1325,DOI
+1326,DOI
+1327,DOI
+1328,DOI
+1329,DOI
+1330,DOI
+1331,DOI
+1332,DOI
+1333,DOI
+1334,DOI
+1335,DOI
+1336,DOI
+1337,DOI
+1338,DOI
+1339,DOI
+1340,DOI
+1341,DOI
+1342,DOI
+1343,DOI
+1344,DOI
+1345,DOI
+1346,DOI
+1347,DOI
+1348,DOI
+1349,DOI
+1350,DOI
+1351,DOI
+1352,DOI
+1353,DOI
+1354,DOI
+1355,DOI
+1356,DOI
+1357,DOI
+1358,DOI
+1359,DOI
+1360,DOI
+1361,DOI
+1362,DOI
+1363,DOI
+1364,DOI
+1365,DOI
+1366,DOI
+1367,DOI
+1368,DOI
+1369,DOI
+1370,DOI
+1371,DOI
+1372,DOI
+1373,DOI
+1374,DOI
+1375,DOI
+1376,DOI
+1377,DOI
+1378,DOI
+1379,DOI
+1380,DOI
+1381,DOI
+1382,DOI
+1383,DOI
+1384,DOI
+1385,DOI
+1386,DOI
+1387,DOI
+1388,DOI
+1389,DOI
+1390,DOI
+1391,DOI
+1392,DOI
+1393,DOI
+1394,DOI
+1395,DOI
+1396,DOI
+1397,DOI
+1398,DOI
+1399,DOI
+1400,DOI
+1401,DOI
+1402,DOI
+1403,DOI
+1404,DOI
+1405,DOI
+1406,DOI
+1407,DOI
+1408,DOI
+1409,DOI
+1410,DOI
+1411,DOI
+1412,DOI
+1413,DOI
+1414,DOI
+1415,DOI
+1416,DOI
+1417,DOI
+1418,DOI
+1419,DOI
+1420,DOI
+1421,DOI
+1422,DOI
+1423,DOI
+1424,DOI
+1425,DOI
+1426,DOI
+1427,DOI
+1428,DOI
+1429,DOI
+1430,DOI
+1431,DOI
+1432,DOI
+1433,DOI
+1434,DOI
+1435,DOI
+1436,DOI
+1437,DOI
+1438,DOI
+1439,DOI
+1440,DOI
+1441,DOI
+1442,DOI
+1443,DOI
+1444,DOI
+1445,DOI
+1446,DOI
+1447,DOI
+1448,DOI
+1449,DOI
+1450,DOI
+1451,DOI
+1452,DOI
+1453,DOI
+1454,DOI
+1455,DOI
+1456,DOI
+1457,DOI
+1458,DOI
+1459,DOI
+1460,DOI
+1461,DOI
+1462,DOI
+1463,DOI
+1464,DOI
+1465,DOI
+1466,DOI
+1467,DOI
+1468,DOI
+1469,DOI
+1470,DOI
+1471,DOI
+1472,DOI
+1473,DOI
+1474,DOI
+1475,DOI
+1476,DOI
+1477,DOI
+1478,DOI
+1479,DOI
+1480,DOI
+1481,DOI
+1482,DOI
+1483,DOI
+1484,DOI
+1485,DOI
+1486,DOI
+1487,DOI
+1488,DOI
+1489,DOI
+1490,DOI
+1491,DOI
+1492,DOI
+1493,DOI
+1494,DOI
+1495,DOI
+1496,DOI
+1497,DOI
+1498,DOI
+1499,DOI
+1500,DOI
+1501,DOI
+1502,DOI
+1503,DOI
+1504,DOI
+1505,DOI
+1506,DOI
+1507,DOI
+1508,DOI
+1509,DOI
+1510,DOI
+1511,DOI
+1512,DOI
+1513,DOI
+1514,DOI
+1515,DOI
+1516,DOI
+1517,DOI
+1518,DOI
+1519,DOI
+1520,DOI
+1521,DOI
+1522,DOI
+1523,DOI
+1524,DOI
+1525,DOI
+1526,DOI
+1527,DOI
+1528,DOI
+1529,DOI
+1530,DOI
+1531,DOI
+1532,DOI
+1533,DOI
+1534,DOI
+1535,DOI
+1536,DOI
