@@ -128,7 +128,7 @@ for (i in 1:dim(linkDecay)[1]) {
   # Reset html information each time through the loop
   html_doc <- NA
   
-  if(linkDecay$linkType[i] == ("URL")) {
+  if(linkDecay$linkType[i] == ("URL") | linkDecay$linkType[i] == ("DOI")) {
     # Try scraping link
     try(html_doc <- read_html(linkDecay$testLink[i]), silent=TRUE)
   
@@ -150,9 +150,13 @@ for (i in 1:dim(linkDecay)[1]) {
 foutput <- paste(fpath, "linkTitles.csv", sep="/")
 write_csv(scrapedHeader, foutput)
 
-# Identify 404's
 linkDecay <- left_join(linkDecay, scrapedHeader, by = "rowNum")
+
+# Identify 404's
 linkDecay_404 <- filter(linkDecay, linkTitle == 404)
 foutput <- paste(fpath, "link404s.csv", sep="/")
 write_csv(linkDecay_404, foutput)
 
+# Write out all data
+foutput <- paste(fpath, "linkDecay.csv", sep="/")
+write_csv(linkDecay, foutput)
