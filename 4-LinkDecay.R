@@ -83,14 +83,37 @@ gz$linkType <- "GZ"
 linkDecay_URLs <- bind_rows(linkDecay_URLs, gz)
 
 
-# Reformat DOI to include "https://doi.org/", remove extra columns, assign link type
+# Check if URL link is equivalent to base URL
+linkDecay_URLs <- mutate(linkDecay_URLs, baseURL = str_length(linkDecay_URLs$related_url_short))
+linkDecay_URLs <- mutate(linkDecay_URLs, testURL = str_length(linkDecay_URLs$testLink))
+linkDecay_URLs <- mutate(linkDecay_URLs, diffURL = (testURL-baseURL))
+linkDecay_URLs <- mutate(linkDecay_URLs, linkIsBase = FALSE)
+linkDecay_URLs_1 <- filter(linkDecay_URLs, ((diffURL ==1) | (diffURL == 0)))
+linkDecay_URLs_2 <- setdiff(linkDecay_URLs, linkDecay_URLs_1)
+linkDecay_URLs_1 <- mutate(linkDecay_URLs_1, linkIsBase = TRUE)
+linkDecay_URLs <- bind_rows(linkDecay_URLs_1, linkDecay_URLs_2)
+# View links to ensure this string comparison logic is correct
+#linkCheck <- select(linkDecay_URLs_1, related_url_short, testLink)
+linkDecay_URLs <- select(linkDecay_URLs, -baseURL, -testURL, -diffURL)
+
+
+
+
+# Reformat DOI to include "https://doi.org/", remove extra columns, assign link type and add linkIsBase variable
 doiRoot <- "https://doi.org/"
 linkDecay_DOIs <- mutate(linkDecay_DOIs, testLink = paste(doiRoot, test_DOI, sep=""))
 linkDecay_DOIs <- select(linkDecay_DOIs, -test_DOI, -test_URL)
 linkDecay_DOIs <- mutate(linkDecay_DOIs, linkType="DOI")
+linkDecay_DOIs <- mutate(linkDecay_DOIs, linkIsBase=NA)
 
 # Combine tibbles back into one larger dataset
 linkDecay <- bind_rows(linkDecay_URLs, linkDecay_DOIs)
+
+
+
+
+
+
 
 
 
@@ -122,7 +145,7 @@ i<-1
 #  scrapedHeader <- bind_rows(scrapedHeader, linkInfo)
 #}
 
-foutput <- paste(fpath, "linkTitles.csv", sep="/")
+#foutput <- paste(fpath, "linkTitles.csv", sep="/")
 #write_csv(scrapedHeader, foutput)
 
 #linkDecay <- left_join(linkDecay, scrapedHeader, by = "rowNum")
