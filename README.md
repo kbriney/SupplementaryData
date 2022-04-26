@@ -40,9 +40,9 @@ Dataset downloaded: 2022-01-06 by Tom Morrell, @tmorrell
   - ~~analyze URL and DOI domains~~
 - Measure decay of URLs and DOIs by counting 404's
   - ~~dedupe publications w/ multiple links?~~ (not necessary)
-  - count URL's the match base domain
-  - webscrape
-  - count 404's
+  - ~~count URL's the match base domain~~
+  - ~~webscrape~~
+  - ~~count 404's~~
   - Analyze with respect to date
   - Analyze with respect to site
 
