@@ -27,6 +27,7 @@ Dataset downloaded: 2022-01-06 by Tom Morrell, @tmorrell
   should not be possible to have both a URL and DOI for one related link record?
   - Verified with George on 2022-03-23 that there are no duplicates
   - Either have URL or DOI, DOI preferred
+- How thorough is the collection of related links?
 - Do I want to clean and analyze related link descriptions?
 - Do I want to rectify URL and DOI domains (e.g. merge CaltechDATA URLs with DOIs), or keep separate?
 - How to handle outreach for missing data?
