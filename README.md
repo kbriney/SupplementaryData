@@ -21,14 +21,17 @@ Dataset downloaded: 2022-01-06 by Tom Morrell, @tmorrell
 
 ## Outstanding Questions
 
-- Are there publications with multiple data links?
+- ~~Are there publications with multiple data links?~~
   - Yes, that is calculated in 1-DataParsing.R as dataLinks_perRecord and dataLinks_avg
-- I'm assuming one link per description (either URL or DOI) so 
-  should not be possible to have both a URL and DOI for one related link record?
+- ~~I'm assuming one link per description (either URL or DOI) so 
+  should not be possible to have both a URL and DOI for one related link record?~~
   - Verified with George on 2022-03-23 that there are no duplicates
   - Either have URL or DOI, DOI preferred
-- How thorough is the collection of related links?
-- Do I want to clean and analyze related link descriptions?
+- ~~How thorough is the collection of related links?~~
+  - We've been collecting supplemental files and links for about a decade
+  - Thoroughness is hard to estimate
+- ~~Do I want to clean and analyze related link descriptions?~~
+  - Not as part of this project, could be a later effort
 - Do I want to rectify URL and DOI domains (e.g. merge CaltechDATA URLs with DOIs), or keep separate?
 - How to handle outreach for missing data?
 
@@ -39,12 +42,14 @@ Dataset downloaded: 2022-01-06 by Tom Morrell, @tmorrell
   - ~~need to handle 404's~~
   - ~~clean and process scraped data~~
   - ~~analyze URL and DOI domains~~
-- Measure decay of URLs and DOIs by counting 404's
+- ~~Identify 404's~~
   - ~~dedupe publications w/ multiple links?~~ (not necessary)
   - ~~count URL's the match base domain~~
   - ~~webscrape~~
   - ~~count 404's~~
+- Analyze 404's
   - Check file-type URLs by hand
+  - Check to see if we already have supplemental data files in CaltechAUTHORS coresponding to dead links
   - Analyze with respect to date
   - Analyze with respect to site
 
