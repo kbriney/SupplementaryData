@@ -5,7 +5,8 @@ Author: Kristin A. Briney
 
 Date: 2022-01
 
-Dataset downloaded: 2022-01-06 by Tom Morrell, @tmorrell
+Dataset downloaded: 2022-05-11 by Tom Morrell, @tmorrell
+  (For reference, there were 97859 eprint records in CaltechAUTHORS when the data was downloaded)
 
 ## Research Questions
 
@@ -17,7 +18,7 @@ Dataset downloaded: 2022-01-06 by Tom Morrell, @tmorrell
 
 ## Still Need
 
-- Need year data for analysis
+- ~~Need year data for analysis~~
 
 ## Outstanding Research Questions
 
@@ -52,6 +53,7 @@ Dataset downloaded: 2022-01-06 by Tom Morrell, @tmorrell
   - ~~count URL's the match base domain~~
   - ~~webscrape~~
   - ~~count 404's~~
+- Parse publication date information
 - Analyze 404's
   - Verify that 404's are actually dead
   - Check file-type URLs by hand
