@@ -53,7 +53,7 @@ Dataset downloaded: 2022-05-11 by Tom Morrell, @tmorrell
   - ~~count URL's the match base domain~~
   - ~~webscrape~~
   - ~~count 404's~~
-- Parse publication date information
+- ~~Parse publication date information~~
 - Analyze 404's
   - Verify that 404's are actually dead
   - Check file-type URLs by hand
