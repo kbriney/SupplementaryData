@@ -36,6 +36,12 @@ dataLinks <- mutate(dataLinks, related_url_doi = str_extract(related_url, "10\\.
 dataLinks_url <- count(dataLinks, related_url_short) %>% arrange(desc(n))
 dataLinks_doi <- count(dataLinks, related_url_doi) %>% arrange(desc(n))
 
+# Parse dates into year
+dataLinks <- mutate(dataLinks, year = str_sub(dataLinks$date, 1,4))
+
+# Count number of links per year
+dataLinks_year <- count(dataLinks, year) %>% arrange(desc(year))
+
 # Count number of links per record
 dataLinks_perRecord <- count(dataLinks, eprint_id) %>% arrange(desc(n))
 dataLinks_avg <- summarise(dataLinks_perRecord, avg=mean(n))
