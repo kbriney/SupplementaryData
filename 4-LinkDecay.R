@@ -1,4 +1,5 @@
-# An analysis of link stability of related data links in CaltechAUTHORS
+# An analysis of supplementary data links in CaltechAUTHORS, stage 4:
+#   Scraping URLs and DOIs to see if the data is still available.
 # Kristin A. Briney
 # 2022-03
 

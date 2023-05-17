@@ -1,4 +1,6 @@
-# An analysis of supplementary data links in CaltechAUTHORS
+# An analysis of supplementary data links in CaltechAUTHORS, stage 1:
+#   Cleaning up the input data "supp-data.csv" for processing.
+#   Calculating some summary statistics.
 # Kristin A. Briney
 # 2022-01
 

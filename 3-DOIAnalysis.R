@@ -1,4 +1,5 @@
-# An analysis of DOI domains from related data links in CaltechAUTHORS
+# An analysis of supplementary data links in CaltechAUTHORS, stage 3:
+#   Adding DOI prefix information back into larger dataset.
 # Kristin A. Briney
 # 2022-03
 

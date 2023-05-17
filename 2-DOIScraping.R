@@ -1,4 +1,5 @@
-# Scraping and processing DOI domains from supplimental data links in CaltechAUTHORS
+# An analysis of supplementary data links in CaltechAUTHORS, stage 2:
+#   Scraping and processing DOI prefixes
 # Kristin A. Briney
 # 2022-03
 
