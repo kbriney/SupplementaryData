@@ -147,16 +147,16 @@ for (i in 1:dim(linkDecay)[1]) {
 }
 
 # Write out html title information to CSV
-foutput <- paste(fpath, "linkTitles.csv", sep="/")
+foutput <- paste(fpath, "4-linkTitles.csv", sep="/")
 write_csv(scrapedHeader, foutput)
 
 linkDecay <- left_join(linkDecay, scrapedHeader, by = "rowNum")
 
 # Identify 404's
 linkDecay_404 <- filter(linkDecay, linkTitle == 404)
-foutput <- paste(fpath, "link404s.csv", sep="/")
+foutput <- paste(fpath, "4-link404s.csv", sep="/")
 write_csv(linkDecay_404, foutput)
 
 # Write out all data
-foutput <- paste(fpath, "linkDecay.csv", sep="/")
+foutput <- paste(fpath, "4-linkDecay.csv", sep="/")
 write_csv(linkDecay, foutput)

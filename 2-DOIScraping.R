@@ -79,5 +79,5 @@ doi_owners <- bind_rows(doi_owners, doi_noOwners)
 
 # Write owner information to file
 fpath <- getwd()
-foutput_doi <- paste(fpath, "doi-owners.csv", sep="/")
+foutput_doi <- paste(fpath, "2-doi-owners.csv", sep="/")
 write_csv(doi_owners, foutput_doi)

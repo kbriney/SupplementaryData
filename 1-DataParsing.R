@@ -49,14 +49,14 @@ dataLinks_perRecord <- count(dataLinks, eprint_id) %>% arrange(desc(n))
 dataLinks_avg <- summarise(dataLinks_perRecord, avg=mean(n))
 
 # Write out summary count data
-foutput_url <- paste(fpath, "supp-data_URLs.csv", sep="/")
+foutput_url <- paste(fpath, "1-supp-data_URLs.csv", sep="/")
 write_csv(dataLinks_url, foutput_url)
 
-foutput_doi <- paste(fpath, "supp-data_DOIs.csv", sep="/")
+foutput_doi <- paste(fpath, "1-supp-data_DOIs.csv", sep="/")
 write_csv(dataLinks_doi, foutput_doi)
 
-foutput_allYears <- paste(fpath, "years_all.csv", sep="/")
+foutput_allYears <- paste(fpath, "1-years_all.csv", sep="/")
 write_csv(links_year, foutput_allYears)
 
-foutput_dataYears <- paste(fpath, "years_data.csv", sep="/")
+foutput_dataYears <- paste(fpath, "1-years_data.csv", sep="/")
 write_csv(dataLinks_year, foutput_dataYears)
