@@ -5,8 +5,7 @@ Author: Kristin A. Briney
 
 Date: 2022-01
 
-Dataset downloaded: 2022-05-11 by Tom Morrell, @tmorrell
-  (For reference, there were 97859 eprint records in CaltechAUTHORS when the data was downloaded)
+Dataset downloaded: 2023-05-16 by Tom Morrell, @tmorrell
 
 ## Research Questions
 
@@ -24,7 +23,6 @@ Dataset downloaded: 2022-05-11 by Tom Morrell, @tmorrell
 
 ### Questions that Still Need to be Addressed
 
-- Do I want to rectify URL and DOI domains (e.g. merge CaltechDATA URLs with DOIs), or keep separate?
 - How to handle outreach for missing data?
 
 ### Questions Already Answered
@@ -40,7 +38,9 @@ Dataset downloaded: 2022-05-11 by Tom Morrell, @tmorrell
   - Thoroughness is hard to estimate
 - ~~Do I want to clean and analyze related link descriptions?~~
   - Not as part of this project, could be a later effort
-
+- ~~Do I want to rectify URL and DOI domains (e.g. merge CaltechDATA URLs with DOIs), or keep separate?~~
+  - Going to keep separate
+  
 ## To-Do List
 
 - ~~Fix regex to match with base URL domain in script 1~~
@@ -58,7 +58,7 @@ Dataset downloaded: 2022-05-11 by Tom Morrell, @tmorrell
   - Verify that 404's are actually dead
   - Check file-type URLs by hand
   - Analyze with respect to date
-  - Correlate DOI and URL domains?
+  - ~~Correlate DOI and URL domains?~~
   - Analyze with respect to site
 - Outreach
   - Check to see if we already have supplemental data files in CaltechAUTHORS coresponding to dead links
