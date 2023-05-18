@@ -15,7 +15,7 @@ fpath <- getwd()
 
 # Read supplementary data file
 finput <- paste(fpath, "1-supp-data_DOIs.csv", sep="/")
-dataLinks_doi <- read_csv(finput)
+dataLinks_doi <- read_csv(finput, col_types=cols(related_url_doi=col_character()))
 
 # Formating DOI list correctly
 doi_lookup <- select(dataLinks_doi, related_url_doi)
