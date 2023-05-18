@@ -158,8 +158,8 @@ for (i in 1:dim(linkDecay)[1]) {
 }
 
 # Write out html title information to CSV
-foutput <- paste(fpath, "4-linkTitles.csv", sep="/")
-write_csv(scrapedHeader, foutput)
+#foutput <- paste(fpath, "4-linkTitles.csv", sep="/")
+#write_csv(scrapedHeader, foutput)
 
 linkDecay <- left_join(linkDecay, scrapedHeader, by = "rowNum")
 
