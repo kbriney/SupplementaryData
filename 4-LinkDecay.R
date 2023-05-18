@@ -8,7 +8,11 @@ library(rvest)
 fpath <- getwd()
 
 # start with new tibble for testing links
-linkDecay <- dataLinks
+
+finput <- paste(fpath, "3-supp-data.csv", sep="/")
+linkDecay <- read_csv(finput, col_types=cols(related_url_doi=col_character()))
+
+
 
 
 
