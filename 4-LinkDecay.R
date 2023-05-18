@@ -59,15 +59,15 @@ linkDecay_URLs <- setdiff(linkDecay_URLs, txt)
 txt$linkType <- "TXT"
 linkDecay_URLs <- bind_rows(linkDecay_URLs, txt)
 
-docx <- filter(linkDecay_URLs, str_detect(testLink, ".*\\.docx"))
-linkDecay_URLs <- setdiff(linkDecay_URLs, docx)
-docx$linkType <- "DOCX"
-linkDecay_URLs <- bind_rows(linkDecay_URLs, docx)
-
 doc <- filter(linkDecay_URLs, str_detect(testLink, ".*\\.doc"))
 linkDecay_URLs <- setdiff(linkDecay_URLs, doc)
 doc$linkType <- "DOC"
 linkDecay_URLs <- bind_rows(linkDecay_URLs, doc)
+
+docx <- filter(linkDecay_URLs, str_detect(testLink, ".*\\.docx"))
+linkDecay_URLs <- setdiff(linkDecay_URLs, docx)
+docx$linkType <- "DOCX"
+linkDecay_URLs <- bind_rows(linkDecay_URLs, docx)
 
 xlsx <- filter(linkDecay_URLs, str_detect(testLink, ".*\\.xlsx"))
 linkDecay_URLs <- setdiff(linkDecay_URLs, xlsx)
