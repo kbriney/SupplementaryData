@@ -19,15 +19,17 @@ linkDecay <- read_csv(finput, col_types=cols(related_url_doi=col_character()))
 # Copy URLs and DOI's into separate columns
 linkDecay <- mutate(linkDecay, test_URL = str_extract(related_url, "https?://.*"))
 linkDecay <- mutate(linkDecay, test_DOI = str_extract(related_url, "10\\.[0123456789]*/.*"))
+linkDecay <- mutate(linkDecay, test_FTP = str_extract(related_url, "ftp://.*"))
 
 # Break URLs and DOI's into separate Tibbles
 #   Note that some URLs contain DOI information, so sorting is done by presence
 #   of URL and not by presence of DOI
 linkDecay_URLs <- filter(linkDecay, !is.na(test_URL))
-linkDecay_DOIs <- filter(linkDecay, is.na(test_URL))
+linkDecay_DOIs <- filter(linkDecay, !is.na(test_DOI))
+linkDecay_FTPs <- filter(linkDecay, !is.na(test_FTP))
 
 # Remove DOI column, rename URL variable, and assign link type
-linkDecay_URLs <- select(linkDecay_URLs, -test_DOI)
+linkDecay_URLs <- select(linkDecay_URLs, -test_DOI, -test_FTP)
 linkDecay_URLs <- rename(linkDecay_URLs, testLink = test_URL)
 linkDecay_URLs <- mutate(linkDecay_URLs, linkType="URL")
 
@@ -112,12 +114,17 @@ linkDecay_URLs <- select(linkDecay_URLs, -baseURL, -testURL, -diffURL)
 # Reformat DOI to include "https://doi.org/", remove extra columns, assign link type and add linkIsBase variable
 doiRoot <- "https://doi.org/"
 linkDecay_DOIs <- mutate(linkDecay_DOIs, testLink = paste(doiRoot, test_DOI, sep=""))
-linkDecay_DOIs <- select(linkDecay_DOIs, -test_DOI, -test_URL)
+linkDecay_DOIs <- select(linkDecay_DOIs, -test_DOI, -test_URL, -test_FTP)
 linkDecay_DOIs <- mutate(linkDecay_DOIs, linkType="DOI")
 linkDecay_DOIs <- mutate(linkDecay_DOIs, linkIsBase=NA)
 
+linkDecay_FTPs <- select(linkDecay_FTPs, -test_DOI, -test_URL)
+linkDecay_FTPs <- rename(linkDecay_FTPs, testLink = test_FTP)
+linkDecay_FTPs <- mutate(linkDecay_FTPs, linkType="FTP")
+linkDecay_FTPs <- mutate(linkDecay_FTPs, linkIsBase=NA)
+
 # Combine tibbles back into one larger dataset
-linkDecay <- bind_rows(linkDecay_URLs, linkDecay_DOIs)
+linkDecay <- bind_rows(linkDecay_URLs, linkDecay_DOIs, linkDecay_FTPs)
 
 
 # Add row number for easier merging of scraped data
