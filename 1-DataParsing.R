@@ -51,8 +51,8 @@ dataLinks_perRecord <- count(dataLinks, eprint_id) %>% arrange(desc(n))
 dataLinks_avg <- summarise(dataLinks_perRecord, avg=mean(n))
 
 # Write out summary count data
-foutput_url <- paste(fpath, "1-supp-data_URLs.csv", sep="/")
-write_csv(dataLinks_url, foutput_url)
+foutput_url <- paste(fpath, "1-supp-data.csv", sep="/")
+write_csv(dataLinks, foutput_url)
 
 foutput_doi <- paste(fpath, "1-supp-data_DOIs.csv", sep="/")
 write_csv(dataLinks_doi, foutput_doi)
