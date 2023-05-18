@@ -17,9 +17,9 @@ linkDecay <- read_csv(finput, col_types=cols(related_url_doi=col_character()))
 
 
 # Copy URLs and DOI's into separate columns
-linkDecay <- mutate(linkDecay, test_URL = str_extract(related_url, "https?://.*"))
-linkDecay <- mutate(linkDecay, test_DOI = str_extract(related_url, "10\\.[0123456789]*/.*"))
-linkDecay <- mutate(linkDecay, test_FTP = str_extract(related_url, "ftp://.*"))
+linkDecay <- mutate(linkDecay, test_URL = str_extract(related_url, "^https?://.*"))
+linkDecay <- mutate(linkDecay, test_DOI = str_extract(related_url, "^10\\.[0123456789]*/.*"))
+linkDecay <- mutate(linkDecay, test_FTP = str_extract(related_url, "^ftp://.*"))
 
 # Break URLs and DOI's into separate Tibbles
 #   Note that some URLs contain DOI information, so sorting is done by presence
