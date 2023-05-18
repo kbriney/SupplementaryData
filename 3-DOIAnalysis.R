@@ -39,4 +39,6 @@ dataLinks_doi_name <- count(dataLinks, doi_name) %>% arrange(desc(n))
 foutput <- paste(fpath, "3-DOI-prefix.csv", sep="/")
 write_csv(dataLinks_doi_name, foutput)
 
+foutput <- paste(fpath, "3-supp-data.csv", sep="/")
+write_csv(dataLinks, foutput)
 
