@@ -23,7 +23,7 @@ doi,doi_name
 10.7935,caltech.library
 10.20383,carl.frdr
 10.6078,cdl.ucb
-10.608,cdl.ucb
+10.6080,cdl.ucb
 10.6071,cdl.ucm
 10.25349,cdl.ucsb
 10.5069,cdl.ucsd
@@ -40,7 +40,7 @@ doi,doi_name
 10.7284,cul.r2r
 10.48324,dartlib.dandi
 10.20783,dias.dias
-10.1719,doe.lbnl
+10.17190,doe.lbnl
 10.5061,dryad.dryad
 10.6073,edi.edi
 10.1016,Elsevier BV
@@ -51,13 +51,13 @@ doi,doi_name
 10.3929,ethz.e-coll
 10.24435,ethz.marvel
 10.2905,europ.data
-10.527,European Space Agency
+10.5270,European Space Agency
 10.25422,figshare.ariz
 10.6084,figshare.ars
 10.25392,figshare.lest
-10.791,gdcc.harvard-dv
+10.7910,gdcc.harvard-dv
 10.21979,gdcc.ntu
-10.113,Geological Society of America
+10.1130,Geological Society of America
 10.3886,gesis.icpsr
 10.13012,illinois.databank
 10.17882,inist.ifremer
@@ -70,7 +70,7 @@ doi,doi_name
 10.17189,nasapds.nasapds
 10.17595,nies.nies
 10.18129,nihnci.nci
-10.2585,nioz.das
+10.25850,nioz.das
 10.18434,nist.admin
 10.15138,noaa.gmd
 10.25925,noaa.gmd
@@ -103,13 +103,21 @@ doi,doi_name
 10.7283,unavco.unavco
 10.7274,und.library
 10.26188,unimelb.repo1
-10.2619,unsw.repo
+10.26190,unsw.repo
 10.5066,usgs.prod
 10.26008,wh.whoas
 10.1002,Wiley
-10.221,Worldwide Protein Data Bank
+10.2210,Worldwide Protein Data Bank
 10.7936,wustl.lib
-10.11998,ISTIC
-10.12129,ISTIC
-10.12197,ISTIC
-10.50849,JaLC
+10.221,unknown
+10.791,unknown
+10.1719,unknown
+10.113,unknown
+10.11998,unknown
+10.12129,unknown
+10.12197,unknown
+10.2585,unknown
+10.2619,unknown
+10.50849,unknown
+10.527,unknown
+10.608,unknown
