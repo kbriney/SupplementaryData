@@ -1650,7 +1650,7 @@ eprint_id,record_doi,related_url,description,type,date,related_url_short,related
 116251,10.5194/amt-15-4339-2022,10.35097/412,MUSICA IASI data,doi,2022-07-29,NA,10.35097,2022,tib.kit4radar
 116251,10.5194/amt-15-4339-2022,10.5281/zenodo.4447228,TROPOMI XCH4 data,doi,2022-07-29,NA,10.5281,2022,cern.zenodo
 116251,10.5194/amt-15-4339-2022,10.14291/TCCON.GGG2014,TCCON data,doi,2022-07-29,NA,10.14291,2022,caltech.library
-116251,10.5194/amt-15-4339-2022,10.50849/WDCGG_0023-6036-1002-01-01-9999,Jungfraujoch GAW surface in situ CH4 data,doi,2022-07-29,NA,10.50849,2022,unknown
+116251,10.5194/amt-15-4339-2022,10.50849/WDCGG_0023-6036-1002-01-01-9999,Jungfraujoch GAW surface in situ CH4 data,doi,2022-07-29,NA,10.50849,2022,JaLC
 116251,10.5194/amt-15-4339-2022,https://gaw.kishou.go.jp/search/station#SSL,Schainsland GAW surface in situ CH4 data,related,2022-07-29,https://gaw.kishou.go.jp,NA,2022,NA
 116228,10.1029/2022ms003105,10.22002/D1.20052,data from Shen et al. (2022) used for model training,doi,2022-08-10,NA,10.22002,2022,caltech.data
 116221,10.1126/sciadv.abn9545,https://github.com/jsunn-y/PolymerGasMembraneML,Code and datasets,related,2022-07-20,https://github.com,NA,2022,NA
@@ -2023,11 +2023,11 @@ eprint_id,record_doi,related_url,description,type,date,related_url_short,related
 107041,10.1038/s41550-021-01320-4,https://github.com/WIRC-Pol/wirc_drp,WIRC+Pol data reduction pipeline,related,2021-06,https://github.com,NA,2021,NA
 107029,10.1073/pnas.2017442117,10.22002/D1.971,IHN isomer concentration data,related,2020-12-29,NA,10.22002,2020,caltech.data
 106942,10.1140/epjc/s10052-020-7917-7,https://cms-docdb.cern.ch/cgi-bin/PublicDocDB/RetrieveFile?docid=6032&filename=CMSDataPolicyV1.2.pdf&version=2,"CMS data preservation, re-use and open access policy",related,2020-07,https://cms-docdb.cern.ch,NA,2020,NA
-106838,NA,10.11998/SeisDmc/SN,Seismic data,doi,2020-12,NA,10.11998,2020,unknown
+106838,NA,10.11998/SeisDmc/SN,Seismic data,doi,2020-12,NA,10.11998,2020,ISTIC
 106838,NA,10.7914/SN/YP_2009,NECESSArray data,doi,2020-12,NA,10.7914,2020,iris.iris
-106838,NA,10.12129/IGGSL.Data.Observation,Waveforms of the NECsaids data,doi,2020-12,NA,10.12129,2020,unknown
+106838,NA,10.12129/IGGSL.Data.Observation,Waveforms of the NECsaids data,doi,2020-12,NA,10.12129,2020,ISTIC
 106838,NA,ftp://159.226.119.161/data/NECsaids/RF2020,Waveforms of the NECsaids data,related,2020-12,NA,NA,2020,NA
-106838,NA,10.12197/2020GA012,"Raw multi-frequency (with Gaussian low-pass filters of 0.5, 0.75, 1.0 or 1.5) receiver function waveform data",doi,2020-12,NA,10.12197,2020,unknown
+106838,NA,10.12197/2020GA012,"Raw multi-frequency (with Gaussian low-pass filters of 0.5, 0.75, 1.0 or 1.5) receiver function waveform data",doi,2020-12,NA,10.12197,2020,ISTIC
 106838,NA,ftp://159.226.119.161/data/NECsaids/RF2020,"Raw multi-frequency (with Gaussian low-pass filters of 0.5, 0.75, 1.0 or 1.5) receiver function waveform data",related,2020-12,NA,NA,2020,NA
 106822,10.1029/2020av000208,https://www.pangaea.de,PANGAEA database,related,2020-12,https://www.pangaea.de,NA,2020,NA
 106816,10.1029/2020gl090164,http://tccon-weather.caltech.edu,Weather data,related,2020-12-16,http://tccon-weather.caltech.edu,NA,2020,NA
