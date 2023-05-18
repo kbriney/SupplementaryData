@@ -44,7 +44,7 @@ publications <- mutate(publications, year = str_sub(publications$date, 1,4))
 
 # Count number of links per year
 dataLinks_year <- count(dataLinks, year) %>% arrange(desc(year))
-links_year <- count(publications, year) %>% arrange(desc(year))
+#links_year <- count(publications, year) %>% arrange(desc(year))
 
 # Count number of links per record
 dataLinks_perRecord <- count(dataLinks, eprint_id) %>% arrange(desc(n))
@@ -57,8 +57,8 @@ write_csv(dataLinks_url, foutput_url)
 foutput_doi <- paste(fpath, "1-supp-data_DOIs.csv", sep="/")
 write_csv(dataLinks_doi, foutput_doi)
 
-foutput_allYears <- paste(fpath, "1-years_all.csv", sep="/")
-write_csv(links_year, foutput_allYears)
+#foutput_allYears <- paste(fpath, "1-years_all.csv", sep="/")
+#write_csv(links_year, foutput_allYears)
 
 foutput_dataYears <- paste(fpath, "1-years_data.csv", sep="/")
 write_csv(dataLinks_year, foutput_dataYears)
