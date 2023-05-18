@@ -174,10 +174,12 @@ for (i in 1:dim(linkDecay)[1]) {
 
 linkDecay <- left_join(linkDecay, scrapedHeader, by = "rowNum")
 
-# Identify 404's
+# Identify links to check
 linkDecay_404 <- filter(linkDecay, linkTitle == 404)
-foutput <- paste(fpath, "4-link404s.csv", sep="/")
-write_csv(linkDecay_404, foutput)
+linkDecay_weirdType <- filter(linkDecay, linkType != "URL") %>% filter(linkType != "DOI")
+linkDecay_toCheck <- bind_rows(linkDecay_404, linkDecay_weirdType)
+foutput <- paste(fpath, "4-linksToCheck.csv", sep="/")
+write_csv(linkDecay_toCheck, foutput)
 
 # Write out all data
 foutput <- paste(fpath, "4-linkDecay.csv", sep="/")
