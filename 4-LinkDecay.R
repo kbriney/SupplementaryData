@@ -39,7 +39,7 @@ linkDecay_URLs <- mutate(linkDecay_URLs, linkType="URL")
 # Identify spaces in URLs
 URLspaces <- filter(linkDecay_URLs, str_detect(testLink, " "))
 linkDecay_URLs <- setdiff(linkDecay_URLs, URLspaces)
-URLspaces$linkType <- "SPACE"
+URLspaces$linkType <- "ERR"
 linkDecay_URLs <- bind_rows(linkDecay_URLs, URLspaces)
 
 # Make exceptions for non-webpage URLs
@@ -57,6 +57,16 @@ docx <- filter(linkDecay_URLs, str_detect(testLink, ".*\\.docx"))
 linkDecay_URLs <- setdiff(linkDecay_URLs, docx)
 docx$linkType <- "DOCX"
 linkDecay_URLs <- bind_rows(linkDecay_URLs, docx)
+
+doc <- filter(linkDecay_URLs, str_detect(testLink, ".*\\.doc"))
+linkDecay_URLs <- setdiff(linkDecay_URLs, doc)
+doc$linkType <- "DOC"
+linkDecay_URLs <- bind_rows(linkDecay_URLs, doc)
+
+xlsx <- filter(linkDecay_URLs, str_detect(testLink, ".*\\.xlsx"))
+linkDecay_URLs <- setdiff(linkDecay_URLs, xlsx)
+xlsx$linkType <- "XLSX"
+linkDecay_URLs <- bind_rows(linkDecay_URLs, xlsx)
 
 pdf <- filter(linkDecay_URLs, str_detect(testLink, ".*\\.pdf"))
 linkDecay_URLs <- setdiff(linkDecay_URLs, pdf)
