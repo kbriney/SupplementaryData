@@ -1,0 +1,16 @@
+Field names and description for the "supplementalDataLinks.csv" file.
+
+eprint_id: ID of the publication, as recorded in CaltechAUTHORS, of the publication that the supplemental data link corresponds to. IDs are assigned by repository software eprints.
+publication_doi: DOI, if available, of the publication that the supplemental data link corresponds to. Most often articles.
+publication_date: Date of the publication that the supplemental link corresponds to.
+publication_date_year: Only the year from the field "publication_date".
+related_link: Related link, as taken from CaltechAUTHORS metadata. URLs are formatted as URLs, starting with "http://...". DOIs are just the DOI and do not have the "http://doi.org/" in front of the DOI.
+related_link_description: Text description of the related link, as taken from CaltechAUTHORS metadata. Text either contains "data" or "Data" to be included in this dataset.
+related_link_type: Link type assigned during analysis, including: URL, DOI (two main types); ZIP, PDF, DOCX, GZ, TXT, IMG, ZIPR (file extension at the end of the link); and SPACE (link has an error in it, often an accidental space).
+related_url_homepage: For "related_link_type" of URL, "related_link" field stripped down to homepage. For related link types other than URL, value is NA.
+related_url_homepage_test: Is the related link url a website homepage? If "related_link" field matches "related_url_homepage", value is TRUE. If "related_link" field does not match "related_url_homepage", value is FALSE. For related link types other than URL, value is NA.
+related_doi_prefix: For "related_link_type" of DOI, "related_link" field is stripped down to the DOI prefix. For related link types other than DOI, value is NA.
+related_doi_owner: DOI prefix owner information corresponding to "related_doi_prefix", as scraped from CrossRef or DataCite. For related link types other than DOI, value is NA.
+related_link_scraped: "related_link" values reformatted for web scraping. This primarily means adding "https://doi.org/" to related links of type DOI.
+related_link_scraped_title: Returned webpage title for scraped links. Webpages that failed to scrap with R are listed as "404".
+
