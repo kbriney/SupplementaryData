@@ -37,12 +37,11 @@ Other files are labelled 1-4 at the beginning of the file name to note which par
   - ~~webscrape~~
   - ~~count 404's~~
 - ~~Parse publication date information~~
-- Analyze 404's
-  - Verify that 404's are actually dead
-  - Check file-type URLs by hand
-  - Analyze with respect to date
-  - ~~Correlate DOI and URL domains?~~
-  - Analyze with respect to site
+- ~~Analyze 404's~~
+  - ~~Verify that 404's are actually dead~~
+  - ~~Check file-type URLs by hand~~
+  - ~~Analyze with respect to date~~
+  - ~~Analyze with respect to site~~
 - Outreach
   - Check to see if we already have supplemental data files in CaltechAUTHORS coresponding to dead links
   - Create spreadsheet of articles, links, and contacts
