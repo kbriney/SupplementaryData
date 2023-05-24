@@ -1,4 +1,4 @@
-DOI Prefix Owner,Count of links
+DOIPrefixOwner,Count
 caltech.data,156
 cern.zenodo,139
 figshare.ars,58
@@ -91,7 +91,3 @@ unsw.repo,1
 gesis.icpsr,1
 American Chemical Society (ACS),1
 illinois.databank,1
-ardcx.nci,1
-nu.arch,1
-figshare.lest,1
-gdcc.ntu,1
