@@ -8,6 +8,7 @@
 library(tidyverse)
 library(stringr)
 library(modelr)
+library(broom)
 
 # Relevant file paths, change as necessary
 fpath <- getwd()
@@ -171,15 +172,15 @@ fig2_fit <- rename(fig2_fit, prob=value)
 
 
 # Interpret coefficient values
-coefs <- as_tibble(coef(fig2_model))
+coefs <- tidy(fig2_model)
 coefs <- slice(coefs,2)
 
 model_coefs <- as_tibble(exp(coef(fig2_model)))
 model_coefs <- slice(model_coefs,2)
 
 model_coefs <- rename(model_coefs, age=value)
-model_coefs <- mutate(model_coefs, CIupper= exp(coefs$value+(1.96*errorPerYear_avg)))
-model_coefs <- mutate(model_coefs, CIlower= exp(coefs$value-(1.96*errorPerYear_avg)))
+model_coefs <- mutate(model_coefs, CIupper= exp(coefs$value+(1.96*0.03835)))
+model_coefs <- mutate(model_coefs, CIlower= exp(coefs$value-(1.96*0.03835)))
 
 
 
