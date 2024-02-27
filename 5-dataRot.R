@@ -153,20 +153,33 @@ ggsave(fname, plot = last_plot())
 # FIGURE 2 #
 
 # Prep data to model
-resolve_model <- mutate(resolve, gone=1-Resolves)
+#resolve_model <- mutate(resolve, gone=1-Resolves)
 resolve_model <- filter(resolve_model, year >= 2014) %>% filter(year <= 2022)
 resolve_model <- mutate(resolve_model, age=2023-year)
 
 
 
 # Fit to logistic regression
-fig2_model <- glm(gone ~ age, family=binomial, data=resolve_model)
+fig2_model <- glm(Resolves ~ age, family=binomial, data=resolve_model)
 summary(fig2_model)
 
 # Create probabilities based on model for graphing
 fig2_ages <- data.frame(age=9:1)
 fig2_fit <- as_tibble(predict(fig2_model, newdata=fig2_ages, type="response"))
 fig2_fit <- rename(fig2_fit, prob=value)
+
+
+
+# Interpret coefficient values
+coefs <- as_tibble(coef(fig2_model))
+coefs <- slice(coefs,2)
+
+model_coefs <- as_tibble(exp(coef(fig2_model)))
+model_coefs <- slice(model_coefs,2)
+
+model_coefs <- rename(model_coefs, age=value)
+model_coefs <- mutate(model_coefs, CIupper= exp(coefs$value+(1.96*errorPerYear_avg)))
+model_coefs <- mutate(model_coefs, CIlower= exp(coefs$value-(1.96*errorPerYear_avg)))
 
 
 
@@ -181,9 +194,9 @@ fig2 <- mutate(fig2, age=2023-year)
 # Show labels to 3 decimal places
 fig2 <- mutate(fig2, lbl = (round(avg*10^3)/10^3))
 
-# Add probabilities and 1-probabilities (for better graphing) to tibble
+# Add probabilities to tibble
 fig2 <- add_column(fig2, fig2_fit)
-fig2 <- mutate(fig2, invProb = 1-prob)
+#fig2 <- mutate(fig2, invProb = 1-prob)
 
 
 
@@ -192,7 +205,7 @@ ggplot(data=fig2, mapping=aes(x=age, y=avg, ymax=(avg+errPlus), ymin=(avg-errMin
   geom_col() +
   geom_text(nudge_y = 0.015) +
   geom_errorbar() +
-  geom_line(data=fig2, mapping=aes(x=age, y=invProb)) +
+  geom_line(data=fig2, mapping=aes(x=age, y=prob)) +
   scale_x_continuous(breaks = seq(1, 9, by = 1)) +
   scale_y_continuous(breaks = seq(0, 1, by = 0.1)) +
   labs(x="Age of article in years", y="Percent of data sets available")
