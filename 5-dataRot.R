@@ -91,7 +91,7 @@ fname <- "5-resolves.csv"
 finput <- paste(fpath, fname, sep="/")
 resolve <- read_csv(finput)
 
-resolve <- select(resolve, year, Resolves) %>% filter(year >= 2014) %>% filter(year <= 2022)
+resolve <- select(resolve, year, Resolves) %>% filter(year >0)
 resolve_ct <- group_by(resolve, year) %>% count()
 resolve_avg <- group_by(resolve, year) %>% summarise(avg = mean(Resolves))
 resolve_stdv <- group_by(resolve, year) %>% summarise(stdv = sd(Resolves))
@@ -106,24 +106,18 @@ resolve_err <- bind_cols(resolve_year, resolve_ct, resolve_avg, resolve_stdv)
 # Calculate standard error
 resolve_err <- mutate(resolve_err, SE = stdv/sqrt(n))
 
-# Add in curation error rate
-resolve_err <- mutate(resolve_err, totErr = SE + errorPerYear_avg)
+# Add in curation error rates
+resolve_err <- mutate(resolve_err, errPlus = SE + errorPerYear_SI)
+resolve_err <- mutate(resolve_err, errMinus = SE + errorPerYear_missing)
 
 
 
 
 
 
+fig2 <- filter(resolve_err, year >= 2014) %>% filter(year <= 2022)
+fig2 <- add_column(fig2, age=9:1)
 
-#dataRot <- tibble(year = c(1:9),
-#available = c(0.987, 0.959, 0.940, 0.956, 0.902, 0.792, 0.825, 0.887, 0.721),
-#sterr = c(0.00454, 0.00730, 0.01216, 0.01926, 0.04205, 0.08468, 0.05083, 0.04394, 0.06921))
-
-#dataRot <- mutate(dataRot, err_plus=(available+sterr+0.019), err_minus=(available-sterr-0.019))
-
-#xlab <- tibble(c(2022:2014))
-
-#ggplot(dataRot, aes(year, available, ymax=err_plus, ymin=err_minus)) + 
-#  geom_col() +
-#  geom_errorbar() +
-#  scale_x_discrete(breaks=NULL, labels = xlab)
+ggplot(fig2, aes(age, avg, ymax=(avg+errPlus), ymin=(avg-errMinus))) + 
+  geom_col() +
+  geom_errorbar()
