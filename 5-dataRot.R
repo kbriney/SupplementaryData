@@ -112,8 +112,19 @@ resolve_err <- mutate(resolve_err, errMinus = SE + errorPerYear_SI)
 
 
 
+# FIGURE 1 #
+
+fig1 <- filter(resolve_err, year>2000)
+fig1 <- add_column(fig1, age=21:0)
+
+ggplot(fig1, aes(age, n, label=n)) + 
+  geom_col() +
+  geom_text(nudge_y = 12) +
+  scale_x_continuous(breaks = seq(0, 21, by = 1)) +
+  labs(x="Age of article in years", y="Number of data sets")
 
 
+# FIGURE 2 #
 
 fig2 <- filter(resolve_err, year >= 2014) %>% filter(year <= 2022)
 fig2 <- add_column(fig2, age=9:1)
