@@ -148,15 +148,15 @@ resolve_model <- filter(resolve_model, year >= 2014) %>% filter(year <= 2022)
 resolve_model <- mutate(resolve_model, age=2023-year)
 
 
+
 # Fit to logistic regression
 fig2_model <- glm(gone ~ age, family=binomial, data=resolve_model)
 summary(fig2_model)
 
-# Create predictions based on model
+# Create probabilities based on model for graphing
 fig2_ages <- data.frame(age=9:1)
 fig2_fit <- as_tibble(predict(fig2_model, newdata=fig2_ages, type="response"))
 fig2_fit <- rename(fig2_fit, prob=value)
-
 
 
 
@@ -166,16 +166,16 @@ fig2_fit <- rename(fig2_fit, prob=value)
 fig2 <- filter(resolve_err, year >= 2014) %>% filter(year <= 2022)
 
 # Plot by age in year
-fig2 <- add_column(fig2, age=9:1)
+fig2 <- mutate(fig2, age=2023-year)
 
 # Show labels to 3 decimal places
 fig2 <- mutate(fig2, lbl = (round(avg*10^3)/10^3))
 
-
-
 # Add probabilities and 1-probabilities (for better graphing) to tibble
 fig2 <- add_column(fig2, fig2_fit)
 fig2 <- mutate(fig2, invProb = 1-prob)
+
+
 
 # Plot data and model
 ggplot(data=fig2, mapping=aes(x=age, y=avg, ymax=(avg+errPlus), ymin=(avg-errMinus), label=lbl)) + 
