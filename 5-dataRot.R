@@ -1,4 +1,9 @@
-
+# An analysis of supplementary data links in CaltechAUTHORS, stage 5:
+#   Creating figures. Figure 1 is count of datasets graphed by article age.
+#   Figure 2 is availability of datasets as a function of article age, modelled
+#   with a logistical regression fit.
+# Kristin A. Briney
+# 2024-02
 
 library(tidyverse)
 library(stringr)
