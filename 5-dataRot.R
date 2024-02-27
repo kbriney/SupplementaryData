@@ -179,8 +179,8 @@ model_coefs <- as_tibble(exp(coef(fig2_model)))
 model_coefs <- slice(model_coefs,2)
 
 model_coefs <- rename(model_coefs, age=value)
-model_coefs <- mutate(model_coefs, CIupper= exp(coefs$value+(1.96*0.03835)))
-model_coefs <- mutate(model_coefs, CIlower= exp(coefs$value-(1.96*0.03835)))
+model_coefs <- mutate(model_coefs, CIlower= exp(coefs$estimate-(1.96*coefs$std.error)))
+model_coefs <- mutate(model_coefs, CIupper= exp(coefs$estimate+(1.96*coefs$std.error)))
 
 
 
