@@ -120,4 +120,9 @@ fig2 <- add_column(fig2, age=9:1)
 
 ggplot(fig2, aes(age, avg, ymax=(avg+errPlus), ymin=(avg-errMinus))) + 
   geom_col() +
-  geom_errorbar()
+  geom_errorbar() +
+  scale_x_continuous(breaks = seq(1, 9, by = 1)) +
+  labs(x="Age of article in years", y="Percent of data sets available")
+
+
+
