@@ -64,7 +64,7 @@ dataLinkMissingErrorsPerYear <- group_by(errSample, Year, DataLinkErrorMissing) 
 
 # These are calculated using the FALSE values as there are always FALSE values
 # each year (not all years have TRUE values), so this give complete representation
-# of all year. Then count of FALSE is subtracted from 50 to give count of TRUE,
+# of all years. Then count of FALSE is subtracted from 50 to give count of TRUE,
 # as there are 50 articles sampled each year.
 
 
@@ -118,8 +118,8 @@ resolve_err <- bind_cols(resolve_year, resolve_ct, resolve_avg, resolve_stdv)
 resolve_err <- mutate(resolve_err, SE = stdv/sqrt(n))
 
 # Add in curation error rates
-resolve_err <- mutate(resolve_err, errPlus = SE + errorPerYear_missing)
-resolve_err <- mutate(resolve_err, errMinus = SE + errorPerYear_SI)
+resolve_err <- mutate(resolve_err, errPlus = SE + errorPerYear_avg)
+resolve_err <- mutate(resolve_err, errMinus = SE + errorPerYear_avg)
 
 
 
@@ -144,12 +144,19 @@ ggplot(fig1, aes(age, n, label=n)) +
 
 # Prep data to model
 resolve_model <- mutate(resolve, gone=1-Resolves)
+resolve_model <- filter(resolve_model, year >= 2014) %>% filter(year <= 2022)
 resolve_model <- mutate(resolve_model, age=2023-year)
 
 
 # Fit to logistic regression
-fig2_model <- glm(gone ~ age, data=resolve_model, family=binomial)
+fig2_model <- glm(gone ~ age, family=binomial, data=resolve_model)
 summary(fig2_model)
+
+# Create predictions based on model
+fig2_ages <- data.frame(age=9:1)
+fig2_fit <- as_tibble(predict(fig2_model, newdata=fig2_ages, type="response"))
+fig2_fit <- rename(fig2_fit, prob=value)
+
 
 
 
@@ -164,19 +171,18 @@ fig2 <- add_column(fig2, age=9:1)
 # Show labels to 3 decimal places
 fig2 <- mutate(fig2, lbl = (round(avg*10^3)/10^3))
 
-# Calculate missing percentage (instead of available) for easier modeling
-fig2 <- mutate(fig2, invAvg = 1-avg)
 
-# Add model and 1-model (for better graphing) to tibble
-fig2 <- add_predictions(fig2, fig2_model)
-fig2 <- mutate(fig2, invPred = 1-pred)
+
+# Add probabilities and 1-probabilities (for better graphing) to tibble
+fig2 <- add_column(fig2, fig2_fit)
+fig2 <- mutate(fig2, invProb = 1-prob)
 
 # Plot data and model
 ggplot(data=fig2, mapping=aes(x=age, y=avg, ymax=(avg+errPlus), ymin=(avg-errMinus), label=lbl)) + 
   geom_col() +
   geom_text(nudge_y = 0.015) +
   geom_errorbar() +
-  stat_smooth(method="glm", method.args=list(family="binomial"), se=FALSE) +
+  geom_line(data=fig2, mapping=aes(x=age, y=invProb)) +
   scale_x_continuous(breaks = seq(1, 9, by = 1)) +
   scale_y_continuous(breaks = seq(0, 1, by = 0.1)) +
   labs(x="Age of article in years", y="Percent of data sets available")
