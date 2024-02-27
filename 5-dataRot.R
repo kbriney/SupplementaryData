@@ -138,6 +138,11 @@ ggplot(fig1, aes(age, n, label=n)) +
 
 
 
+# Save figure output
+fname <- "figure1.tif"
+ggsave(fname, plot = last_plot())
+
+
 
 
 # FIGURE 2 #
@@ -188,4 +193,8 @@ ggplot(data=fig2, mapping=aes(x=age, y=avg, ymax=(avg+errPlus), ymin=(avg-errMin
   labs(x="Age of article in years", y="Percent of data sets available")
 
 
+
+# Save figure output
+fname <- "figure2.tif"
+ggsave(fname, plot = last_plot())
 
