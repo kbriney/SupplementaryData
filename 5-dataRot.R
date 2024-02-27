@@ -128,11 +128,14 @@ ggplot(fig1, aes(age, n, label=n)) +
 
 fig2 <- filter(resolve_err, year >= 2014) %>% filter(year <= 2022)
 fig2 <- add_column(fig2, age=9:1)
+fig2 <- mutate(fig2, lbl = (round(avg*10^4)/10^4))
 
-ggplot(fig2, aes(age, avg, ymax=(avg+errPlus), ymin=(avg-errMinus))) + 
+ggplot(fig2, aes(age, avg, ymax=(avg+errPlus), ymin=(avg-errMinus), label=lbl)) + 
   geom_col() +
+  geom_text(nudge_y = 0.015) +
   geom_errorbar() +
   scale_x_continuous(breaks = seq(1, 9, by = 1)) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1)) +
   labs(x="Age of article in years", y="Percent of data sets available")
 
 
