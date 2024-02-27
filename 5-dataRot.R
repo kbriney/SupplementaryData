@@ -1,6 +1,7 @@
 
 library(tidyverse)
 library(stringr)
+library(modelr)
 
 # Relevant file paths, change as necessary
 fpath <- getwd()
@@ -140,14 +141,32 @@ ggplot(fig1, aes(age, n, label=n)) +
 
 # FIGURE 2 #
 
+# Only plot 2014-2022
 fig2 <- filter(resolve_err, year >= 2014) %>% filter(year <= 2022)
-fig2 <- add_column(fig2, age=9:1)
-fig2 <- mutate(fig2, lbl = (round(avg*10^4)/10^4))
 
-ggplot(fig2, aes(age, avg, ymax=(avg+errPlus), ymin=(avg-errMinus), label=lbl)) + 
+# Plot by age in year
+fig2 <- add_column(fig2, age=9:1)
+
+# Show labels to 3 decimal places
+fig2 <- mutate(fig2, lbl = (round(avg*10^3)/10^3))
+
+# Calculate missing percentage for easier modeling
+fig2 <- mutate(fig2, invAvg = 1-avg)
+
+# Fit to model
+fig2_model <- lm(invAvg ~ exp(age) + 0, data = fig2)
+fig2_model
+
+# Add model and 1-model (for better graphing) to tibble
+fig2 <- add_predictions(fig2, fig2_model)
+fig2 <- mutate(fig2, invPred = 1-pred)
+
+# Plot data and model
+ggplot(data=fig2, mapping=aes(x=age, y=avg, ymax=(avg+errPlus), ymin=(avg-errMinus), label=lbl)) + 
   geom_col() +
   geom_text(nudge_y = 0.015) +
   geom_errorbar() +
+  geom_line(data=fig2, mapping=aes(x=age, y=invPred)) +
   scale_x_continuous(breaks = seq(1, 9, by = 1)) +
   scale_y_continuous(breaks = seq(0, 1, by = 0.1)) +
   labs(x="Age of article in years", y="Percent of data sets available")
