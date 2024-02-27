@@ -27,7 +27,8 @@ errSample <- read_csv(finput, col_types = cols(
 SIPerYear <- group_by(errSample, Year, SI) %>% 
   filter(SI == "TRUE") %>% count()
 SIPerYear_avg <- as_tibble(pull(SIPerYear, n)) %>% 
-  summarize(avg = mean(value)*2) %>% as.double()
+  summarize(avg = mean(value)/50) %>% as.double()
+# Divide values by 50 to get a percentage, as there are 50 samples per year
 
 # Total supplemental data links in sample per year
 dataLinksPerYear <- group_by(errSample, Year, HasDataLink) %>% 
@@ -59,6 +60,11 @@ dataLinkMissingErrorsPerYear <- group_by(errSample, Year, DataLinkErrorMissing) 
   filter(DataLinkErrorMissing == "FALSE") %>%
   count() %>% mutate(dataLinkErrorMissing = 50-n)
 
+# These are calculated using the FALSE values as there are always FALSE values
+# each year (not all years have TRUE values), so this give complete representation
+# of all year. Then count of FALSE is subtracted from 50 to give count of TRUE,
+# as there are 50 articles sampled each year.
+
 
 
 # Combine error counts in one large table
@@ -71,15 +77,17 @@ errorPerYear <- bind_cols(DLYear, DLErr, DLSIErr, DLMErr)
 
 # Total curation error rate
 errorPerYear_avg <- as_tibble(pull(errorPerYear, DataLinkError)) %>% 
-  summarize(avg = mean(value)*2/100) %>% as.double()
+  summarize(avg = mean(value)/50) %>% as.double()
 
 # Error rate of including SI
 errorPerYear_SI <- as_tibble(pull(errorPerYear, DataLinkErrorSI)) %>% 
-  summarize(avg = mean(value)*2/100) %>% as.double()
+  summarize(avg = mean(value)/50) %>% as.double()
 
 # Error rate of missing data links
 errorPerYear_missing <- as_tibble(pull(errorPerYear, DataLinkErrorMissing)) %>% 
-  summarize(avg = mean(value)*2/100) %>% as.double()
+  summarize(avg = mean(value)/50) %>% as.double()
+
+# Divide these values by 50 to get a percentage, as there are 50 samples per year
 
 
 
@@ -91,6 +99,7 @@ fname <- "5-resolves.csv"
 finput <- paste(fpath, fname, sep="/")
 resolve <- read_csv(finput)
 
+# Get summary statistics (count, average, st dev)
 resolve <- select(resolve, year, Resolves) %>% filter(year >0)
 resolve_ct <- group_by(resolve, year) %>% count()
 resolve_avg <- group_by(resolve, year) %>% summarise(avg = mean(Resolves))
