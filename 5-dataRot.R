@@ -1,11 +1,8 @@
 
-install.packages("tidymodels")
 
 library(tidyverse)
 library(stringr)
 library(modelr)
-library(readr)
-library(tidymodels)
 
 # Relevant file paths, change as necessary
 fpath <- getwd()
