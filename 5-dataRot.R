@@ -1,7 +1,11 @@
 
+install.packages("tidymodels")
+
 library(tidyverse)
 library(stringr)
 library(modelr)
+library(readr)
+library(tidymodels)
 
 # Relevant file paths, change as necessary
 fpath <- getwd()
@@ -141,6 +145,19 @@ ggplot(fig1, aes(age, n, label=n)) +
 
 # FIGURE 2 #
 
+# Prep data to model
+resolve_model <- mutate(resolve, gone=1-Resolves)
+resolve_model <- mutate(resolve_model, age=2023-year)
+
+
+# Fit to logistic regression
+fig2_model <- glm(gone ~ age, data=resolve_model, family=binomial)
+summary(fig2_model)
+
+
+
+# Create plot
+
 # Only plot 2014-2022
 fig2 <- filter(resolve_err, year >= 2014) %>% filter(year <= 2022)
 
@@ -150,12 +167,8 @@ fig2 <- add_column(fig2, age=9:1)
 # Show labels to 3 decimal places
 fig2 <- mutate(fig2, lbl = (round(avg*10^3)/10^3))
 
-# Calculate missing percentage for easier modeling
+# Calculate missing percentage (instead of available) for easier modeling
 fig2 <- mutate(fig2, invAvg = 1-avg)
-
-# Fit to model
-fig2_model <- lm(invAvg ~ exp(age) + 0, data = fig2)
-fig2_model
 
 # Add model and 1-model (for better graphing) to tibble
 fig2 <- add_predictions(fig2, fig2_model)
@@ -166,7 +179,7 @@ ggplot(data=fig2, mapping=aes(x=age, y=avg, ymax=(avg+errPlus), ymin=(avg-errMin
   geom_col() +
   geom_text(nudge_y = 0.015) +
   geom_errorbar() +
-  geom_line(data=fig2, mapping=aes(x=age, y=invPred)) +
+  stat_smooth(method="glm", method.args=list(family="binomial"), se=FALSE) +
   scale_x_continuous(breaks = seq(1, 9, by = 1)) +
   scale_y_continuous(breaks = seq(0, 1, by = 0.1)) +
   labs(x="Age of article in years", y="Percent of data sets available")
