@@ -154,14 +154,13 @@ ggsave(fname, plot = last_plot())
 # FIGURE 2 #
 
 # Prep data to model
-#resolve_model <- mutate(resolve, gone=1-Resolves)
-resolve_model <- filter(resolve_model, year >= 2014) %>% filter(year <= 2022)
+resolve_model <- filter(resolve, year >= 2014) %>% filter(year <= 2022)
 resolve_model <- mutate(resolve_model, age=2023-year)
 
 
 
-# Fit to logistic regression
-fig2_model <- glm(Resolves ~ age, family=binomial, data=resolve_model)
+# Fit to Poisson regression
+fig2_model <- glm(Resolves ~ age, family=poisson(), data=resolve_model)
 summary(fig2_model)
 
 # Create probabilities based on model for graphing
@@ -197,7 +196,6 @@ fig2 <- mutate(fig2, lbl = (round(avg*10^3)/10^3))
 
 # Add probabilities to tibble
 fig2 <- add_column(fig2, fig2_fit)
-#fig2 <- mutate(fig2, invProb = 1-prob)
 
 
 
