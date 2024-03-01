@@ -124,8 +124,8 @@ resolve_err <- bind_cols(resolve_year, resolve_ct, resolve_avg, resolve_stdv)
 resolve_err <- mutate(resolve_err, SE = stdv/sqrt(n))
 
 # Add in curation error rates
-resolve_err <- mutate(resolve_err, errPlus = SE + errorPerYear_avg)
-resolve_err <- mutate(resolve_err, errMinus = SE + errorPerYear_avg)
+resolve_err <- mutate(resolve_err, errPlus = SE)
+resolve_err <- mutate(resolve_err, errMinus = SE)
 
 
 
