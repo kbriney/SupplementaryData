@@ -21,6 +21,7 @@ Latest dataset downloaded: 2023-05-16 by Tom Morrell, @tmorrell
 2. 2-DOIScraping.R: Scrapes and processes DOI prefixes
 3. 3-DOIAnalysis.R: Adds DOI prefix information back into larger dataset.
 4. 4-LinkDecay.R: Scrapes URLs and DOIs to see if the data is still available and outputs data as "4-linkDecay.csv".
+5. 5-dataRot.R: pulls from "5-sampling.csv" to determine error rate and fits final data, "5-resolves.csv", to measure loss over time.
 
 Other files are labelled 1-4 at the beginning of the file name to note which part of the analysis workflow they correspond to.
 
