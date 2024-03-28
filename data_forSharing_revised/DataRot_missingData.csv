@@ -1,0 +1,119 @@
+eprint_id,publication_doi,publication_date_year,related_link,related_link_description,linkType,related_link_scraped,browser_test,browser_test_notes
+108606,10.5194/acp-21-2229-2021,2021,http://106.37.208.233:20035,"Data - real-time PM2.5, O3, NO2, SO2, and CO observations",URL,http://106.37.208.233:20035,FALSE,
+106645,10.3847/1538-4357/abb6fb,2020,https://frbhosts.org/,Data,URL,https://frbhosts.org/,FALSE,malware
+102224,NA,2020,https://co2.jpl.nasa.gov,Data,URL,https://co2.jpl.nasa.gov,FALSE,
+64158,NA,2016,http://motility.caltech.edu/,Motoility Database,URL,http://motility.caltech.edu/,FALSE,
+63687,10.1016/j.epsl.2015.10.046,2016,http://www.data.scec.org/,Southern California Earthquake Data Center (SCEDC),URL,http://www.data.scec.org/,FALSE,
+57558,10.1002/2014JD022121,2015,http://cdp.ucar.edu/,Data,URL,http://cdp.ucar.edu/,FALSE,
+42658,10.1126/science.1247166,2014,http://ppi.pds.nasa.gov/,Archived data in NASA Planetary Data SystemÉ??s Planetary Plasma Interactions Node,URL,http://ppi.pds.nasa.gov/,FALSE,
+42648,10.1126/science.1244797,2014,http://ppi.pds.nasa.gov/,Archived data in NASA Planetary Data SystemÉ??s Planetary Plasma Interactions Node,URL,http://ppi.pds.nasa.gov/,FALSE,
+42647,10.1126/science.1245267,2014,http://ppi.pds.nasa.gov/,Archived data in NASA Planetary Data SystemÉ??s Planetary Plasma Interactions Node,URL,http://ppi.pds.nasa.gov/,FALSE,
+42644,10.1126/science.1242777,2014,http://ppi.pds.nasa.gov/,Archived data in NASA Planetary Data SystemÉ??s Planetary Plasma Interactions Node,URL,http://ppi.pds.nasa.gov/,FALSE,
+116216,10.21468/scipostphys.12.1.043,2022,https://www.phenomldata.org/,benchmark dataset,URL,https://www.phenomldata.org/,FALSE,
+108255,NA,2021,https://megacities.jpl.nasa.gov,CLARS-FTS data,URL,https://megacities.jpl.nasa.gov,FALSE,
+106785,10.1029/2020gl090014,2020,https://www.bou.class.noaa.gov,GOES-R Series Global Lightning Mapper data,URL,https://www.bou.class.noaa.gov,FALSE,
+111712,10.1101/458992,2018,https://github.com/AllenInstitute/chromosome-network-modeling,Data/Code,URL,https://github.com/AllenInstitute/chromosome-network-modeling,FALSE,GitHub custom 404
+110037,10.3389/feart.2021.579198,2021,http://hielo.igme.es/index.php/en/,Datasets,URL,http://hielo.igme.es/index.php/en/,FALSE,
+108161,NA,2021,https://github.com/jinlong83/statistical-constrained-GANS,Data,URL,https://github.com/jinlong83/statistical-constrained-GANS,FALSE,GitHub custom 404
+108161,NA,2021,https://github.com/Rui1521/Equivariant-Neural-Nets,Data,URL,https://github.com/Rui1521/Equivariant-Neural-Nets,FALSE,GitHub custom 404
+108004,10.1093/mnras/staa3429,2021,https://github.com/UBC-Astrophysics/QEDSurface/tree/master/Caiazzo_Heyl_Model,Data,URL,https://github.com/UBC-Astrophysics/QEDSurface/tree/master/Caiazzo_Heyl_Model,FALSE,GitHub custom 404
+106844,10.1093/mnrasl/slaa150,2020,https://www.iram-institute.org/EN/content-page-386-7-386-0-0-0.html,Data,URL,https://www.iram-institute.org/EN/content-page-386-7-386-0-0-0.html,FALSE,
+106174,10.1101/2020.10.19.345538,2020,https://coralsnp.science.psu.edu/galaxy,Data,URL,https://coralsnp.science.psu.edu/galaxy,FALSE,
+105345,10.1016/j.icarus.2020.114098,2021,https://dmp.seti.org/mshowalter/lightcurves,Data,URL,https://dmp.seti.org/mshowalter/lightcurves,FALSE,
+105301,10.1038/s41586-022-04742-w,2022,http://odr.stowers.org/websimr/,Stowers Original Data Repository,URL,http://odr.stowers.org/websimr/,FALSE,
+105005,10.1038/s41467-020-17998-5,2020,https://github.com/mbulla/kilonova_model,Data,URL,https://github.com/mbulla/kilonova_model,FALSE,GitHub custom 404
+104585,10.1101/2020.07.25.210468,2020,http://capblood-seq.caltech.edu/#,Data/Code,URL,http://capblood-seq.caltech.edu/#,FALSE,
+104099,10.1093/mnras/staa2808,2020,http://ramekin.caltech.edu/KBSS,Data,URL,http://ramekin.caltech.edu/KBSS,FALSE,
+102968,NA,2020,https://caltech.box.com/s/b1rxyfr28ti75gl1q2qqs0lq87qvcz0q,Data/Code,URL,https://caltech.box.com/s/b1rxyfr28ti75gl1q2qqs0lq87qvcz0q,FALSE,"Box message ""file removed"""
+102224,NA,2020,https://oco2.gesdisc.eosdis.nasa.gov/data/OCO2_DATA/OCO2_L2_Lite_SIF.8r,Data,URL,https://oco2.gesdisc.eosdis.nasa.gov/data/OCO2_DATA/OCO2_L2_Lite_SIF.8r,FALSE,
+99888,10.1104/pp.19.00980,2020,http://www.plantphysiol.org/content/182/1/147/tab-figures-data,Supplemental Data,URL,http://www.plantphysiol.org/content/182/1/147/tab-figures-data,FALSE,
+97174,10.1186/s13059-021-02286-2,2021,https://www.starmapresources.com/data,Data,URL,https://www.starmapresources.com/data,FALSE,
+97174,10.1186/s13059-021-02286-2,2021,http://welikesharingdata.blob.core.windows.net/forshare/index.html,Data,URL,http://welikesharingdata.blob.core.windows.net/forshare/index.html,FALSE,
+95223,NA,2019,https://gdex.cr.usgs.gov/gdex/,USGS Global Data Explorer,URL,https://gdex.cr.usgs.gov/gdex/,FALSE,
+84884,10.2337/db17-0788,2018,http://diabetes.diabetesjournals.org/content/suppl/2018/02/05/db17-0788.DC1,Supplementary Data,URL,http://diabetes.diabetesjournals.org/content/suppl/2018/02/05/db17-0788.DC1,FALSE,
+74775,10.1104/pp.16.01762,2017,http://www.plantphysiol.org/content/173/3/1543/suppl/DC1,Supplemental Data,URL,http://www.plantphysiol.org/content/173/3/1543/suppl/DC1,FALSE,
+73620,10.1104/pp.16.01762,2017,http://www.plantphysiol.org/content/early/2017/01/19/pp.16.01762/suppl/DC1,Supplemental Data,URL,http://www.plantphysiol.org/content/early/2017/01/19/pp.16.01762/suppl/DC1,FALSE,
+72721,10.1074/jbc.M116.753822,2017,http://www.jbc.org/cgi/content/full/M116.753822/DC1,Supplemental Data,URL,http://www.jbc.org/cgi/content/full/M116.753822/DC1,FALSE,
+72596,NA,2007,http://www.plantcell.org/content/19/11/3516/suppl/DC1,Supplemental Data,URL,http://www.plantcell.org/content/19/11/3516/suppl/DC1,FALSE,
+72554,NA,2007,http://www.plantphysiol.org/content/145/3/747/suppl/DC1,Supplemental Data,URL,http://www.plantphysiol.org/content/145/3/747/suppl/DC1,FALSE,
+72511,NA,2004,http://www.plantcell.org/content/16/10/2586/suppl/DC1,Supplemental Data,URL,http://www.plantcell.org/content/16/10/2586/suppl/DC1,FALSE,
+72509,NA,2004,http://www.plantcell.org/content/16/5/1314/suppl/DC1,Supplemental Data,URL,http://www.plantcell.org/content/16/5/1314/suppl/DC1,FALSE,TRUE+O65
+72179,10.1126/science.aah6765,2017,http://sbn.psi.edu/pds/archive/dawn.html,NASA Planetary Data System,URL,http://sbn.psi.edu/pds/archive/dawn.html,FALSE,
+69816,10.1093/nar/gkw715,2016,http://nar.oxfordjournals.org/content/suppl/2016/08/16/gkw715.DC1,Supplementary Data,URL,http://nar.oxfordjournals.org/content/suppl/2016/08/16/gkw715.DC1,FALSE,
+67865,10.1038/nsmb.3244,2016,http://www.pdb.org/pdb/search/structidSearch.do?structureId=4XMM,Protein Data Bank,URL,http://www.pdb.org/pdb/search/structidSearch.do?structureId=4XMM,FALSE,
+67366,10.2337/db15-1607,2016,http://diabetes.diabetesjournals.org/content/suppl/2016/05/19/db15-1607.DC1,Supplementary Data,URL,http://diabetes.diabetesjournals.org/content/suppl/2016/05/19/db15-1607.DC1,FALSE,
+66233,10.1126/science.aae0047,2016,http://www.lncRNA.caltech.edu/data.php,Addtional Data,URL,http://www.lncRNA.caltech.edu/data.php,FALSE,
+61769,10.1128/mBio.01520-15,2015,http://mbio.asm.org/lookup/suppl/doi:10.1128/mBio.01520-15/-/DCSupplemental,Supplementary Data,URL,http://mbio.asm.org/lookup/suppl/doi:10.1128/mBio.01520-15/-/DCSupplemental,FALSE,
+57891,10.1038/nature14874,2015,http://www.pdb.org/pdb/search/structidSearch.do?structureId=4QTR,Protein Data Bank,URL,http://www.pdb.org/pdb/search/structidSearch.do?structureId=4QTR,FALSE,
+56112,10.1038/nature02733,2004,http://www.nature.com/nature/journal/v430/n6997/extref/nature02733-s7.htm,"Supplementary Data This includes an HTML Contents Table linking to the microarray time course, processed data and raw data files",URL,http://www.nature.com/nature/journal/v430/n6997/extref/nature02733-s7.htm,FALSE,
+54077,10.1073/pnas.1212083110,2013,http://ncs.ethz.ch/projects/vlsi-wta-networks/synthesizing-cognition-in-neuromorphic-vlsi-systems-experimental-data/view,Experimental Data,URL,http://ncs.ethz.ch/projects/vlsi-wta-networks/synthesizing-cognition-in-neuromorphic-vlsi-systems-experimental-data/view,FALSE,
+53768,10.1016/j.poly.2014.05.022,2014,http://www.ccdc.cam.ac.uk/conts/retrieving.html,Cambridge Structural Database,URL,http://www.ccdc.cam.ac.uk/conts/retrieving.html,FALSE,
+50494,10.1158/1078-0432.CCR-14-0489,2014,http://clincancerres.aacrjournals.org/content/early/2014/10/02/1078-0432.CCR-14-0489/suppl/DC1,Supplementary Data,URL,http://clincancerres.aacrjournals.org/content/early/2014/10/02/1078-0432.CCR-14-0489/suppl/DC1,FALSE,
+49280,10.4049/jimmunol.1301663,2014,http://www.jimmunol.org/content/suppl/2014/08/28/jimmunol.1301663.DCSupplemental,Data Supplement,URL,http://www.jimmunol.org/content/suppl/2014/08/28/jimmunol.1301663.DCSupplemental,FALSE,
+46426,10.4049/jimmunol.1400093,2014,http://www.jimmunol.org/lookup/suppl/doi:10.4049/jimmunol.1400093/-/DCSupplemental,Data Supplement,URL,http://www.jimmunol.org/lookup/suppl/doi:10.4049/jimmunol.1400093/-/DCSupplemental,FALSE,
+17376,10.1194/M900250-JLR200,2010,http://www.jlr.org/cgi/content/full/M900250-JLR200/DC1,Supplemental Data,URL,http://www.jlr.org/cgi/content/full/M900250-JLR200/DC1,FALSE,
+113495,10.1029/2021ms002747,2022,https://avdc.gsfc.nasa.gov/pub/data/satellite/MetOp/GOME_F,GOME-2 SIF data,URL,https://avdc.gsfc.nasa.gov/pub/data/satellite/MetOp/GOME_F,FALSE,
+113463,10.1002/essoar.10510526.3,2022,http://p21.jamstec.go.jp/top,Ocean bottom pressure data,URL,http://p21.jamstec.go.jp/top,FALSE,
+113440,10.1038/s41586-022-04396-8,2022,https://gin.g-node.org/bneedham/Needham_Nature_2022,2DG data,URL,https://gin.g-node.org/bneedham/Needham_Nature_2022,FALSE,
+112361,10.1029/2021ea002078,2022,https://co2.jpl.nasa.gov/#mission=OCO-2,OCO-2 Version 10 SIF and column COÉ?? data,URL,https://co2.jpl.nasa.gov/#mission=OCO-2,FALSE,
+112331,10.1029/2021av000469,2021,http://www.tropomi.eu/data-products/carbon-monoxide,TROPOMI CO data,URL,http://www.tropomi.eu/data-products/carbon-monoxide,FALSE,
+111883,10.1126/sciadv.abf7460,2021,https://tes.jpl.nasa.gov/chemical-reanalysis/,basic concentration and emission data,URL,https://tes.jpl.nasa.gov/chemical-reanalysis/,FALSE,
+110170,10.5194/acp-21-9545-2021,2021,https://www.eol.ucar.edu/field_projects/hippo/,HIPPO aircraft data,URL,https://www.eol.ucar.edu/field_projects/hippo/,FALSE,
+110170,10.5194/acp-21-9545-2021,2021,https://databace.scisat.ca/level2/ace_v3.5_v3.6/,ACE-FTS data,URL,https://databace.scisat.ca/level2/ace_v3.5_v3.6/,FALSE,
+109944,10.1029/2021jc017429,2021,https://resources.marine.copernicus.eu/%3Foption%3Dcom_csw%26task%3Dresults,Satellite altimeter data,URL,https://resources.marine.copernicus.eu/%3Foption%3Dcom_csw%26task%3Dresults,FALSE,
+109816,10.1029/2021gl094235,2021,http://atmos.nmsu.edu:8080/pds,JIRAM data,URL,http://atmos.nmsu.edu:8080/pds,FALSE,
+109468,10.1029/2020jg006136,2021,https://e4ftl01.cr.usgs.gov/MOTA/MCD18A2.006/,MCD18A2 data,URL,https://e4ftl01.cr.usgs.gov/MOTA/MCD18A2.006/,FALSE,
+109424,10.1029/2020sw002654,2021,https://cdaweb.sci.gsfc.nasa.gov/index.html/,Wind data,URL,https://cdaweb.sci.gsfc.nasa.gov/index.html/,FALSE,
+108253,10.1029/2020gl091875,2021,https://co2.jpl.nasa.gov/#mission=OCOÉ?ê2,OCOÉ?ê2 Version 9 column COÉ?? data,URL,https://co2.jpl.nasa.gov/#mission=OCO-2,FALSE,error in URL
+107876,10.1029/2020gl090983,2021,http://apps.ecmwf.int/datasets/data/interim_full_daily,ERAÉ?êInterim data,URL,http://apps.ecmwf.int/datasets/data/interim_full_daily,FALSE,
+107587,10.1029/2020gl091376,2021,http://www2.physik.uni-kiel.de/stereo/data/sept,STEREO SEPT data,URL,http://www2.physik.uni-kiel.de/stereo/data/sept,FALSE,
+107463,10.5194/acp-20-14597-2020,2020,https://bai.acom.ucar.edu/Data/fire,FINN emission data,URL,https://bai.acom.ucar.edu/Data/fire,FALSE,
+105752,10.1111/gcb.15373,2021,https://avdc.gsfc.nasa.gov/pub/data/satellite/MetOp/GOME_F/v28,GOME-2 SIF data,URL,https://avdc.gsfc.nasa.gov/pub/data/satellite/MetOp/GOME_F/v28,FALSE,
+105752,10.1111/gcb.15373,2021,https://www.bgcjena.mpg.de/geodb/projects/Data.php,FLUXCOM GPP data,URL,https://www.bgcjena.mpg.de/geodb/projects/Data.php,FALSE,
+105256,https://doi.org/10.1029/2018GB006135,2019,https://www.bgcÉ?êjena.mpg.de/bgi/index.php/Services/Overview,MTEÉ?êGPP data,URL,https://www.bgc-jena.mpg.de/bgi/index.php/Services/Overview,FALSE,error in URL
+104183,10.1038/s41586-020-2421-7,2020,https://archive.stsci.edu/missions-and-data/transiting-exoplanet-survey-satellite-tess,TESS data,URL,https://archive.stsci.edu/missions-and-data/transiting-exoplanet-survey-satellite-tess,FALSE,
+101062,10.3847/1538-4365/ab578f,2020,http://www2.physik.uni-kiel.de/stereo/data/sept/,STEREO SEPT data,URL,http://www2.physik.uni-kiel.de/stereo/data/sept/,FALSE,
+92247,10.1016/j.cageo.2019.01.001,2019,https://bitbucket.org/wlandry/gamra,Research data,URL,https://bitbucket.org/wlandry/gamra,FALSE,
+92026,10.3847/1538-3881/aac6e2,2018,https://eosweb.larc.nasa.gov/project/dscovr/dscovr_epic_l1a_2,DISCOVR data,URL,https://eosweb.larc.nasa.gov/project/dscovr/dscovr_epic_l1a_2,FALSE,
+72209,10.1126/science.1237973,2013,http://www.lncrna.caltech.edu/RAP/,Additional data and information,URL,http://www.lncrna.caltech.edu/RAP/,FALSE,
+70137,10.1002/2015JE004989,2016,http://webgis.wr.usgs.gov/pigwad/down/mars_dl.htm,USGS Planetary GIS Web Server  - MOLA data,URL,http://webgis.wr.usgs.gov/pigwad/down/mars_dl.htm,FALSE,
+61552,10.1038/nature15527,2015,https://archive.stsci.edu/missions/hlsp/k2sff/html/c01/ep201563164.html,Processed K2 data,URL,https://archive.stsci.edu/missions/hlsp/k2sff/html/c01/ep201563164.html,FALSE,
+111605,10.1016/j.chom.2021.09.009,2021,10.17632/vp68zv9wj9.1,Data,DOI,https://doi.org/10.17632/vp68zv9wj9.1,FALSE,doi.org message
+111177,10.1038/s41467-021-26128-8,2021,10.26188/1655706038,Data,DOI,https://doi.org/10.26188/1655706038,FALSE,doi.org message
+109556,10.1029/2020jb021053,2021,10.9732/BDSN,Data,DOI,https://doi.org/10.9732/BDSN,FALSE,doi.org message
+108168,10.1002/essoar.10506289.1,2021,10.17632/mkpgbs4hf3.1,Data,DOI,https://doi.org/10.17632/mkpgbs4hf3.1,FALSE,doi.org message
+106221,10.1029/2020EA001463,2021,10.5281/zenodo.4017974,Data,DOI,https://doi.org/10.5281/zenodo.4017974,FALSE,"Record removed from zenodo, marked as 'spam record'"
+102428,NA,2020,10.14768/20181126001.1,Data,DOI,https://doi.org/10.14768/20181126001.1,FALSE,Weird error message (not from doi.org)
+102411,10.1029/2019gc008751,2020,10.25852/nioz/7b.b.q,Data,DOI,https://doi.org/10.25852/nioz/7b.b.q,FALSE,doi.org message
+100825,10.1016/j.molcel.2019.12.013,2020,10.17632/48z8gbddzb.1,Data,DOI,https://doi.org/10.17632/48z8gbddzb.1,FALSE,doi.org message
+67048,NA,2016,10.7910/DVN/29495,Data and replication code,DOI,https://doi.org/10.7910/DVN/29495,FALSE,doi.org message
+106838,NA,2020,10.11998/SeisDmc/SN,Seismic data,DOI,https://doi.org/10.11998/SeisDmc/SN,FALSE,site not responding
+106838,NA,2020,10.12129/IGGSL.Data.Observation,Waveforms of the NECsaids data,DOI,https://doi.org/10.12129/IGGSL.Data.Observation,FALSE,site not responding
+106838,NA,2020,10.12197/2020GA012,"Raw multi-frequency (with Gaussian low-pass filters of 0.5, 0.75, 1.0 or 1.5) receiver function waveform data",DOI,https://doi.org/10.12197/2020GA012,FALSE,site not responding
+93010,10.1038/s41551-019-0376-5,2019,10.6084/m9.figshare.7744004,Source data for figures,DOI,https://doi.org/10.6084/m9.figshare.7744004,FALSE,figshare page not found
+99276,10.1029/2019JE005974,2019,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FOPL QCL,Data,ERR,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FOPL QCL,FALSE,Routes to make an account screen
+86225,10.1098/rspb.2015.2893,2016,http://rspb.royalsocietypublishing.org/highwire/filestream/69959/field_highwire_adjunct_files/0/rspb20152893supp1.docx,Data Supplement,DOCX,http://rspb.royalsocietypublishing.org/highwire/filestream/69959/field_highwire_adjunct_files/0/rspb20152893supp1.docx,FALSE,
+59910,10.1016/j.jeurceramsoc.2015.05.012,2015,http://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S0955221915002289/1-s2.0-S0955221915002289-mmc1.docx/271630/html/S0955221915002289/62c193add732cafb172ecb3984b64dee/mmc1.docx,Supplementary Data,DOCX,http://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S0955221915002289/1-s2.0-S0955221915002289-mmc1.docx/271630/html/S0955221915002289/62c193add732cafb172ecb3984b64dee/mmc1.docx,FALSE,
+85039,10.1130/G39621.1,2018,http://www.geosociety.org/datarepository/2018/2018136.pdf,Data,PDF,http://www.geosociety.org/datarepository/2018/2018136.pdf,FALSE,Data repository moved to figshare
+83811,10.1130/G39829.1,2018,http://www.geosociety.org/datarepository/2018/2018030.pdf,GSA Data Repository item 2017030,PDF,http://www.geosociety.org/datarepository/2018/2018030.pdf,FALSE,Data repository moved to figshare
+72399,10.1130/G22163.1,2006,https://www.geosociety.org/datarepository/2006/2006060.pdf,Data,PDF,https://www.geosociety.org/datarepository/2006/2006060.pdf,FALSE,Data repository moved to figshare
+60531,10.1088/0957-4484/21/28/285607,2010,http://iopscience.iop.org/0957-4484/21/28/285607/media/nano352522suppdata.pdf,Supplementary Data,PDF,http://iopscience.iop.org/0957-4484/21/28/285607/media/nano352522suppdata.pdf,FALSE,
+60404,10.1088/1367-2630/17/11/113042,2015,http://iopscience.iop.org/1367-2630/17/11/113042/media/NJP113042_suppdata.pdf,Supplementary Data,PDF,http://iopscience.iop.org/1367-2630/17/11/113042/media/NJP113042_suppdata.pdf,FALSE,
+59501,10.1016/j.devcel.2006.08.009,2006,http://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S1534580706003558/1-s2.0-S1534580706003558-mmc1.pdf/272236/html/S1534580706003558/4e28f6f459abd843b23daa2cadef91a3/mmc1.pdf,Supplemental Data,PDF,http://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S1534580706003558/1-s2.0-S1534580706003558-mmc1.pdf/272236/html/S1534580706003558/4e28f6f459abd843b23daa2cadef91a3/mmc1.pdf,FALSE,
+58276,10.1016/j.molcel.2009.11.017,2009,http://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S1097276509008582/1-s2.0-S1097276509008582-mmc1.pdf/272198/html/S1097276509008582/4d4694757513457a2d07a90d8e34eeea/mmc1.pdf,Supplemental Data,PDF,http://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S1097276509008582/1-s2.0-S1097276509008582-mmc1.pdf/272198/html/S1097276509008582/4d4694757513457a2d07a90d8e34eeea/mmc1.pdf,FALSE,
+72621,10.1093/nar/gkw1148,2017,https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/nar/45/1/10.1093_nar_gkw1148/3/gkw1148_Supp.zip,Supplementary Data,ZIP,https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/nar/45/1/10.1093_nar_gkw1148/3/gkw1148_Supp.zip,FALSE,
+68959,10.1038/nature18287,2016,http://www.nature.com/nature/journal/v535/n7612/extref/nature18287-s1.zip,Supplementary Data,ZIP,http://www.nature.com/nature/journal/v535/n7612/extref/nature18287-s1.zip,FALSE,
+50354,10.7554/eLife.03781,2014,http://elifesciences.org/highwire/filestream/16581/field_highwire_adjunct_files/0/elife03781_Supplemental_files.zip,Data Supplement,ZIP,http://elifesciences.org/highwire/filestream/16581/field_highwire_adjunct_files/0/elife03781_Supplemental_files.zip,FALSE,
+43217,10.1016/j.combustflame.2013.11.022,2014,http://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S0010218013004355/1-s2.0-S0010218013004355-mmc1.zip/271463/FULL/S0010218013004355/fa5af918b9d987d9c94a4cafa0c62069/mmc1.zip,Supplementary Data,ZIP,http://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S0010218013004355/1-s2.0-S0010218013004355-mmc1.zip/271463/FULL/S0010218013004355/fa5af918b9d987d9c94a4cafa0c62069/mmc1.zip,FALSE,
+43217,10.1016/j.combustflame.2013.11.022,2014,http://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S0010218013004355/1-s2.0-S0010218013004355-mmc2.zip/271463/FULL/S0010218013004355/fb29ba57509dc3c04c13049c45cb2658/mmc2.zip,Supplementary Data,ZIP,http://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S0010218013004355/1-s2.0-S0010218013004355-mmc2.zip/271463/FULL/S0010218013004355/fb29ba57509dc3c04c13049c45cb2658/mmc2.zip,FALSE,
+43217,10.1016/j.combustflame.2013.11.022,2014,http://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S0010218013004355/1-s2.0-S0010218013004355-mmc3.zip/271463/FULL/S0010218013004355/1321009ab031b7b763e0060cb51ef6cf/mmc3.zip,Supplementary Data,ZIP,http://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S0010218013004355/1-s2.0-S0010218013004355-mmc3.zip/271463/FULL/S0010218013004355/1321009ab031b7b763e0060cb51ef6cf/mmc3.zip,FALSE,
+29134,10.1016/j.combustflame.2011.05.021,2012,http://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S0010218011001672/1-s2.0-S0010218011001672-mmc1.zip/271463/FULL/S0010218011001672/ebab7d2c094fc0f2d8f3c717eecbde7f/mmc1.zip,Supplementary Data,ZIP,http://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S0010218011001672/1-s2.0-S0010218011001672-mmc1.zip/271463/FULL/S0010218011001672/ebab7d2c094fc0f2d8f3c717eecbde7f/mmc1.zip,FALSE,
+102324,10.1126/science.aay2790,2020,http://files.ipd.uw.edu/pub/de_novo_logic_2019/190522_native_ms_raw.zipR,Raw data from nMS experiments,ZIPR,http://files.ipd.uw.edu/pub/de_novo_logic_2019/190522_native_ms_raw.zipR,FALSE,
+110009,10.1038/s41588-021-00896-x,2021,http://mccarthy.well.ox.ac.uk/publications/2019/EggBirthWeight_NatureGenetics/Fetal_BW_European_meta.NG2019.txt.gz,Datasets,GZ,http://mccarthy.well.ox.ac.uk/publications/2019/EggBirthWeight_NatureGenetics/Fetal_BW_European_meta.NG2019.txt.gz,FALSE,
+110009,10.1038/s41588-021-00896-x,2021,http://mccarthy.well.ox.ac.uk/publications/2019/EggBirthWeight_NatureGenetics/Maternal_BW_European_meta.NG2019.txt.gz,Datasets,GZ,http://mccarthy.well.ox.ac.uk/publications/2019/EggBirthWeight_NatureGenetics/Maternal_BW_European_meta.NG2019.txt.gz,FALSE,
+110009,10.1038/s41588-021-00896-x,2021,https://egg-consortium.org/downloads/EGG-GWAS-BL.txt.gz,Datasets,GZ,https://egg-consortium.org/downloads/EGG-GWAS-BL.txt.gz,FALSE,connection not private warning
+114329,10.1093/gji/ggab435,2022,ftp://geodesia.inegi.org.mx/,COLI and INEG data from 2001 to 2020,FTP,ftp://geodesia.inegi.org.mx/,FALSE,Login failed
+114328,10.1093/gji/ggab436,2022,ftp://geodesia.inegi.org.mx/,COLI and INEG data from 2001 to 2020,FTP,ftp://geodesia.inegi.org.mx/,FALSE,Login failed
+108255,NA,2021,ftp://ftp.sron.nl/open-access-data-2/TROPOMI/tropomi/hdo/9_1,TROPOMI HDO data set,FTP,ftp://ftp.sron.nl/open-access-data-2/TROPOMI/tropomi/hdo/9_1,FALSE,
+106838,NA,2020,ftp://159.226.119.161/data/NECsaids/RF2020,Waveforms of the NECsaids data,FTP,ftp://159.226.119.161/data/NECsaids/RF2020,FALSE,
+106838,NA,2020,ftp://159.226.119.161/data/NECsaids/RF2020,"Raw multi-frequency (with Gaussian low-pass filters of 0.5, 0.75, 1.0 or 1.5) receiver function waveform data",FTP,ftp://159.226.119.161/data/NECsaids/RF2020,FALSE,

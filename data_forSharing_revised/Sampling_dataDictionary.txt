@@ -1,0 +1,14 @@
+Field names and description for the "Sampling.csv" file.
+
+Number: Unique number for each article sampled. Grouped by year in chunks of 50.
+Link: Link to the article metadata in CaltechAUTHORS
+PubDate: Publication date as listed in CaltechAUTHORS
+PubYear: Year of publication, derived from "PubDate"
+PubDOI: DOI of the publication from CaltechAUTHORS
+DatasetInAUTHORS: Does CaltechAUTHORS list a shared dataset with this article? (1=yes, 2=no)
+DatasetWithArticle: Does article on the journal website list a shared dataset? (1=yes, 2=no)
+HasDataLink: Is there shared dataset with this article? (1=yes, 2=no)
+DataLinkError: Is there an error in how Caltech recorded the data link? (1=yes, 2=no) Note: "DataLinkErrorSI + DataLinkErrorMissing = DataLinkError.
+DataLinkErrorSI: Is "DataLinkError" true because supplementary information was erroneously recorded as shared data? (1=yes, 2=no)
+DataLinkErrorMissing: Is "DataLinkError" true because the supplemental data is missing? (1=yes, 2=no)
+SI: Is there supplementary information with this article? (1=yes, 2=no)
