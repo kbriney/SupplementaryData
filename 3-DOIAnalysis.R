@@ -3,6 +3,8 @@
 # Kristin A. Briney
 # 2022-03
 
+install.packages("tidyverse")
+
 library(tidyverse)
 
 # Relevant file paths, change as necessary

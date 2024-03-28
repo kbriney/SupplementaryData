@@ -4,6 +4,11 @@
 # Kristin A. Briney
 # 2022-01
 
+install.packages("tidyverse")
+install.packages("stringr")
+install.packages("lubridate")
+install.packages("httr")
+
 library(tidyverse)
 library(stringr)
 library(lubridate)
