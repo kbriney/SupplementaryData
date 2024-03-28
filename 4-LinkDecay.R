@@ -3,9 +3,6 @@
 # Kristin A. Briney
 # 2022-03
 
-install.packages("tidyverse")
-install.packages("rvest")
-
 library(tidyverse)
 library(rvest)
 

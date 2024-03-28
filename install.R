@@ -1,0 +1,8 @@
+install.packages("tidyverse")
+install.packages("stringr")
+install.packages("lubridate")
+install.packages("httr")
+install.packages("rjson")
+install.packages("rvest")
+install.packages("modelr")
+install.packages("broom")

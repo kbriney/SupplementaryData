@@ -5,11 +5,6 @@
 # Kristin A. Briney
 # 2024-02
 
-install.packages("tidyverse")
-install.packages("stringr")
-install.packages("modelr")
-install.packages("broom")
-
 library(tidyverse)
 library(stringr)
 library(modelr)
