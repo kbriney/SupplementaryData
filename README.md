@@ -5,6 +5,8 @@ Author: Kristin A. Briney
 
 Date: 2022-01
 
+Available to test using Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kbriney/SupplementaryData/HEAD)
+
 Latest dataset downloaded: 2023-05-16 by Tom Morrell, @tmorrell
 
 ## Research Questions
